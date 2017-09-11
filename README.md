@@ -5,23 +5,41 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
+Hugo Ramalho: email_primeiro_componente@dominio.com<br>
+Maria Luiza de Freitas: malufrt@hotmail.com<br>
+Vitor Salzman: vitor-salzman96@hotmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
+Este documento contém a especificação do projeto do banco de dados RodoBus <br>
+e com a motivação de uma maior organização e segurança na logística do sistema de transportes rodoviários. <br>
+<!--  
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
 <br>e motivação da escolha realizada. <br>
+-->
 
 ### 3.MINI-MUNDO<br>
-
+A ideia do projeto é criar um sistema robusto, intuitivo para a gestão dos sistemas de transportes rodoviários para <br>
+passageiros, empregando neste setor o mesmo nível de robustez aplicado nos aeroportos. <br>
+O sistema terá camadas de trabalho diferentes, tais como a camada de trabalho das rodoviárias, que será reservada ao uso <br>
+de funcionários da rodoviária, a camada das empresas, na qual funcionários das companhias rodoviárias terão acesso, e a <br>
+camada dos clientes. <br>
+Será possível realizar o cadastro de rotas, clientes, empresas, rodoviárias e funcionários. Todos esses dados obedecendo a <br>
+uma rígida lógica e hierarquia com a finalidade de manter coesa e tão real quanto possível a logística do sistema rodoviário. <br>
+As demais funções, como cadastro, consulta, alteração e deleção de clientes, empresas, rotas, rodoviárias, ficará reservado <br>
+apenas aos usuários responsáveis para tal operação. <br>
+<!--
 Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
 Entrevista com o usuário e identificação dos requisitos.<br>
 Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
 cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
 gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
+-->
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
+Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br> 
+<!-- 
+<a href="inserir link do github mockup aq"> Mockup </a> 
+-->
 
 Sugestão: https://balsamiq.com/products/mockups/<br>
 
@@ -32,11 +50,20 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
     e deve ser criada antes do modelo conceitual
     c) Após criada esta tabela não deve ser modificada, pois será comparada com a tabela final na conclusão do trabalho
+    <!--
+    aqui coloca as tabelas que fizemos mesmo
+    <img src="inserir link do github tabela aq" title="Tabela do sistema" style="max-width:100%;">
+    -->
     
     
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 10 principais relatórios que podero ser obtidos por meio do sistema proposto!
+    <!--
+    Seria algo assim? :
+    O sistema gera relatórios com as informações: as rodoviárias do estado, os funcionários que trabalham em determinada <br>
+    rodoviária, as empresas vinculadas, os clientes, e as rotas.
+    -->
     
 >## Marco de Entrega 01 em: (Data definida no cronograma)<br>
 
