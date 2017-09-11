@@ -46,13 +46,12 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
-    a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
-    b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
-    e deve ser criada antes do modelo conceitual
-    c) Após criada esta tabela não deve ser modificada, pois será comparada com a tabela final na conclusão do trabalho
+<img src="https://github.com/RodoBus/trab01/blob/master/Tabelas%20mesclada%20e%20separadas.xlsx" title="Tabela do sistema" style="max-width:100%;">
 <!--
-aqui coloca as tabelas que fizemos mesmo
-<img src="inserir link do github tabela aq" title="Tabela do sistema" style="max-width:100%;">
+a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
+b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
+e deve ser criada antes do modelo conceitual
+c) Após criada esta tabela não deve ser modificada, pois será comparada com a tabela final na conclusão do trabalho
 -->
     
     
