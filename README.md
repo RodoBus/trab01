@@ -5,7 +5,7 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-Hugo Ramalho: email_primeiro_componente@dominio.com<br>
+Hugo Ramalho: ramalho.hg@gmail.com<br>
 Maria Luiza de Freitas: malufrt@hotmail.com<br>
 Vitor Salzman: vitor-salzman96@hotmail.com<br>
 
