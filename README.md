@@ -50,10 +50,10 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
     e deve ser criada antes do modelo conceitual
     c) Após criada esta tabela não deve ser modificada, pois será comparada com a tabela final na conclusão do trabalho
-    <!--
-    aqui coloca as tabelas que fizemos mesmo
-    <img src="inserir link do github tabela aq" title="Tabela do sistema" style="max-width:100%;">
-    -->
+<!--
+aqui coloca as tabelas que fizemos mesmo
+<img src="inserir link do github tabela aq" title="Tabela do sistema" style="max-width:100%;">
+-->
     
     
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
