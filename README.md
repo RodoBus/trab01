@@ -37,13 +37,14 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br> 
-<!-- 
-<a href="inserir link do github mockup aq"> Mockup </a> 
--->
 
+<a href="https://github.com/RodoBus/trab01/blob/master/balsamiq.pdf"> Mockup </a> 
+
+<!--
 Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
+-->
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
 <img src="https://github.com/RodoBus/trab01/blob/master/Tabelas%20mesclada%20e%20separadas.xlsx" title="Tabela do sistema" style="max-width:100%;">
