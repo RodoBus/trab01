@@ -57,12 +57,21 @@ c) Após criada esta tabela não deve ser modificada, pois será comparada com a
     
     
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 10 principais relatórios que podero ser obtidos por meio do sistema proposto!
+O sistema gera relatórios com as informações: <br>
+- Passageiros. <br>
+- Passagens. <br>
+- Companhias vinculadas. <br>
+- Rotas de viagens. <br>
+- Funcionários das rodoviárias. <br>
+- Funcionários das companhias. <br>
+- Rodoviárias do estado. <br>
+- Passagens mais compradas por ano. <br>
+- Histórico de passagens feitas pelo passageiro. <br>
+- Escala dos funcionários. <br>
+
 <!--
-Seria algo assim? :
-O sistema gera relatórios com as informações: as rodoviárias do estado, os funcionários que trabalham em determinada <br>
-rodoviária, as empresas vinculadas, os clientes, e as rotas. <br>
+a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
+b) Crie uma lista com os 10 principais relatórios que podero ser obtidos por meio do sistema proposto!
 -->
     
 >## Marco de Entrega 01 em: (Data definida no cronograma)<br>
