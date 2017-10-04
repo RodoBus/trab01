@@ -26,8 +26,9 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 ### 3.MINI-MUNDO<br>
 A ideia do projeto é criar um sistema robusto, intuitivo para a gestão dos sistemas de transportes rodoviários para <br>
 passageiros, empregando neste setor o mesmo nível de robustez aplicado nos aeroportos. <br>
+O projeto RodoBus oferecerá uso conveniente a clientes, funcionários de rodoviárias e viações vinculadas. <br>
 O sistema terá camadas de trabalho diferentes, tais como a camada de trabalho das rodoviárias, que será reservada ao uso <br>
-de funcionários da rodoviária, a camada das empresas, na qual funcionários das companhias rodoviárias terão acesso, e a <br>
+de funcionários da rodoviária, a camada das empresas, na qual funcionários das viações rodoviárias terão acesso, e a <br>
 camada dos clientes. <br>
 Será possível realizar o cadastro de rotas, clientes, empresas, rodoviárias e funcionários. Todos esses dados obedecendo a <br>
 uma rígida lógica e hierarquia com a finalidade de manter coesa e tão real quanto possível a logística do sistema rodoviário. <br>
