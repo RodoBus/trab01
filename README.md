@@ -10,8 +10,14 @@ Maria Luiza de Freitas: malufrt@hotmail.com<br>
 Vitor Salzman: vitor-salzman96@hotmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
+Entre os meios de transporte existentes no estado do Espírito Santo, o transporte rodoviário por ônibus é o mais comum. Porém, diferente dos aeroportos, rodoviárias capixabas não contam com uma organização devidamente implementada. O projeto rodobus busca uma solução para esse problema, dispondo de um banco de dados que envolve toda logística do sistema  de transporte rodoviário capixaba.<br>
+Este projeto contém a especificação do banco de dados do projeto RodoBus.
+
+<!--
 Este documento contém a especificação do projeto do banco de dados RodoBus <br>
 e com a motivação de uma maior organização e segurança na logística do sistema de transportes rodoviários. <br>
+-->
+
 <!--  
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
 <br>e motivação da escolha realizada. <br>
