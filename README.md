@@ -110,12 +110,45 @@ b) Crie uma lista com os 10 principais relatórios que podero ser obtidos por me
     b) justifique!
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
+    
+    
+    PASSAGEIRO: Tabela que armazena as informações relativas ao passageiro, podendo ou não estar interligadas a outras tabelas.
+        NOME: Campo que armazena os nomes dos passageiros cadastrados.
+        CPF: Campo que armazena o número de Cadastro de Pessoa Física para cada passageiro cadastrado.
+        TELEFONE: Campo que armazena o número de telefone para contato com os passageiros.
+        EMAIL: Campo que armazena o email de contato com cada passageiro cadastrado.
+        DATA DE NASCIMENTO: Campo que armazena a data de nascimento de cada passageiro cadastrado.
+        NACIONALIDADE: Campo que armazena a nacionalidade do passageiro cadastrado.
+        ID PASSAGEM: Campo que armazena o ID que liga o passageiro à passagem do mesmo.
+        
+    PASSAGEM: Tabela que armazena as informações relativas à passagens ligadas a passageiros cadastrados.
+        ID PASSAGEM: Campo que armazena o ID da passagem, que está ligado a PASSAGEIRO - ID PASSAGEM.
+        ID ROTA: Campo que armazena a identificação da rota da passagem. Este campo é ligado à tabela ROTAS.
+        PREÇO: Campo que armazena o preço de cada passagem.
+        
+    ROTAS: Tabela que armazena as informações de cada viagem
+        ID ROTA: Campo que armazena a identificação da rota. Este campo é ligado à tabela PASSAGEM.
+        ID COMPANHIA: Campo que identifica a companhia vinculada à rota. Este campo está vinculado à EMPRESAS.0 - ID EMPRESA.
+        DESTINO: Campo que armazena informações sobre o destino de cada rota.
+        HORA SAÍDA: Campo que armazena o horário de saída de cada rota.
+        HORA CHEGADA: Campo que armazena o tempo estimado para chegada de cada rota.
+        
+    EMPRESAS.0: Primeira tabela (de três) que armazena informações sobre companhias e rodoviárias.
+        ID EMPRESA: Campo que armazena a identidade de cada empresa vinculada. Este campo está vinculado à ROTAS- ID ROTA; FUNCIONARIOS - ID EMPRESA.
+        NOME: Campo que armazena o nome de cada empresa.
+        CLASSIFICAÇÂO: Campo que armazena a classificação de cada empresa. Este campo está vinculado à EMPRESAS.1 - COMPANHIA; EMPRESAS.2 - RODOVIÁRIA.
+        
+        .
+        .
+        .
+        
+    <!--
     [objeto]: [descrição do objeto]
     
     EXEMPLO:
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
     CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
-
+    -->
 
 ### 6	MODELO LÓGICO<br>
         a) inclusão do modelo lógico do banco de dados
