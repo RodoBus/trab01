@@ -138,9 +138,26 @@ b) Crie uma lista com os 10 principais relatórios que podero ser obtidos por me
         NOME: Campo que armazena o nome de cada empresa.
         CLASSIFICAÇÂO: Campo que armazena a classificação de cada empresa. Este campo está vinculado à EMPRESAS.1 - COMPANHIA; EMPRESAS.2 - RODOVIÁRIA.
         
-        .
-        .
-        .
+   EMPRESAS.1: Segunda tabela(de três) que armazena informações sobre empresas identificadas como companhias, em EMPRESAS.0 - CLASSIFICAÇÃO
+        COMPANHIA: Campo que armazena o código da companhia.
+        TELEFONE: Campo que armazena o telefone de contato de cada companhia.
+        EMAIL: Campo que armazena o endereço de email  para contato com cada companhia.
+        
+   EMPRESAS.2: Terceira tabela(de três) que armazena informações sobre empresas identificadas como rodoviárias, em EMPRESAS.0 - CLASSIFICAÇÃO
+        RODOVIARIA: Campo que armazena o código de cada rodoviária.
+        ENDEREÇO(CEP): Campo que armazena o endereço residente de cada rodoviária
+        HORARIO DE FUNCIONAMENTO: Campo que armazena a faixa horária de funcionamento de cada rodoviária.
+        
+   FUNCIONARIO: Tabela que armazena informações pertinentes a cada funcionário de cada companhia e rodoviária.
+        ID FUNCIONARIO: Campo que armazena o código que identifica cada funcionário.
+        ID EMPRESA: Campo que armazena o código que identifica a empresa na qual o funcionário está vinculado.
+        NOME: Campo que armazena os nomes de cada funcionário.
+        IDENTIDADE: Campo que armazena as informações sobre identidade de cada funcionário.
+        CPF: Campo que armazena o Cadastro de Pessoa Física de cada funcionário.
+        TELEFONE: Campo que armazena as informações telefônicas de contato de cada funcionário.
+        EMAIL: Campo que armazena o email de contato com cada funcionário.
+        DATA DE NASCIMENTO: Campo que armazena registros referentes à data de nascimento de cada funcionário.
+        NACIONALIDADE: campo que armazena a nacionalidade de cada funcionário.
         
     <!--
     [objeto]: [descrição do objeto]
