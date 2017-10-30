@@ -85,28 +85,30 @@ O sistema gera relatórios com as informações: <br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
 
 PASSAGEIRO: Tabela que armazena as informações relativas ao passageiro, podendo ou não estar interligadas a outras tabelas. <br>
-    NOME: Campo que armazena os nomes dos passageiros cadastrados. <br>
+    ID_PASSAGEIRO(CHAVE PRIMARIA): 
+   NOME: Campo que armazena os nomes dos passageiros cadastrados. <br>
     CPF: Campo que armazena o número de Cadastro de Pessoa Física para cada passageiro cadastrado. <br>
     TELEFONE: Campo que armazena o número de telefone para contato com os passageiros. <br>
     EMAIL: Campo que armazena o email de contato com cada passageiro cadastrado. <br>
-    DATA DE NASCIMENTO: Campo que armazena a data de nascimento de cada passageiro cadastrado. <br>
+    DATA_DE_NASCIMENTO: Campo que armazena a data de nascimento de cada passageiro cadastrado. <br>
     NACIONALIDADE: Campo que armazena a nacionalidade do passageiro cadastrado. <br>
-    ID PASSAGEM: Campo que armazena o ID que liga o passageiro à passagem do mesmo. <br> 
+    ID_PASSAGEM: Campo que armazena o ID que liga o passageiro à passagem do mesmo. <br> 
         
 PASSAGEM: Tabela que armazena as informações relativas à passagens ligadas a passageiros cadastrados. <br>
-    ID PASSAGEM: Campo que armazena o ID da passagem, que está ligado a PASSAGEIRO - ID PASSAGEM. <br>
-    ID ROTA: Campo que armazena a identificação da rota da passagem. Este campo é ligado à tabela ROTAS. <br>
+    ID_PASSAGEM(CHAVE PRIMARIA): Campo que armazena o ID da passagem, que está ligado a PASSAGEIRO - ID PASSAGEM. <br>
+    ID_ROTA: Campo que armazena a identificação da rota da passagem. Este campo é ligado à tabela ROTAS. <br>
     PREÇO: Campo que armazena o preço de cada passagem. <br>
         
 ROTAS: Tabela que armazena as informações de cada viagem. <br>
-    ID ROTA: Campo que armazena a identificação da rota. Este campo é ligado à tabela PASSAGEM. <br>
-    ID COMPANHIA: Campo que identifica a companhia vinculada à rota. Este campo está vinculado à EMPRESAS.0 - ID EMPRESA. <br>
+    ID_ROTA(CHAVE PRIMARIA): Campo que armazena a identificação da rota. Este campo é ligado à tabela PASSAGEM. <br>
+    ID_COMPANHIA: Campo que identifica a companhia vinculada à rota. Este campo está vinculado à EMPRESAS.0 - ID EMPRESA. <br>
     DESTINO: Campo que armazena informações sobre o destino de cada rota. <br>
-    HORA SAÍDA: Campo que armazena o horário de saída de cada rota. <br> 
-    HORA CHEGADA: Campo que armazena o tempo estimado para chegada de cada rota. <br>
+    HORA_SAÍDA: Campo que armazena o horário de saída de cada rota. <br> 
+    HORA_CHEGADA: Campo que armazena o tempo estimado para chegada de cada rota. <br>
         
 EMPRESAS.0: Primeira tabela (de três) que armazena informações sobre companhias e rodoviárias. <br>
-    ID EMPRESA: Campo que armazena a identidade de cada empresa vinculada. Este campo está vinculado à ROTAS- ID ROTA; FUNCIONARIOS - ID EMPRESA. <br>
+    ID_EMPRESA(CHAVE PRIMARIA): Campo que armazena a identidade de cada empresa vinculada.  <br>
+    Este campo está vinculado à ROTAS- ID ROTA; FUNCIONARIOS - ID EMPRESA. <br>
     NOME: Campo que armazena o nome de cada empresa. <br>
     CLASSIFICAÇÂO: Campo que armazena a classificação de cada empresa. Este campo está vinculado à EMPRESAS.1 - COMPANHIA; EMPRESAS.2 - RODOVIÁRIA. <br>
         
@@ -117,7 +119,7 @@ EMPRESAS.1: Segunda tabela(de três) que armazena informações sobre empresas i
         
 EMPRESAS.2: Terceira tabela(de três) que armazena informações sobre empresas identificadas como rodoviárias, em EMPRESAS.0 - CLASSIFICAÇÃO <br>
      RODOVIARIA: Campo que armazena o código de cada rodoviária. <br>
-     ENDEREÇO(CEP): Campo que armazena o endereço residente de cada rodoviária. <br>
+     ENDEREÇO: Campo que armazena o endereço em forma de CEP do residente de cada rodoviária. <br>
      HORARIO DE FUNCIONAMENTO: Campo que armazena a faixa horária de funcionamento de cada rodoviária. <br>
         
 FUNCIONARIO: Tabela que armazena informações pertinentes a cada funcionário de cada companhia e rodoviária. <br>
