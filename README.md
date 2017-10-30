@@ -13,16 +13,6 @@ Vitor Salzman: vitor-salzman96@hotmail.com<br>
 Entre os meios de transporte existentes no estado do Espírito Santo, o transporte rodoviário por ônibus é o mais comum. Porém, diferente dos aeroportos, rodoviárias capixabas não contam com uma organização devidamente implementada. O projeto rodobus busca uma solução para esse problema, dispondo de um banco de dados que envolve toda logística do sistema  de transporte rodoviário capixaba.<br>
 Este projeto contém a especificação do banco de dados do projeto RodoBus.
 
-<!--
-Este documento contém a especificação do projeto do banco de dados RodoBus <br>
-e com a motivação de uma maior organização e segurança na logística do sistema de transportes rodoviários. <br>
--->
-
-<!--  
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
-<br>e motivação da escolha realizada. <br>
--->
-
 ### 3.MINI-MUNDO<br>
 A ideia do projeto é criar um sistema robusto, intuitivo para a gestão dos sistemas de transportes rodoviários para <br>
 passageiros, empregando neste setor o mesmo nível de robustez aplicado nos aeroportos. <br>
@@ -34,13 +24,6 @@ Será possível realizar o cadastro de rotas, clientes, empresas, rodoviárias e
 uma rígida lógica e hierarquia com a finalidade de manter coesa e tão real quanto possível a logística do sistema rodoviário. <br>
 As demais funções, como cadastro, consulta, alteração e deleção de clientes, empresas, rotas, rodoviárias, ficará reservado <br>
 apenas aos usuários responsáveis para tal operação. <br>
-<!--
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
-Entrevista com o usuário e identificação dos requisitos.<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
--->
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não é necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas.  <a href="https://github.com/RodoBus/trab01/blob/master/balsamiq.pdf"> Mockup </a> <br>
@@ -53,14 +36,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
 <img src="https://github.com/RodoBus/trab01/blob/master/Tabelas%20mesclada%20e%20separadas.xlsx" title="Tabela do sistema" style="max-width:100%;">
-<!--
-a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
-b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
-e deve ser criada antes do modelo conceitual
-c) Após criada esta tabela não deve ser modificada, pois será comparada com a tabela final na conclusão do trabalho
--->
-    
-    
+
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 O sistema gera relatórios com as informações: <br>
 - Passageiros. <br>
