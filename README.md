@@ -85,58 +85,53 @@ O sistema gera relatórios com as informações: <br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
 
 PASSAGEIRO: Tabela que armazena as informações relativas ao passageiro, podendo ou não estar interligadas a outras tabelas. <br>
-    ID_PASSAGEIRO(CHAVE PRIMARIA): 
-   NOME: Campo que armazena os nomes dos passageiros cadastrados. <br>
-    CPF: Campo que armazena o número de Cadastro de Pessoa Física para cada passageiro cadastrado. <br>
-    TELEFONE: Campo que armazena o número de telefone para contato com os passageiros. <br>
-    EMAIL: Campo que armazena o email de contato com cada passageiro cadastrado. <br>
-    DATA_DE_NASCIMENTO: Campo que armazena a data de nascimento de cada passageiro cadastrado. <br>
-    NACIONALIDADE: Campo que armazena a nacionalidade do passageiro cadastrado. <br>
-    ID_PASSAGEM: Campo que armazena o ID que liga o passageiro à passagem do mesmo. <br> 
+<li>ID_PASSAGEIRO(CHAVE PRIMARIA): 
+<li>NOME: Campo que armazena os nomes dos passageiros cadastrados. </li>
+<li>CPF: Campo que armazena o número de Cadastro de Pessoa Física para cada passageiro cadastrado. </li>
+<li>TELEFONE: Campo que armazena o número de telefone para contato com os passageiros. </li>
+<li>EMAIL: Campo que armazena o email de contato com cada passageiro cadastrado. </li>
+<li>DATA_DE_NASCIMENTO: Campo que armazena a data de nascimento de cada passageiro cadastrado. </li>
+<li>NACIONALIDADE: Campo que armazena a nacionalidade do passageiro cadastrado. </li>
+<li>ID_PASSAGEM: Campo que armazena o ID que liga o passageiro à passagem do mesmo. </li>
         
 PASSAGEM: Tabela que armazena as informações relativas à passagens ligadas a passageiros cadastrados. <br>
-    ID_PASSAGEM(CHAVE PRIMARIA): Campo que armazena o ID da passagem, que está ligado a PASSAGEIRO - ID PASSAGEM. <br>
-    ID_ROTA: Campo que armazena a identificação da rota da passagem. Este campo é ligado à tabela ROTAS. <br>
-    PREÇO: Campo que armazena o preço de cada passagem. <br>
+<li>ID_PASSAGEM(CHAVE PRIMARIA): Campo que armazena o ID da passagem, que está ligado a PASSAGEIRO - ID PASSAGEM. </li>
+<li>ID_ROTA: Campo que armazena a identificação da rota da passagem. Este campo é ligado à tabela ROTAS. </li>
+<li>PREÇO: Campo que armazena o preço de cada passagem. </li>
         
 ROTAS: Tabela que armazena as informações de cada viagem. <br>
-    ID_ROTA(CHAVE PRIMARIA): Campo que armazena a identificação da rota. Este campo é ligado à tabela PASSAGEM. <br>
-    ID_COMPANHIA: Campo que identifica a companhia vinculada à rota. Este campo está vinculado à EMPRESAS.0 - ID EMPRESA. <br>
-    DESTINO: Campo que armazena informações sobre o destino de cada rota. <br>
-    HORA_SAÍDA: Campo que armazena o horário de saída de cada rota. <br> 
-    HORA_CHEGADA: Campo que armazena o tempo estimado para chegada de cada rota. <br>
+<li>ID_ROTA(CHAVE PRIMARIA): Campo que armazena a identificação da rota. Este campo é ligado à tabela PASSAGEM. </li>
+<li>ID_COMPANHIA: Campo que identifica a companhia vinculada à rota. Este campo está vinculado à EMPRESAS.0 - ID EMPRESA. </li>
+<li>DESTINO: Campo que armazena informações sobre o destino de cada rota. </li>
+<li>HORA_SAÍDA: Campo que armazena o horário de saída de cada rota. </li>
+<li>HORA_CHEGADA: Campo que armazena o tempo estimado para chegada de cada rota. </li>
         
 EMPRESAS.0: Primeira tabela (de três) que armazena informações sobre companhias e rodoviárias. <br>
-    ID_EMPRESA(CHAVE PRIMARIA): Campo que armazena a identidade de cada empresa vinculada.  <br>
-    Este campo está vinculado à ROTAS- ID ROTA; FUNCIONARIOS - ID EMPRESA. <br>
-    NOME: Campo que armazena o nome de cada empresa. <br>
-    CLASSIFICAÇÂO: Campo que armazena a classificação de cada empresa. Este campo está vinculado à EMPRESAS.1 - COMPANHIA; EMPRESAS.2 - RODOVIÁRIA. <br>
+<li>ID_EMPRESA(CHAVE PRIMARIA): Campo que armazena a identidade de cada empresa vinculada. 
+    Este campo está vinculado à ROTAS- ID ROTA; FUNCIONARIOS - ID EMPRESA. </li>
+<li>NOME: Campo que armazena o nome de cada empresa. </li>
+<li>CLASSIFICAÇÂO: Campo que armazena a classificação de cada empresa. Este campo está vinculado à EMPRESAS.1 - COMPANHIA; EMPRESAS.2 - RODOVIÁRIA. </li>
         
 EMPRESAS.1: Segunda tabela(de três) que armazena informações sobre empresas identificadas como companhias, em EMPRESAS.0 - CLASSIFICAÇÃO <br>
-     COMPANHIA: Campo que armazena o código da companhia. <br>
-     TELEFONE: Campo que armazena o telefone de contato de cada companhia. <br>
-     EMAIL: Campo que armazena o endereço de email  para contato com cada companhia. <br>
+<li>COMPANHIA: Campo que armazena o código da companhia. </li>
+<li>TELEFONE: Campo que armazena o telefone de contato de cada companhia. </li>
+<li>EMAIL: Campo que armazena o endereço de email  para contato com cada companhia. </li>
         
 EMPRESAS.2: Terceira tabela(de três) que armazena informações sobre empresas identificadas como rodoviárias, em EMPRESAS.0 - CLASSIFICAÇÃO <br>
-     RODOVIARIA: Campo que armazena o código de cada rodoviária. <br>
-     ENDEREÇO: Campo que armazena o endereço em forma de CEP do residente de cada rodoviária. <br>
-     HORARIO DE FUNCIONAMENTO: Campo que armazena a faixa horária de funcionamento de cada rodoviária. <br>
+<li>RODOVIARIA: Campo que armazena o código de cada rodoviária. </li>
+<li>ENDEREÇO: Campo que armazena o endereço em forma de CEP do residente de cada rodoviária. </li>
+<li>HORARIO DE FUNCIONAMENTO: Campo que armazena a faixa horária de funcionamento de cada rodoviária. </li>
         
 FUNCIONARIO: Tabela que armazena informações pertinentes a cada funcionário de cada companhia e rodoviária. <br>
-     ID FUNCIONARIO: Campo que armazena o código que identifica cada funcionário. <br>
-     ID EMPRESA: Campo que armazena o código que identifica a empresa na qual o funcionário está vinculado. <br>
-     NOME: Campo que armazena os nomes de cada funcionário. <br>
-     IDENTIDADE: Campo que armazena as informações sobre identidade de cada funcionário. <br>
-     CPF: Campo que armazena o Cadastro de Pessoa Física de cada funcionário. <br>
-     TELEFONE: Campo que armazena as informações telefônicas de contato de cada funcionário. <br>
-     EMAIL: Campo que armazena o email de contato com cada funcionário. <br>
-     DATA DE NASCIMENTO: Campo que armazena registros referentes à data de nascimento de cada funcionário. <br>
-     NACIONALIDADE: campo que armazena a nacionalidade de cada funcionário. <br>
-       
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
-    -->
+<li>ID FUNCIONARIO: Campo que armazena o código que identifica cada funcionário. </li>
+<li>ID EMPRESA: Campo que armazena o código que identifica a empresa na qual o funcionário está vinculado. </li>
+<li>NOME: Campo que armazena os nomes de cada funcionário. </li>
+<li>IDENTIDADE: Campo que armazena as informações sobre identidade de cada funcionário. </li>
+<li>CPF: Campo que armazena o Cadastro de Pessoa Física de cada funcionário. </li>
+<li>TELEFONE: Campo que armazena as informações telefônicas de contato de cada funcionário. </li>
+<li>EMAIL: Campo que armazena o email de contato com cada funcionário. </li>
+<li>DATA DE NASCIMENTO: Campo que armazena registros referentes à data de nascimento de cada funcionário. </li>
+<li>NACIONALIDADE: campo que armazena a nacionalidade de cada funcionário. <br> </li>
 
 ### 6	MODELO LÓGICO<br>
         a) inclusão do modelo lógico do banco de dados
