@@ -74,8 +74,9 @@ O sistema gera relatórios com as informações: <br>
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 DECISÕES DE PROJETO
-Tabelas Empresa_0, Empresa_1, Empresa_2: A utilização de 3 tabelas paras empresas foi para separar as 2 tipo de empresas <br>
-envolvidas no sistemas (Companhias de Ônibus e Rodoviárias)
+Tabelas Empresa_0, Empresa_1, Empresa_2: A escolha de utilizar 3 tabelas para as empresas foi feita com o intuito de separar <br>
+os 2 tipos de empresas envolvidas no sistemas RodoBus (Companhias de Ônibus e Rodoviárias). Para facilitar e diferenciar <br>
+a identificação dos funcionários presentes na Tabela de Funcionários. <br>
     
 <!--
     [atributo]: [descrição da decisão]
