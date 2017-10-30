@@ -10,8 +10,10 @@ Maria Luiza de Freitas: malufrt@hotmail.com<br>
 Vitor Salzman: vitor-salzman96@hotmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Entre os meios de transporte existentes no estado do Espírito Santo, o transporte rodoviário por ônibus é o mais comum. Porém, diferente dos aeroportos, rodoviárias capixabas não contam com uma organização devidamente implementada. O projeto rodobus busca uma solução para esse problema, dispondo de um banco de dados que envolve toda logística do sistema  de transporte rodoviário capixaba.<br>
-Este projeto contém a especificação do banco de dados do projeto RodoBus.
+Entre os meios de transporte existentes no estado do Espírito Santo, o transporte rodoviário por ônibus é o mais comum. <br>
+Porém, diferente dos aeroportos, rodoviárias capixabas não contam com uma organização devidamente implementada. O projeto <br>
+rodobus busca uma solução para esse problema, dispondo de um banco de dados que envolve toda logística do sistema de <br>
+transporte rodoviário capixaba. Este projeto contém a especificação do banco de dados do projeto RodoBus. <br>
 
 ### 3.MINI-MUNDO<br>
 A ideia do projeto é criar um sistema robusto, intuitivo para a gestão dos sistemas de transportes rodoviários para <br>
@@ -26,7 +28,7 @@ As demais funções, como cadastro, consulta, alteração e deleção de cliente
 apenas aos usuários responsáveis para tal operação. <br>
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não é necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas.  <a href="https://github.com/RodoBus/trab01/blob/master/balsamiq.pdf"> Mockup </a> <br>
+Neste ponto a codificação não é necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas.<ahref="https://github.com/RodoBus/trab01/blob/master/balsamiq.pdf"> Mockup </a> <br>
 
 <!--
 Sugestão: https://balsamiq.com/products/mockups/<br>
@@ -49,11 +51,6 @@ O sistema gera relatórios com as informações: <br>
 - Passagens mais compradas por ano. <br>
 - Histórico de passagens feitas pelo passageiro. <br>
 - Escala dos funcionários. <br>
-
-<!--
-a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-b) Crie uma lista com os 10 principais relatórios que podero ser obtidos por meio do sistema proposto!
--->
     
 >## Marco de Entrega 01 em: (Data definida no cronograma)<br>
 
@@ -86,58 +83,54 @@ b) Crie uma lista com os 10 principais relatórios que podero ser obtidos por me
     b) justifique!
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
-    
-    
-    PASSAGEIRO: Tabela que armazena as informações relativas ao passageiro, podendo ou não estar interligadas a outras tabelas.
-        NOME: Campo que armazena os nomes dos passageiros cadastrados.
-        CPF: Campo que armazena o número de Cadastro de Pessoa Física para cada passageiro cadastrado.
-        TELEFONE: Campo que armazena o número de telefone para contato com os passageiros.
-        EMAIL: Campo que armazena o email de contato com cada passageiro cadastrado.
-        DATA DE NASCIMENTO: Campo que armazena a data de nascimento de cada passageiro cadastrado.
-        NACIONALIDADE: Campo que armazena a nacionalidade do passageiro cadastrado.
-        ID PASSAGEM: Campo que armazena o ID que liga o passageiro à passagem do mesmo.
+
+PASSAGEIRO: Tabela que armazena as informações relativas ao passageiro, podendo ou não estar interligadas a outras tabelas. <br>
+    NOME: Campo que armazena os nomes dos passageiros cadastrados. <br>
+    CPF: Campo que armazena o número de Cadastro de Pessoa Física para cada passageiro cadastrado. <br>
+    TELEFONE: Campo que armazena o número de telefone para contato com os passageiros. <br>
+    EMAIL: Campo que armazena o email de contato com cada passageiro cadastrado. <br>
+    DATA DE NASCIMENTO: Campo que armazena a data de nascimento de cada passageiro cadastrado. <br>
+    NACIONALIDADE: Campo que armazena a nacionalidade do passageiro cadastrado. <br>
+    ID PASSAGEM: Campo que armazena o ID que liga o passageiro à passagem do mesmo. <br> 
         
-    PASSAGEM: Tabela que armazena as informações relativas à passagens ligadas a passageiros cadastrados.
-        ID PASSAGEM: Campo que armazena o ID da passagem, que está ligado a PASSAGEIRO - ID PASSAGEM.
-        ID ROTA: Campo que armazena a identificação da rota da passagem. Este campo é ligado à tabela ROTAS.
-        PREÇO: Campo que armazena o preço de cada passagem.
+PASSAGEM: Tabela que armazena as informações relativas à passagens ligadas a passageiros cadastrados. <br>
+    ID PASSAGEM: Campo que armazena o ID da passagem, que está ligado a PASSAGEIRO - ID PASSAGEM. <br>
+    ID ROTA: Campo que armazena a identificação da rota da passagem. Este campo é ligado à tabela ROTAS. <br>
+    PREÇO: Campo que armazena o preço de cada passagem. <br>
         
-    ROTAS: Tabela que armazena as informações de cada viagem
-        ID ROTA: Campo que armazena a identificação da rota. Este campo é ligado à tabela PASSAGEM.
-        ID COMPANHIA: Campo que identifica a companhia vinculada à rota. Este campo está vinculado à EMPRESAS.0 - ID EMPRESA.
-        DESTINO: Campo que armazena informações sobre o destino de cada rota.
-        HORA SAÍDA: Campo que armazena o horário de saída de cada rota.
-        HORA CHEGADA: Campo que armazena o tempo estimado para chegada de cada rota.
+ROTAS: Tabela que armazena as informações de cada viagem. <br>
+    ID ROTA: Campo que armazena a identificação da rota. Este campo é ligado à tabela PASSAGEM. <br>
+    ID COMPANHIA: Campo que identifica a companhia vinculada à rota. Este campo está vinculado à EMPRESAS.0 - ID EMPRESA. <br>
+    DESTINO: Campo que armazena informações sobre o destino de cada rota. <br>
+    HORA SAÍDA: Campo que armazena o horário de saída de cada rota. <br> 
+    HORA CHEGADA: Campo que armazena o tempo estimado para chegada de cada rota. <br>
         
-    EMPRESAS.0: Primeira tabela (de três) que armazena informações sobre companhias e rodoviárias.
-        ID EMPRESA: Campo que armazena a identidade de cada empresa vinculada. Este campo está vinculado à ROTAS- ID ROTA; FUNCIONARIOS - ID EMPRESA.
-        NOME: Campo que armazena o nome de cada empresa.
-        CLASSIFICAÇÂO: Campo que armazena a classificação de cada empresa. Este campo está vinculado à EMPRESAS.1 - COMPANHIA; EMPRESAS.2 - RODOVIÁRIA.
+EMPRESAS.0: Primeira tabela (de três) que armazena informações sobre companhias e rodoviárias. <br>
+    ID EMPRESA: Campo que armazena a identidade de cada empresa vinculada. Este campo está vinculado à ROTAS- ID ROTA; FUNCIONARIOS - ID EMPRESA. <br>
+    NOME: Campo que armazena o nome de cada empresa. <br>
+    CLASSIFICAÇÂO: Campo que armazena a classificação de cada empresa. Este campo está vinculado à EMPRESAS.1 - COMPANHIA; EMPRESAS.2 - RODOVIÁRIA. <br>
         
-   EMPRESAS.1: Segunda tabela(de três) que armazena informações sobre empresas identificadas como companhias, em EMPRESAS.0 - CLASSIFICAÇÃO
-        COMPANHIA: Campo que armazena o código da companhia.
-        TELEFONE: Campo que armazena o telefone de contato de cada companhia.
-        EMAIL: Campo que armazena o endereço de email  para contato com cada companhia.
+EMPRESAS.1: Segunda tabela(de três) que armazena informações sobre empresas identificadas como companhias, em EMPRESAS.0 - CLASSIFICAÇÃO <br>
+     COMPANHIA: Campo que armazena o código da companhia. <br>
+     TELEFONE: Campo que armazena o telefone de contato de cada companhia. <br>
+     EMAIL: Campo que armazena o endereço de email  para contato com cada companhia. <br>
         
-   EMPRESAS.2: Terceira tabela(de três) que armazena informações sobre empresas identificadas como rodoviárias, em EMPRESAS.0 - CLASSIFICAÇÃO
-        RODOVIARIA: Campo que armazena o código de cada rodoviária.
-        ENDEREÇO(CEP): Campo que armazena o endereço residente de cada rodoviária
-        HORARIO DE FUNCIONAMENTO: Campo que armazena a faixa horária de funcionamento de cada rodoviária.
+EMPRESAS.2: Terceira tabela(de três) que armazena informações sobre empresas identificadas como rodoviárias, em EMPRESAS.0 - CLASSIFICAÇÃO <br>
+     RODOVIARIA: Campo que armazena o código de cada rodoviária. <br>
+     ENDEREÇO(CEP): Campo que armazena o endereço residente de cada rodoviária. <br>
+     HORARIO DE FUNCIONAMENTO: Campo que armazena a faixa horária de funcionamento de cada rodoviária. <br>
         
-   FUNCIONARIO: Tabela que armazena informações pertinentes a cada funcionário de cada companhia e rodoviária.
-        ID FUNCIONARIO: Campo que armazena o código que identifica cada funcionário.
-        ID EMPRESA: Campo que armazena o código que identifica a empresa na qual o funcionário está vinculado.
-        NOME: Campo que armazena os nomes de cada funcionário.
-        IDENTIDADE: Campo que armazena as informações sobre identidade de cada funcionário.
-        CPF: Campo que armazena o Cadastro de Pessoa Física de cada funcionário.
-        TELEFONE: Campo que armazena as informações telefônicas de contato de cada funcionário.
-        EMAIL: Campo que armazena o email de contato com cada funcionário.
-        DATA DE NASCIMENTO: Campo que armazena registros referentes à data de nascimento de cada funcionário.
-        NACIONALIDADE: campo que armazena a nacionalidade de cada funcionário.
-        
-    <!--
-    [objeto]: [descrição do objeto]
-    
+FUNCIONARIO: Tabela que armazena informações pertinentes a cada funcionário de cada companhia e rodoviária. <br>
+     ID FUNCIONARIO: Campo que armazena o código que identifica cada funcionário. <br>
+     ID EMPRESA: Campo que armazena o código que identifica a empresa na qual o funcionário está vinculado. <br>
+     NOME: Campo que armazena os nomes de cada funcionário. <br>
+     IDENTIDADE: Campo que armazena as informações sobre identidade de cada funcionário. <br>
+     CPF: Campo que armazena o Cadastro de Pessoa Física de cada funcionário. <br>
+     TELEFONE: Campo que armazena as informações telefônicas de contato de cada funcionário. <br>
+     EMAIL: Campo que armazena o email de contato com cada funcionário. <br>
+     DATA DE NASCIMENTO: Campo que armazena registros referentes à data de nascimento de cada funcionário. <br>
+     NACIONALIDADE: campo que armazena a nacionalidade de cada funcionário. <br>
+       
     EXEMPLO:
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
     CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
