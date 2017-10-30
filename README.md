@@ -70,8 +70,11 @@ O sistema gera relatórios com as informações: <br>
     
         
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Grupo01]: Harã Henrique, Guilherme Bodart, Edmilton da Silva Junior.
+    [Grupo02]: Tarcísio Bruni, Lucas Erlacher, Caio Kinupp.   
+ 
+
+
 
 #### 5.2 DECISÕES DE PROJETO
 Tabelas EMPRESAS_0 , EMPRESAS_1 , EMPRESAS_2: A escolha de utilizar 3 tabelas para as empresas foi feita com o intuito de separar <br>
