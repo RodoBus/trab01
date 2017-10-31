@@ -141,6 +141,7 @@ a identificação dos funcionários presentes na Tabela de FUNCIONARIO. <br>
 <li>DATA_DE_NASCIMENTO: Campo que armazena registros referentes à data de nascimento de cada funcionário. </li>
 <li>NACIONALIDADE: campo que armazena a nacionalidade de cada funcionário. <br> </li>
 <br>
+
 ### 6	MODELO LÓGICO<br>
         a) inclusão do modelo lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
