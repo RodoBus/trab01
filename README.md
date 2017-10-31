@@ -83,9 +83,13 @@ COMO COLOCAR:
 
 
 #### 5.2 DECISÕES DE PROJETO
-Tabelas EMPRESAS_0 , EMPRESAS_1 , EMPRESAS_2: A escolha de utilizar 3 tabelas para as empresas foi feita com o intuito de <br>
+<b>Tabelas EMPRESA, EMPRESA_COMPANHIA , EMPRESA_FUNCIONARIO:</b> A escolha de utilizar 3 tabelas para as empresas foi feita com o intuito de <br>
 separar os 2 tipos de empresas envolvidas no sistemas RodoBus (Companhias de Ônibus e Rodoviárias). Para facilitar e <br>
 diferenciar a identificação dos funcionários presentes na Tabela de FUNCIONARIO. <br>
+
+<b>Tabelas PESSOA, PESSOA_PASSAGEIRO, PESSOA_FUNCIONARIO></b> A escolha de utilizar 3 tabelas para organizar pessoas foi feita com o intuito de separar funcionários de passageiros envolvidos no sistema RodoBus. Isto pois os dois possuem alguns atributos semelhantes, porém funcionalidades distintas. </b>
+
+<br>
     
 <!--
     [atributo]: [descrição da decisão]
