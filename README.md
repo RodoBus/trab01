@@ -120,18 +120,18 @@ diferenciar a identificação dos funcionários presentes na Tabela de FUNCIONAR
 <li>HORA_SAIDA: Campo que armazena o horário de saída de cada rota. </li>
 <li>HORA_CHEGADA: Campo que armazena o tempo estimado para chegada de cada rota. </li>
 <br>        
-<b>Tabela EMPRESAS.0</b>: Primeira tabela (de três) que armazena informações sobre companhias e rodoviárias. <br>
+<b>Tabela EMPRESAS_0</b>: Primeira tabela (de três) que armazena informações sobre companhias e rodoviárias. <br>
 <li>ID_EMPRESA: (CHAVE PRIMARIA) Campo que armazena a identidade de cada empresa vinculada. 
     Este campo está vinculado à ROTAS- ID ROTA; FUNCIONARIOS - ID EMPRESA. </li>
 <li>NOME: Campo que armazena o nome de cada empresa. </li>
 <li>CLASSIFICACAO: Campo que armazena a classificação de cada empresa. Este campo está vinculado à EMPRESAS.1 - COMPANHIA; EMPRESAS.2 - RODOVIÁRIA. </li>
 <br>        
-<b>Tabela EMPRESAS.1</b>: Segunda tabela(de três) que armazena informações sobre empresas identificadas como companhias, em EMPRESAS.0 - CLASSIFICAÇÃO <br>
+<b>Tabela EMPRESAS_1</b>: Segunda tabela(de três) que armazena informações sobre empresas identificadas como companhias, em EMPRESAS.0 - CLASSIFICAÇÃO <br>
 <li>ID_COMPANHIA: (CHAVE PRIMARIA) Campo que armazena o código da companhia. </li>
 <li>TELEFONE: Campo que armazena o telefone de contato de cada companhia. </li>
 <li>EMAIL: Campo que armazena o endereço de email  para contato com cada companhia. </li>
 <br>        
-<b>Tabela EMPRESAS.2</b>: Terceira tabela(de três) que armazena informações sobre empresas identificadas como rodoviárias, em EMPRESAS.0 - CLASSIFICAÇÃO <br>
+<b>Tabela EMPRESAS_2</b>: Terceira tabela(de três) que armazena informações sobre empresas identificadas como rodoviárias, em EMPRESAS.0 - CLASSIFICAÇÃO <br>
 <li>ID_RODOVIARIA: (CHAVE PRIMARIA) Campo que armazena o código de cada rodoviária. </li>
 <li>ENDERECO: Campo que armazena o endereço em forma de CEP do residente de cada rodoviária. </li>
 <li>HORARIO_DE_FUNCIONAMENTO: Campo que armazena a faixa horária de funcionamento de cada rodoviária. </li>
