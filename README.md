@@ -98,55 +98,62 @@ diferenciar a identificação dos funcionários presentes na Tabela de FUNCIONAR
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
 
-<b>Tabela PASSAGEIRO</b>: Tabela que armazena as informações relativas ao passageiro, podendo ou não estar interligadas a outras tabelas. <br>
-<li>ID_PASSAGEIRO: (CHAVE PRIMARIA) Campo que armazena o ID do passageiro. </li>
-<li>NOME: Campo que armazena os nomes dos passageiros cadastrados. </li>
-<li>CPF: Campo que armazena o número de Cadastro de Pessoa Física para cada passageiro cadastrado. </li>
-<li>TELEFONE: Campo que armazena o número de telefone para contato com os passageiros. </li>
-<li>EMAIL: Campo que armazena o email de contato com cada passageiro cadastrado. </li>
-<li>DATA_DE_NASCIMENTO: Campo que armazena a data de nascimento de cada passageiro cadastrado. </li>
-<li>NACIONALIDADE: Campo que armazena a nacionalidade do passageiro cadastrado. </li>
+
+<b>Tabela PESSOA</b>: Tabela que armazena as informações relativas a cada indivíduo cadastrado no sistema. <br>
+<li>ID PESSOA: Campo que armazena o código de cada indivíduo cadastrado. </li>
+<li>NOME: Campo que armazena os nomes das pessoas cadastradas. </li>
+<li>IDENTIDADE: Campo que armazena o Registro Geral de cada pessoa cadastrada. </li>
+<li>CPF: Campo que armazena o número de Cadastro de Pessoa Física para cada indivíduo cadastrado. </li>
+<li>TELEFONE: Campo que armazena o número de telefone para contato com cada pessoa. </li>
+<li>EMAIL: Campo que armazena o email de contato com cada indivíduo cadastrado. </li>
+<li>DATA_DE_NASCIMENTO: Campo que armazena a data de nascimento de cada pessoa cadastrada. </li>
+<li>NACIONALIDADE: Campo que armazena a nacionalidade de cada pessoa cadastrada. </li>
+<br>
+<b>Tabela PESSOA_PASSAGEIRO</b>: Tabela que armazena as informações relativas ao passageiro, podendo ou não estar interligadas a outras tabelas. <br>
+<li>ID_PESSOA: (CHAVE PRIMARIA) Campo que armazena o ID da pessoa que está ligada à tabela passageiro </li>
+<li>ID_PASSAGEIRO: Campo que armazena o ID do passageiro. </li>
 <li>ID_PASSAGEM: Campo que armazena o ID que liga o passageiro à passagem do mesmo. </li>
 <br>    
+<b>Tabela PESSOA_FUNCIONARIO</b>: Tabela que armazena informações pertinentes a cada funcionário de cada companhia e rodoviária. <br>
+<li>ID_PESSOA:  (CHAVE PRIMARIA) Campo que armazena a ID da pessoa que está ligada à tabela funcionário. </li>     
+<li>ID_FUNCIONARIO: Campo que armazena o código que identifica cada funcionário. </li>
+<li>ID_EMPRESA: Campo que armazena o código que identifica a empresa na qual o funcionário está vinculado. </li>
+<br>
 <b>Tabela PASSAGEM</b>: Tabela que armazena as informações relativas à passagens ligadas a passageiros cadastrados. <br>
-<li>ID_PASSAGEM: (CHAVE PRIMARIA) Campo que armazena o ID da passagem, que está ligado a PASSAGEIRO - ID PASSAGEM. </li>
+<li>ID_PASSAGEM: (CHAVE PRIMARIA) Campo que armazena o ID da passagem, que está ligado a PESSOA_PASSAGEIRO - ID_PASSAGEM. </li>
 <li>ID_ROTA: Campo que armazena a identificação da rota da passagem. Este campo é ligado à tabela ROTAS. </li>
+<li>ID_COMPANHIA: Campo que armazena a ID da companhia vinculada à passagem. </li>
+<li>DATA_COMPRA: Campo que armazena a data e horário de compra da passagem. </li>
+<li>DATA_VIAGEM: Campo que armazena a data da viagem vinculada à passagem. </li>
 <li>PRECO: Campo que armazena o preço de cada passagem. </li>
-<br>        
+<br>
 <b>Tabela ROTAS</b>: Tabela que armazena as informações de cada viagem. <br>
 <li>ID_ROTA: (CHAVE PRIMARIA) Campo que armazena a identificação da rota. Este campo é ligado à tabela PASSAGEM. </li>
-<li>ID_COMPANHIA: Campo que identifica a companhia vinculada à rota. Este campo está vinculado à EMPRESAS.0 - ID EMPRESA. </li>
-<li>DESTINO: Campo que armazena informações sobre o destino de cada rota. </li>
 <li>HORA_SAIDA: Campo que armazena o horário de saída de cada rota. </li>
 <li>HORA_CHEGADA: Campo que armazena o tempo estimado para chegada de cada rota. </li>
+<li>ORIGEM: Campo que armazena o ponto de partida de cada rota. </li>
+<li>DESTINO: Campo que armazena o ponto de chegada de cada rota. </li>
 <br>        
-<b>Tabela EMPRESAS_0</b>: Primeira tabela (de três) que armazena informações sobre companhias e rodoviárias. <br>
+<b>Tabela EMPRESA</b>: Tabela que armazena informações sobre cada empresa. <br>
 <li>ID_EMPRESA: (CHAVE PRIMARIA) Campo que armazena a identidade de cada empresa vinculada. 
     Este campo está vinculado à ROTAS- ID ROTA; FUNCIONARIOS - ID EMPRESA. </li>
 <li>NOME: Campo que armazena o nome de cada empresa. </li>
-<li>CLASSIFICACAO: Campo que armazena a classificação de cada empresa. Este campo está vinculado à EMPRESAS.1 - COMPANHIA; EMPRESAS.2 - RODOVIÁRIA. </li>
+<li>TELEFONE: Campo que armazena o telefone de contato de cada empresa. </li>
 <br>        
-<b>Tabela EMPRESAS_1</b>: Segunda tabela(de três) que armazena informações sobre empresas identificadas como companhias, em EMPRESAS.0 - CLASSIFICAÇÃO <br>
+<b>Tabela EMPRESA_COMPANHIA</b>:Tabela que armazena informações sobre empresas identificadas como companhias.
+<br>
+<li>ID_EMPRESA: (CHAVE PRIMARIA) Campo que armazena a identidade de cada empresa vinculada à companhia. </li>
 <li>ID_COMPANHIA: (CHAVE PRIMARIA) Campo que armazena o código da companhia. </li>
-<li>TELEFONE: Campo que armazena o telefone de contato de cada companhia. </li>
 <li>EMAIL: Campo que armazena o endereço de email  para contato com cada companhia. </li>
 <br>        
-<b>Tabela EMPRESAS_2</b>: Terceira tabela(de três) que armazena informações sobre empresas identificadas como rodoviárias, em EMPRESAS.0 - CLASSIFICAÇÃO <br>
-<li>ID_RODOVIARIA: (CHAVE PRIMARIA) Campo que armazena o código de cada rodoviária. </li>
+<b>Tabela EMPRESA_RODOVIARIA</b>: Tabela que armazena informações sobre empresas identificadas como rodoviárias.
+<br>
+<li>ID_EMPRESA: (CHAVE PRIMARIA) Campo que armazena a identidade de cada empresa vinculada à rodoviária. </li>
+<li>ID_RODOVIARIA: Campo que armazena o código de cada rodoviária. </li>
 <li>ENDERECO: Campo que armazena o endereço em forma de CEP do residente de cada rodoviária. </li>
 <li>HORARIO_DE_FUNCIONAMENTO: Campo que armazena a faixa horária de funcionamento de cada rodoviária. </li>
 <br>        
-<b>Tabela FUNCIONARIO</b>: Tabela que armazena informações pertinentes a cada funcionário de cada companhia e rodoviária. <br>
-<li>ID_FUNCIONARIO: (CHAVE PRIMARIA) Campo que armazena o código que identifica cada funcionário. </li>
-<li>ID_EMPRESA: Campo que armazena o código que identifica a empresa na qual o funcionário está vinculado. </li>
-<li>NOME: Campo que armazena os nomes de cada funcionário. </li>
-<li>IDENTIDADE: Campo que armazena as informações sobre identidade de cada funcionário. </li>
-<li>CPF: Campo que armazena o Cadastro de Pessoa Física de cada funcionário. </li>
-<li>TELEFONE: Campo que armazena as informações telefônicas de contato de cada funcionário. </li>
-<li>EMAIL: Campo que armazena o email de contato com cada funcionário. </li>
-<li>DATA_DE_NASCIMENTO: Campo que armazena registros referentes à data de nascimento de cada funcionário. </li>
-<li>NACIONALIDADE: campo que armazena a nacionalidade de cada funcionário. <br> </li>
-<br>
+
 
 ### 6	MODELO LÓGICO<br>
         a) inclusão do modelo lógico do banco de dados
