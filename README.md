@@ -1,4 +1,4 @@
-# TRABALHO 01:  Título do Trabalho
+# TRABALHO 01:  RodoBus
 Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
@@ -101,35 +101,35 @@ Tabela PASSAGEIRO: Tabela que armazena as informações relativas ao passageiro,
 <li>DATA_DE_NASCIMENTO: Campo que armazena a data de nascimento de cada passageiro cadastrado. </li>
 <li>NACIONALIDADE: Campo que armazena a nacionalidade do passageiro cadastrado. </li>
 <li>ID_PASSAGEM: Campo que armazena o ID que liga o passageiro à passagem do mesmo. </li>
-        
+<br>    
 Tabela PASSAGEM: Tabela que armazena as informações relativas à passagens ligadas a passageiros cadastrados. <br>
 <li>ID_PASSAGEM(CHAVE PRIMARIA): Campo que armazena o ID da passagem, que está ligado a PASSAGEIRO - ID PASSAGEM. </li>
 <li>ID_ROTA: Campo que armazena a identificação da rota da passagem. Este campo é ligado à tabela ROTAS. </li>
 <li>PRECO: Campo que armazena o preço de cada passagem. </li>
-        
+<br>        
 Tabela ROTAS: Tabela que armazena as informações de cada viagem. <br>
 <li>ID_ROTA(CHAVE PRIMARIA): Campo que armazena a identificação da rota. Este campo é ligado à tabela PASSAGEM. </li>
 <li>ID_COMPANHIA: Campo que identifica a companhia vinculada à rota. Este campo está vinculado à EMPRESAS.0 - ID EMPRESA. </li>
 <li>DESTINO: Campo que armazena informações sobre o destino de cada rota. </li>
 <li>HORA_SAIDA: Campo que armazena o horário de saída de cada rota. </li>
 <li>HORA_CHEGADA: Campo que armazena o tempo estimado para chegada de cada rota. </li>
-        
+<br>        
 Tabela EMPRESAS.0: Primeira tabela (de três) que armazena informações sobre companhias e rodoviárias. <br>
 <li>ID_EMPRESA(CHAVE PRIMARIA): Campo que armazena a identidade de cada empresa vinculada. 
     Este campo está vinculado à ROTAS- ID ROTA; FUNCIONARIOS - ID EMPRESA. </li>
 <li>NOME: Campo que armazena o nome de cada empresa. </li>
 <li>CLASSIFICACAO: Campo que armazena a classificação de cada empresa. Este campo está vinculado à EMPRESAS.1 - COMPANHIA; EMPRESAS.2 - RODOVIÁRIA. </li>
-        
+<br>        
 Tabela EMPRESAS.1: Segunda tabela(de três) que armazena informações sobre empresas identificadas como companhias, em EMPRESAS.0 - CLASSIFICAÇÃO <br>
 <li>COMPANHIA: Campo que armazena o código da companhia. </li>
 <li>TELEFONE: Campo que armazena o telefone de contato de cada companhia. </li>
 <li>EMAIL: Campo que armazena o endereço de email  para contato com cada companhia. </li>
-        
+<br>        
 Tabela EMPRESAS.2: Terceira tabela(de três) que armazena informações sobre empresas identificadas como rodoviárias, em EMPRESAS.0 - CLASSIFICAÇÃO <br>
 <li>RODOVIARIA: Campo que armazena o código de cada rodoviária. </li>
 <li>ENDERECO: Campo que armazena o endereço em forma de CEP do residente de cada rodoviária. </li>
 <li>HORARIO_DE_FUNCIONAMENTO: Campo que armazena a faixa horária de funcionamento de cada rodoviária. </li>
-        
+<br>        
 Tabela FUNCIONARIO: Tabela que armazena informações pertinentes a cada funcionário de cada companhia e rodoviária. <br>
 <li>ID_FUNCIONARIO: Campo que armazena o código que identifica cada funcionário. </li>
 <li>ID_EMPRESA: Campo que armazena o código que identifica a empresa na qual o funcionário está vinculado. </li>
@@ -140,7 +140,7 @@ Tabela FUNCIONARIO: Tabela que armazena informações pertinentes a cada funcion
 <li>EMAIL: Campo que armazena o email de contato com cada funcionário. </li>
 <li>DATA_DE_NASCIMENTO: Campo que armazena registros referentes à data de nascimento de cada funcionário. </li>
 <li>NACIONALIDADE: campo que armazena a nacionalidade de cada funcionário. <br> </li>
-
+<br>
 ### 6	MODELO LÓGICO<br>
         a) inclusão do modelo lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
