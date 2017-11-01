@@ -58,7 +58,7 @@ O sistema gera relatórios com as informações: <br>
 
 <!--
 COMO COLOCAR:
-<a href="https://github.com/Transpoint/TranspointProject/blob/master/Modelos/Modelo%20Conceitual/Modelo%20Conceitual.jpg" target="_blank"><img src="https://github.com/Transpoint/TranspointProject/raw/master/Modelos/Modelo%20Conceitual/Modelo%20Conceitual.jpg" alt="Alt text" title="Modelo Conceitual" style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Conceitual_1.png" target="_blank"><img src="https://github.com/RodoBus/trab01/blob/master/Conceitual_1.png" alt="Alt text" title="Modelo Conceitual" style="max-width:100%;"></a>
 -->
 
     A) NOTACAO ENTIDADE RELACIONAMENTO 
@@ -66,7 +66,7 @@ COMO COLOCAR:
         * O protótipo deve possui no mínimo duas relações N para N
         * o mínimo de entidades do modelo conceitual será igual a 5
         
-![Alt text](https://github.com/discipbd1/trab01/blob/master/sample_MC.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/RodoBus/trab01/blob/master/Conceitual_1.png)
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
