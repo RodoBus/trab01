@@ -134,8 +134,8 @@ diferenciar a identificação dos funcionários presentes na Tabela de FUNCIONAR
 <li>ID_ROTA: (CHAVE PRIMARIA) Campo que armazena a identificação da rota. Este campo é ligado à tabela PASSAGEM. </li>
 <li>HORA_SAIDA: Campo que armazena o horário de saída de cada rota. </li>
 <li>HORA_CHEGADA: Campo que armazena o tempo estimado para chegada de cada rota. </li>
-<li>ORIGEM: Campo que armazena o ponto de partida de cada rota. </li>
-<li>DESTINO: Campo que armazena o ponto de chegada de cada rota. </li>
+<li>ID_RODOVIARIA_SAIDA: Campo que armazena a rodoviária origem de cada rota. </li>
+<li>ID_RODOVIARIA_CHEGADA: Campo que armazena a rodoviária destino de cada rota. </li>
 <br>        
 <b>Tabela EMPRESA</b>: Tabela que armazena informações sobre cada empresa. <br>
 <li>ID_EMPRESA: (CHAVE PRIMARIA) Campo que armazena a identidade de cada empresa vinculada. 
