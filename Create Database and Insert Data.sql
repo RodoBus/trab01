@@ -1,5 +1,3 @@
--- Modelo Lógico
-
 
 /* Cria tabela PESSOA */
 CREATE TABLE Pessoa 
@@ -78,7 +76,7 @@ CREATE TABLE Companhia
 CREATE TABLE Rodoviaria 
 (
     ID_rodoviaria INTEGER PRIMARY KEY,
-    ID_empresa VARCHAR[30],
+    ID_empresa INTEGER,
     Horario_de_funcionamento VARCHAR[30]
 );
  
@@ -93,7 +91,7 @@ ALTER TABLE Pessoa_passageiro ADD CONSTRAINT FK_Pessoa_passageiro
  
  
 /* Cria a chave estrangeira ID_passagem A PARTIR DO AUTO-RELACIONAMENTO DA TABELA PASSAGEM */
-ALTER TABLE Pessoa_passageiro ADD CONSTRAINT FK_Pessoa_passageiro
+ALTER TABLE Pessoa_passageiro ADD CONSTRAINT FK_Pessoa_passageiro_2
     FOREIGN KEY (ID_passagem)
     REFERENCES Passagem (ID_passagem); 
     
@@ -105,7 +103,7 @@ ALTER TABLE Pessoa_funcionario ADD CONSTRAINT FK_Pessoa_funcionario
 
 
  /* Cria a chave estrangeira ID_empresa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA EMPRESA */
-ALTER TABLE Pessoa_funcionario ADD CONSTRAINT FK_Pessoa_funcionario
+ALTER TABLE Pessoa_funcionario ADD CONSTRAINT FK_Pessoa_funcionario_2
     FOREIGN KEY (ID_empresa)
     REFERENCES Empresa (ID_empresa);
 
@@ -117,7 +115,7 @@ ALTER TABLE Rotas ADD CONSTRAINT FK_Rotas
     
 
 /* Cria a chave estrangeira ID_rodoviaria_saida A PARTIR DO AUTO-RELACIONAMENTO DA TABELA RODOVIARIA */
-ALTER TABLE Rotas ADD CONSTRAINT FK_Rotas
+ALTER TABLE Rotas ADD CONSTRAINT FK_Rotas_2
     FOREIGN KEY (ID_rodoviaria_saida)
     REFERENCES Rodoviaria (ID_rodoviaria);
 
@@ -129,7 +127,7 @@ ALTER TABLE Passagem ADD CONSTRAINT FK_Passagem
     
 
 /* Cria a chave estrangeira ID_companhia A PARTIR DO AUTO-RELACIONAMENTO DA TABELA COMPANHIA */
-ALTER TABLE Passagem ADD CONSTRAINT FK_Passagem
+ALTER TABLE Passagem ADD CONSTRAINT FK_Passagem_2
     FOREIGN KEY (ID_companhia)
     REFERENCES Companhia (ID_companhia);
     
@@ -146,5 +144,13 @@ ALTER TABLE Rodoviaria ADD CONSTRAINT FK_Rodoviaria
     REFERENCES Empresa (ID_empresa);
     
     
-
-/* Inserts */
+    
+/* SELECTS para vermos as tabelas */
+SELECT * from Pessoa;
+SELECT * from Pessoa_passageiro;
+SELECT * from Pessoa_funcionario;
+SELECT * from Rotas;
+SELECT * from Empresa;
+SELECT * from Passagem;
+SELECT * from Companhia;
+SELECT * from Rodoviaria;
