@@ -82,33 +82,33 @@ CREATE TABLE Rodoviaria
 );
 
 
- 
+
+
 ALTER TABLE Pessoa_passageiro ADD CONSTRAINT FK_Pessoa_passageiro_1
     FOREIGN KEY (FK_Pessoa_ID_pessoa)
-    REFERENCES Pessoa (ID_pessoa)
-    ON DELETE CASCADE ON UPDATE CASCADE;
+    REFERENCES Pessoa (ID_pessoa);
+ 
  
 ALTER TABLE Pessoa_funcionario ADD CONSTRAINT FK_Pessoa_funcionario_1
     FOREIGN KEY (FK_Pessoa_ID_pessoa)
-    REFERENCES Pessoa (ID_pessoa)
-    ON DELETE CASCADE ON UPDATE CASCADE;
- 
+    REFERENCES Pessoa (ID_pessoa);
+
+
 ALTER TABLE Companhia ADD CONSTRAINT FK_Companhia_1
     FOREIGN KEY (FK_Empresa_ID_empresa)
-    REFERENCES Empresa (ID_empresa)
-    ON DELETE CASCADE ON UPDATE CASCADE;
+    REFERENCES Empresa (ID_empresa);
+ 
  
 ALTER TABLE Rodoviaria ADD CONSTRAINT FK_Rodoviaria_1
     FOREIGN KEY (FK_Empresa_ID_empresa)
-    REFERENCES Empresa (ID_empresa)
-    ON DELETE CASCADE ON UPDATE CASCADE;
+    REFERENCES Empresa (ID_empresa);
+ 
  
 ALTER TABLE Tem ADD CONSTRAINT FK_Tem_0
     FOREIGN KEY (FK_Pessoa_passageiro_ID_passageiro, FK_Pessoa_passageiro_FK_Pessoa_ID_pessoa)
-    REFERENCES Pessoa_passageiro (ID_passageiro, FK_Pessoa_ID_pessoa)
-    ON DELETE RESTRICT ON UPDATE RESTRICT;
+    REFERENCES Pessoa_passageiro (ID_passageiro, FK_Pessoa_ID_pessoa);
+ 
  
 ALTER TABLE Tem ADD CONSTRAINT FK_Tem_1
     FOREIGN KEY (FK_Passagem_ID_passagem)
-    REFERENCES Passagem (ID_passagem)
-    ON DELETE RESTRICT ON UPDATE RESTRICT;
+    REFERENCES Passagem (ID_passagem);
