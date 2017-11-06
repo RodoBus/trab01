@@ -58,7 +58,7 @@ O sistema gera relatórios com as informações: <br>
 
 <!--
 COMO COLOCAR:
-<a href="https://github.com/RodoBus/trab01/blob/master/images/Conceitual_.brM3" target="_blank"><img src="https://github.com/RodoBus/trab01/blob/master/images/Conceitual_.brM3" alt="Alt text" title="Modelo Conceitual" style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Conceitual_.brM3" target="_blank"><img src="https://github.com/RodoBus/trab01/blob/master/Conceitual_.brM3" alt="Alt text" title="Modelo Conceitual" style="max-width:100%;"></a>
 -->
 
     A) NOTACAO ENTIDADE RELACIONAMENTO 
@@ -66,7 +66,7 @@ COMO COLOCAR:
         * O protótipo deve possui no mínimo duas relações N para N
         * o mínimo de entidades do modelo conceitual será igual a 5
         
-![Alt text](https://github.com/RodoBus/trab01/blob/master/images/Conceitual_.brM3)
+![Alt text](https://github.com/RodoBus/trab01/blob/master/Conceitual_.brM3)
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
