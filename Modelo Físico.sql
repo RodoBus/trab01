@@ -20,7 +20,7 @@ CREATE TABLE Pessoa_passageiro
 (
     ID_passageiro INTEGER PRIMARY KEY,
     ID_pessoa INTEGER,
-    ID_passagem INTEGER,
+    ID_passagem INTEGER
 );
 
 
@@ -29,7 +29,7 @@ CREATE TABLE Pessoa_funcionario
 (
     ID_funcionario INTEGER PRIMARY KEY,
     ID_pessoa INTEGER,
-    ID_empresa INTEGER,
+    ID_empresa INTEGER
 );
 
 
@@ -78,8 +78,8 @@ CREATE TABLE Companhia
 CREATE TABLE Rodoviaria 
 (
     ID_rodoviaria INTEGER PRIMARY KEY,
-    ID_empresa VARCHAR[30]
-    Horario_de_funcionamento VARCHAR[30],
+    ID_empresa VARCHAR[30],
+    Horario_de_funcionamento VARCHAR[30]
 );
  
  
