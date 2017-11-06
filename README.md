@@ -165,9 +165,17 @@ diferenciar a identificação dos funcionários presentes na Tabela de FUNCIONAR
           
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
+
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físic
-        b) formato .SQL
+
+Geramos os dados de forma aleatória pelos links: <br>
+http://listofrandomnames.com/index.cfm <br>
+http://www.geomidpoint.com/random/ <br>
+http://pt.fakenamegenerator.com/ <br>
+http://random-date-generator.com/ <br>
+
+Não utilizamos códigos previamente pronto. Desenvolvemos projeto a partir de situações cotidianas. <br>
+
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
