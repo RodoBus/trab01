@@ -134,3 +134,7 @@ ALTER TABLE Rodoviaria ADD CONSTRAINT FK_Rodoviaria
     FOREIGN KEY (ID_empresa)
     REFERENCES Empresa (ID_empresa);
     
+
+
+
+/* Inserts */
