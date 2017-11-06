@@ -1,6 +1,7 @@
 -- Modelo Lógico
 
 
+/* Cria tabela PESSOA */
 CREATE TABLE Pessoa 
 (
     ID_pessoa INTEGER PRIMARY KEY,
@@ -14,6 +15,7 @@ CREATE TABLE Pessoa
 );
 
 
+/* Cria tabela PESSOA_PASSAGEIRO */
 CREATE TABLE Pessoa_passageiro 
 (
     ID_passageiro INTEGER PRIMARY KEY,
@@ -22,6 +24,7 @@ CREATE TABLE Pessoa_passageiro
 );
 
 
+/* Cria tabela PESSOA_FUNCIONARIO */
 CREATE TABLE Pessoa_funcionario 
 (
     ID_funcionario INTEGER PRIMARY KEY,
@@ -30,6 +33,7 @@ CREATE TABLE Pessoa_funcionario
 );
 
 
+/* Cria tabela ROTAS */
 CREATE TABLE Rotas 
 (
     ID_rota INTEGER PRIMARY KEY,
@@ -40,6 +44,7 @@ CREATE TABLE Rotas
 );
 
 
+/* Cria tabela EMPRESA */
 CREATE TABLE Empresa 
 (
     ID_empresa INTEGER PRIMARY KEY,
@@ -48,6 +53,7 @@ CREATE TABLE Empresa
 );
 
 
+/* Cria tabela PASSAGEM */
 CREATE TABLE Passagem 
 (
     ID_passagem INTEGER PRIMARY KEY,
@@ -59,6 +65,7 @@ CREATE TABLE Passagem
 );
 
 
+/* Cria tabela COMPANHIA */
 CREATE TABLE Companhia 
 (
     ID_companhia INTEGER PRIMARY KEY,
@@ -67,6 +74,7 @@ CREATE TABLE Companhia
 );
 
 
+/* Cria tabela RODOVIARIA */
 CREATE TABLE Rodoviaria 
 (
     ID_rodoviaria INTEGER PRIMARY KEY,
@@ -75,7 +83,7 @@ CREATE TABLE Rodoviaria
 );
  
  
- 
+
  
  
 /* Cria a chave estrangeira ID_pessoa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA PESSOA */
