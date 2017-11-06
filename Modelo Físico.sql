@@ -78,8 +78,8 @@ CREATE TABLE Companhia
 CREATE TABLE Rodoviaria 
 (
     ID_rodoviaria INTEGER PRIMARY KEY,
-    Horario_de_funcionamento VARCHAR[30],
     ID_empresa VARCHAR[30]
+    Horario_de_funcionamento VARCHAR[30],
 );
  
  
@@ -120,12 +120,6 @@ ALTER TABLE Rotas ADD CONSTRAINT FK_Rotas
 ALTER TABLE Rotas ADD CONSTRAINT FK_Rotas
     FOREIGN KEY (ID_rodoviaria_saida)
     REFERENCES Rodoviaria (ID_rodoviaria);
-    
-    
-/* Cria a chave estrangeira ID_empresa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA EMPRESA */
-ALTER TABLE Companhia ADD CONSTRAINT FK_Companhia
-    FOREIGN KEY (ID_empresa)
-    REFERENCES Empresa (ID_empresa);
 
  
  /* Cria a chave estrangeira ID_rota A PARTIR DO AUTO-RELACIONAMENTO DA TABELA ROTAS */
@@ -137,7 +131,13 @@ ALTER TABLE Passagem ADD CONSTRAINT FK_Passagem
 /* Cria a chave estrangeira ID_companhia A PARTIR DO AUTO-RELACIONAMENTO DA TABELA COMPANHIA */
 ALTER TABLE Passagem ADD CONSTRAINT FK_Passagem
     FOREIGN KEY (ID_companhia)
-    REFERENCES Rotas (ID_companhia);
+    REFERENCES Companhia (ID_companhia);
+    
+    
+/* Cria a chave estrangeira ID_empresa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA EMPRESA */
+ALTER TABLE Companhia ADD CONSTRAINT FK_Companhia
+    FOREIGN KEY (ID_empresa)
+    REFERENCES Empresa (ID_empresa);
     
     
 /* Cria a chave estrangeira ID_empresa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA EMPRESA */
