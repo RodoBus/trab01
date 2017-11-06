@@ -160,8 +160,8 @@ diferenciar a identificação dos funcionários presentes na Tabela de FUNCIONAR
 >## Marco de Entrega 02 em: (Data definida no cronograma)<br>
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..)
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Modelo%20F%C3%ADsico.sql"><img src="https://github.com/RodoBus/trab01/blob/master/Modelo%20F%C3%ADsico.sql" alt="Alt text" title="Modelo Lógico" style="max-width:100%;"></a>
           
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
