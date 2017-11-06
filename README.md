@@ -62,10 +62,7 @@ O sistema gera relatórios com as informações: <br>
     A) NOTACAO ENTIDADE RELACIONAMENTO 
         * Para nosso prótótipo limitaremos o modelo conceitual nas 6 principais entidades do escopo
         * O protótipo deve possui no mínimo duas relações N para N
-        * o mínimo de entidades do modelo conceitual será igual a 5
-        
-![Alt text](https://github.com/RodoBus/trab01/blob/master/Conceitual_.brM3)
-    
+        * o mínimo de entidades do modelo conceitual será igual a 5    
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
         Garantir que a semântica dos atributos seja clara no esquema
@@ -157,9 +154,8 @@ diferenciar a identificação dos funcionários presentes na Tabela de FUNCIONAR
 
 
 ### 6	MODELO LÓGICO<br>
-        a) inclusão do modelo lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Modelo%20L%C3%B3gico.png"><img src="https://github.com/RodoBus/trab01/blob/master/Modelo%20L%C3%B3gico.png" alt="Alt text" title="Modelo Lógico" style="max-width:100%;"></a>
 
 >## Marco de Entrega 02 em: (Data definida no cronograma)<br>
 
