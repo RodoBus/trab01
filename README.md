@@ -161,7 +161,7 @@ diferenciar a identificação dos funcionários presentes na Tabela de FUNCIONAR
 
 ### 7	MODELO FÍSICO<br>
 
-<a href="https://github.com/RodoBus/trab01/blob/master/Modelo%20F%C3%ADsico.sql"><img src="https://github.com/RodoBus/trab01/blob/master/Modelo%20F%C3%ADsico.sql" alt="Alt text" title="Modelo Lógico" style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Modelo%20F%C3%ADsico.sql"><img src="https://github.com/RodoBus/trab01/blob/master/Modelo%20F%C3%ADsico.sql" alt="Modelo Lógico" title="Modelo Lógico" style="max-width:100%;"></a>
           
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
