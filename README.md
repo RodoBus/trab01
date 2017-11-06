@@ -173,6 +173,7 @@ http://listofrandomnames.com/index.cfm <br>
 http://www.geomidpoint.com/random/ <br>
 http://pt.fakenamegenerator.com/ <br>
 http://random-date-generator.com/ <br>
+http://www.calcprofi.com/pt/gerador-de-numeros-de-telefone-aleatorio.html <br>
 
 Não utilizamos códigos previamente pronto. Desenvolvemos projeto a partir de situações cotidianas. <br>
 
