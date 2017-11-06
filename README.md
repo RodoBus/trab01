@@ -56,10 +56,8 @@ O sistema gera relatórios com as informações: <br>
 
 ### 5.MODELO CONCEITUAL<br>
 
-<!--
-COMO COLOCAR:
-<a href="https://github.com/RodoBus/trab01/blob/master/Conceitual_.brM3" target="_blank"><img src="https://github.com/RodoBus/trab01/blob/master/Conceitual_.brM3" alt="Alt text" title="Modelo Conceitual" style="max-width:100%;"></a>
--->
+<a href="https://github.com/RodoBus/trab01/blob/master/Modelo%20Conceitual.png"><img src="https://github.com/RodoBus/trab01/blob/master/Modelo%20Conceitual.png" alt="Alt text" title="Modelo Conceitual" style="max-width:100%;"></a>
+
 
     A) NOTACAO ENTIDADE RELACIONAMENTO 
         * Para nosso prótótipo limitaremos o modelo conceitual nas 6 principais entidades do escopo
