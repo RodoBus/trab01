@@ -19,7 +19,6 @@ CREATE TABLE Pessoa_passageiro
     ID_passageiro INTEGER PRIMARY KEY,
     ID_pessoa INTEGER,
     ID_passagem INTEGER,
-    ID_pessoa INTEGER
 );
 
 
@@ -28,7 +27,6 @@ CREATE TABLE Pessoa_funcionario
     ID_funcionario INTEGER PRIMARY KEY,
     ID_pessoa INTEGER,
     ID_empresa INTEGER,
-    ID_pessoa INTEGER
 );
 
 
@@ -78,69 +76,40 @@ CREATE TABLE Rodoviaria
  
  
  
-
-ALTER TABLE Rotas ADD CONSTRAINT ID_rota
-    FOREIGN KEY (ID_rota???)
-    REFERENCES ??? (???);
  
  
-ALTER TABLE Pessoa_passageiro ADD CONSTRAINT ID_passageiro
+/* Cria a chave estrangeira ID_pessoa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA PESSOA */
+ALTER TABLE Pessoa_passageiro ADD CONSTRAINT FK_Pessoa_passageiro
     FOREIGN KEY (ID_pessoa)
-    REFERENCES Pessoa (ID_pessoa)
-    ON DELETE CASCADE ON UPDATE CASCADE;
- 
- 
-ALTER TABLE Pessoa_funcionario ADD CONSTRAINT FK_Pessoa_funcionario_1
-    FOREIGN KEY (ID_pessoa)
-    REFERENCES Pessoa (ID_pessoa)
-    ON DELETE CASCADE ON UPDATE CASCADE;
- 
- 
-ALTER TABLE Pessoa_funcionario ADD CONSTRAINT FK_Pessoa_funcionario_2
-    FOREIGN KEY (ID_pessoa???, ID_empresa???, ID_pessoa???)
-    REFERENCES ??? (???);
- 
- 
-ALTER TABLE Passagem ADD CONSTRAINT FK_Passagem_1
-    FOREIGN KEY (ID_rota???, ID_companhia???)
-    REFERENCES Rotas (???, ???);
- 
- 
-ALTER TABLE Companhia ADD CONSTRAINT FK_Companhia_1
-    FOREIGN KEY (FK_Empresa_ID_empresa)
-    REFERENCES Empresa (ID_empresa)
-    ON DELETE CASCADE ON UPDATE CASCADE;
- 
- 
-ALTER TABLE Companhia ADD CONSTRAINT FK_Companhia_2
-    FOREIGN KEY (ID_empresa???)
-    REFERENCES ??? (???);
- 
- 
-ALTER TABLE Rodoviaria ADD CONSTRAINT FK_Rodoviaria_1
-    FOREIGN KEY (ID_empresa???)
-    REFERENCES Empresa (???)
-    ON DELETE CASCADE ON UPDATE CASCADE;
-
-
-
-
-ALTER TABLE Pessoa_passageiro ADD CONSTRAINT FK_Pessoa_passageiro_1
-    FOREIGN KEY (FK_Pessoa_ID_pessoa)
     REFERENCES Pessoa (ID_pessoa);
  
  
-ALTER TABLE Pessoa_funcionario ADD CONSTRAINT FK_Pessoa_funcionario_1
-    FOREIGN KEY (FK_Pessoa_ID_pessoa)
+ /* Cria a chave estrangeira ID_pessoa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA PESSOA */
+ALTER TABLE Pessoa_funcionario ADD CONSTRAINT FK_Pessoa_funcionario
+    FOREIGN KEY (ID_pessoa)
     REFERENCES Pessoa (ID_pessoa);
 
 
-ALTER TABLE Companhia ADD CONSTRAINT FK_Companhia_1
-    FOREIGN KEY (FK_Empresa_ID_empresa)
+/* Cria a chave estrangeira ID_empresa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA EMPRESA */
+ALTER TABLE Companhia ADD CONSTRAINT FK_Companhia
+    FOREIGN KEY (ID_empresa)
     REFERENCES Empresa (ID_empresa);
  
  
-ALTER TABLE Rodoviaria ADD CONSTRAINT FK_Rodoviaria_1
-    FOREIGN KEY (FK_Empresa_ID_empresa)
+/* Cria a chave estrangeira ID_empresa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA EMPRESA */
+ALTER TABLE Rodoviaria ADD CONSTRAINT FK_Rodoviaria
+    FOREIGN KEY (ID_empresa)
     REFERENCES Empresa (ID_empresa);
  
+ 
+ /* Cria a chave estrangeira ID_rota A PARTIR DO AUTO-RELACIONAMENTO DA TABELA ROTAS */
+ALTER TABLE Passagem ADD CONSTRAINT FK_Passagem
+    FOREIGN KEY (ID_rota)
+    REFERENCES Rotas (ID_rota);
+    
+
+/* Cria a chave estrangeira ID_companhia A PARTIR DO AUTO-RELACIONAMENTO DA TABELA COMPANHIA */
+ALTER TABLE Passagem ADD CONSTRAINT FK_Passagem
+    FOREIGN KEY (ID_companhia)
+    REFERENCES Rotas (ID_companhia);
+    
