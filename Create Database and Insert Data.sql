@@ -61,7 +61,7 @@ CREATE TABLE Passagem
     ID_companhia INTEGER,
     Data_compra VARCHAR[30],
     Data_viagem VARCHAR[30],
-    preco DOUBLE
+    preco FLOAT
 );
 
 
