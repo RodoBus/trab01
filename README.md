@@ -161,7 +161,7 @@ diferenciar a identificação dos funcionários presentes na Tabela de FUNCIONAR
 
 ### 7	MODELO FÍSICO<br>
 
-<a href="https://github.com/RodoBus/trab01/blob/master/Modelo%20F%C3%ADsico.sql"><img src="https://github.com/RodoBus/trab01/blob/master/Modelo%20F%C3%ADsico.sql" alt="Modelo Físico" title="Modelo Físico" style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Modelo%20F%C3%ADsico.sql">Modelo Físico</a>
           
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
@@ -178,17 +178,28 @@ Não utilizamos códigos previamente pronto. Desenvolvemos projeto a partir de s
 
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
+        
+<a href="https://github.com/RodoBus/trab01/blob/master/Inserts%20data">Script de insert de dados ao banco.</a>
+
+<!--        
         a) Junção dos scripts anteriores em um único script 
         (create para tabelas e estruturas de dados + dados a serem inseridos)
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
+-->
+
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
+        
+<a href="https://github.com/RodoBus/trab01/blob/master/Create%20Database%20and%20Insert%20Data.sql">Script de criação do banco, inserção dos dados e backup das tabelas. </a>
+
+<!--
         a) Junção dos scripts anteriores em um único script 
         (Drop table + Create de tabelas e estruturas de dados + dados a serem inseridos)
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
+-->
 
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
