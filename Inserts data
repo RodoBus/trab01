@@ -8,7 +8,13 @@ INSERT INTO EMPRESA(NOME,ID_EMPRESA,TELEFONE) VALUES
 ('Terminal Rodoviário de Carapina Águia Branca',2,2721689543),
 ('Terminal Rodoviária de Vitória Carlos Alberto V. Campos',1,2795867541),
 ('Terminal Rodoviário de Vila Velha',4,2774636287),
-('Terminal Rodoviário de Domingos Martins',3,2721546388);
+('Terminal Rodoviário de Domingos Martins',3,2721546388),
+('Viação Águia Branca',5,2721205363),
+('Viação Gontijo',6,2721224000),
+('Viação Itapemirim',7,2721215600),
+('Viação Planeta',8,2721277000),
+('Viação Kaissara',9,21225748),
+('Viação Alvorada',10,21205542);
 
 INSERT INTO PESSOA(NOME,IDENTIDADE,CPF,ID_PESSOA,TELEFONE,EMAIL,DATA_DE_NASCIMENTO,NACIONALIDADE) VALUES
 ('Jorge Teixeira Coelho',3950847,1758095381,1,27981376440,'jcoelho@live.com','14/01/1989','Brasileiro'),
@@ -52,5 +58,13 @@ INSERT INTO PASSAGEM(ID_PASSAGEM,ID_ROTA,ID_COMPANHIA,DATA_COMPRA,DATA_VIAGEM) V
 (1,3,3,'25/10/2017,13:10:20','15/11/2017',45.00),
 (1,3,3,'26/10/2017,21:58:11','15/11/2017',45.00);
 
+INSERT INTO COMPANHIA(ID_COMPANHIA,ID_EMPRESA,EMAIL) VALUES
+(1,5,'sac@aguiabranca.com.br'),
+(2,6,'sac@gontijo.com.br'),
+(3,7,'sac@itapemirim.com.br'),
+(4,8,'sac@planeta.com.br'),
+(5,9,'sac@kaissara.com.br'),
+(6,10,'sac@alvorada.com.br');
 
+INSERT INTO RODOVIARIA
 
