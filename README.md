@@ -58,7 +58,7 @@ O sistema gera relatórios com as informações: <br>
 
 <!--
 COMO COLOCAR:
-<a href="https://github.com/RodoBus/trab01/blob/master/Conceitual_1.png" target="_blank"><img src="https://github.com/RodoBus/trab01/blob/master/Conceitual_1.png" alt="Alt text" title="Modelo Conceitual" style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/images/Conceitual_.brM3" target="_blank"><img src="https://github.com/RodoBus/trab01/blob/master/images/Conceitual_.brM3" alt="Alt text" title="Modelo Conceitual" style="max-width:100%;"></a>
 -->
 
     A) NOTACAO ENTIDADE RELACIONAMENTO 
