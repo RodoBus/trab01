@@ -32,6 +32,12 @@ INSERT INTO PESSOA(NOME,IDENTIDADE,CPF,ID_PESSOA,TELEFONE,EMAIL,DATA_DE_NASCIMEN
 ('Ricardo Ramalho Ramos',3698641,489643154,13,2733645521,'ricard_r@gmail.com','01/10/1957','Brasileiro'),
 ('Josefa Borges Zucarato',3590253,01475426215,14,2733385426,'jojo_zuca10@hotmail.com','15/10/1995','Brasileiro'),
 ('William Matheus de Jesus Rekel',3482600,70758296920,15,2730658484,'will.i.am@hotmail.com','10/10/1999','Brasileiro'),
+('Felipe Bastos de Sá',3591266,14851523365,16,2733154767,'felipe_do_volei@live.com','15/01/1990','Brasileiro'),
+('Julia Menezes de Assis',3598203,70787563653,17,2731352007,'juliassis@hotmail.com','12/04/1996','Brasileiro'),
+('Jordão Soares Araújo',3554798,01754726285,18,2730417187,'jordaraujo@gontijo.com.br','01/03/1975','Brasileiro'),
+('Maria Aparecida do Carmo',3459759,14897160658,19,2732412700,'maria.carminha@hotmail.com','29/05/1969','Brasileiro'),
+('Pablo Roberto Garcia',3850472,01735760653,20,2730648494,'pablito.violao@live.com','22/09/1988','Mexicano');
+
 
 INSERT INTO PESSOA_PASSAGEIRO(ID_PESSOA,ID_PASSAGEIRO,ID_PASSAGEM) VALUES
 (7,1,1),
