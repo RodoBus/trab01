@@ -1,4 +1,4 @@
--- Modelo Lógico e Inserts
+-- Modelo Físico e Inserts
 
 
 /* Cria tabela PESSOA */
