@@ -59,8 +59,8 @@ CREATE TABLE Passagem
     ID_passagem INTEGER PRIMARY KEY,
     ID_rota INTEGER,
     ID_companhia INTEGER,
-    Data_compra VARCHAR[30],
-    Data_viagem VARCHAR[30],
+    Data_compra DATE,
+    Data_viagem DATE,
     preco FLOAT
 );
 
@@ -79,7 +79,7 @@ CREATE TABLE Rodoviaria
 (
     ID_rodoviaria INTEGER PRIMARY KEY,
     ID_empresa INTEGER,
-    Horario_de_funcionamento VARCHAR[30]
+    Horario_de_funcionamento TIME
 );
  
  
