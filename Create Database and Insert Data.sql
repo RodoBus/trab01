@@ -1,4 +1,3 @@
-
 /* Cria tabela PESSOA */
 CREATE TABLE Pessoa 
 (
@@ -57,8 +56,8 @@ CREATE TABLE Passagem
     ID_passagem INTEGER PRIMARY KEY,
     ID_rota INTEGER,
     ID_companhia INTEGER,
-    Data_compra VARCHAR[30],
-    Data_viagem VARCHAR[30],
+    Data_compra DATE,
+    Data_viagem DATE,
     preco FLOAT
 );
 
@@ -77,7 +76,7 @@ CREATE TABLE Rodoviaria
 (
     ID_rodoviaria INTEGER PRIMARY KEY,
     ID_empresa INTEGER,
-    Horario_de_funcionamento VARCHAR[30]
+    Horario_de_funcionamento TIME
 );
  
  
@@ -145,12 +144,5 @@ ALTER TABLE Rodoviaria ADD CONSTRAINT FK_Rodoviaria
     
     
     
-/* SELECTS para vermos as tabelas */
-SELECT * from Pessoa;
-SELECT * from Pessoa_passageiro;
-SELECT * from Pessoa_funcionario;
-SELECT * from Rotas;
-SELECT * from Empresa;
-SELECT * from Passagem;
-SELECT * from Companhia;
-SELECT * from Rodoviaria;
+
+
