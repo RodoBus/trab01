@@ -15,53 +15,12 @@ CREATE TABLE PESSOA
 );
 
 
-/* Cria tabela PESSOA_PASSAGEIRO */
-CREATE TABLE PESSOA_PASSAGEIRO 
-(
-    ID_passageiro INTEGER PRIMARY KEY,
-    ID_pessoa INTEGER,
-    ID_passagem INTEGER
-);
-
-
-/* Cria tabela PESSOA_FUNCIONARIO */
-CREATE TABLE PESSOA_FUNCIONARIO 
-(
-    ID_funcionario INTEGER PRIMARY KEY,
-    ID_pessoa INTEGER,
-    ID_empresa INTEGER
-);
-
-
-/* Cria tabela ROTAS */
-CREATE TABLE ROTAS 
-(
-    ID_rota INTEGER PRIMARY KEY,
-    Hora_chegada INTEGER,
-    Hora_saida VARCHAR[30],
-    ID_rodoviaria_saida INTEGER,
-    ID_rodoviaria_chegada INTEGER
-);
-
-
 /* Cria tabela EMPRESA */
 CREATE TABLE EMPRESA 
 (
     ID_empresa INTEGER PRIMARY KEY,
     Nome VARCHAR[30],
     Telefone VARCHAR[30]
-);
-
-
-/* Cria tabela PASSAGEM */
-CREATE TABLE PASSAGEM 
-(
-    ID_passagem INTEGER PRIMARY KEY,
-    ID_rota INTEGER,
-    ID_companhia INTEGER,
-    Data_compra DATE,
-    Data_viagem DATE,
-    preco FLOAT
 );
 
 
@@ -81,6 +40,48 @@ CREATE TABLE RODOVIARIA
     ID_empresa INTEGER,
     Horario_de_funcionamento TIME
 );
+
+
+/* Cria tabela ROTAS */
+CREATE TABLE ROTAS 
+(
+    ID_rota INTEGER PRIMARY KEY,
+    Hora_chegada INTEGER,
+    Hora_saida VARCHAR[30],
+    ID_rodoviaria_saida INTEGER,
+    ID_rodoviaria_chegada INTEGER
+);
+
+
+/* Cria tabela PASSAGEM */
+CREATE TABLE PASSAGEM 
+(
+    ID_passagem INTEGER PRIMARY KEY,
+    ID_rota INTEGER,
+    ID_companhia INTEGER,
+    Data_compra DATE,
+    Data_viagem DATE,
+    preco FLOAT
+);
+
+
+/* Cria tabela PESSOA_PASSAGEIRO */
+CREATE TABLE PESSOA_PASSAGEIRO 
+(
+    ID_passageiro INTEGER PRIMARY KEY,
+    ID_pessoa INTEGER,
+    ID_passagem INTEGER
+);
+
+
+/* Cria tabela PESSOA_FUNCIONARIO */
+CREATE TABLE PESSOA_FUNCIONARIO 
+(
+    ID_funcionario INTEGER PRIMARY KEY,
+    ID_pessoa INTEGER,
+    ID_empresa INTEGER
+);
+
  
  
 
