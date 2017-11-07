@@ -1,4 +1,4 @@
--- Modelo Lógico
+-- Modelo Físico
 
 
 /* Cria tabela PESSOA */
