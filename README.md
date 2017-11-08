@@ -291,25 +291,25 @@ SELECT * from ROTAS where HORA_SAIDA > 12:00;
 
 SELECT * from PASSAGEM where DATA_COMPRA => '01/11/2017';
 
-<a href="https://github.com/RodoBus/trab01/blob/master/PASSAGEM_9.2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/PASSAGEM_9.2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="LINK"><img src="LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 
 
 SELECT ID_EMPRESA,NOME as "Viação" from EMPRESA where NOME like 'Viação_%';
 
-<a href="https://github.com/RodoBus/trab01/blob/master/PASSAGEM_9.2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/PASSAGEM_9.2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/WHERE_6.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/WHERE_6.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 
 
 SELECT ID_PESSOA,NOME as "Cliente",CPF from PESSOA;
 
-<a href="https://github.com/RodoBus/trab01/blob/master/PASSAGEM_9.2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/PASSAGEM_9.2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/WHERE_7.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/WHERE_7.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 
 
 SELECT * from PASSAGEM where PRECO < 45.00;
 
-<a href="https://github.com/RodoBus/trab01/blob/master/PASSAGEM_9.2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/PASSAGEM_9.2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/WHERE_8.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/WHERE_8.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 
 
