@@ -251,25 +251,25 @@ Não utilizamos códigos previamente pronto. Desenvolvemos projeto a partir de s
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">FROM</span> PESSOA <span class="pl-k">WHERE</span> NACIONALIDADE <span class="pl-k">!=</span> <span class="pl-s"><span class="pl-pds">'</span>BRASIL<span class="pl-pds">'</span></span>;</pre>
+<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> PESSOA <span class="pl-k">where</span> NACIONALIDADE <span class="pl-k">!=</span> <span class="pl-s"><span class="pl-pds">'</span>'Brasil'<span class="pl-pds">'</span></span>;</pre>
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">FROM</span> PASSAGEM <span class="pl-k">WHERE</span> PRECO <span class="pl-k">></span> <span class="pl-s"><span class="pl-pds">'</span>40.00<span class="pl-pds">'</span></span>;</pre>
+<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> PASSAGEM <span class="pl-k">where</span> PRECO <span class="pl-k">></span> <span class="pl-s"><span class="pl-pds">'</span>40.00<span class="pl-pds">'</span></span>;</pre>
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">FROM</span> ROTAS <span class="pl-k">WHERE</span> ID_RODOVIARIA_SAIDA <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>Terminal Rodoviário de Vila Velha<span class="pl-pds">'</span></span>;</pre>
+<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> ROTAS <span class="pl-k">where</span> ID_RODOVIARIA_SAIDA <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>'Terminal Rodoviário de Vila Velha'<span class="pl-pds">'</span></span>;</pre>
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">FROM</span> PASSAGEM <span class="pl-k">WHERE</span> PRECO <span class="pl-k">></span> <span class="pl-s"><span class="pl-pds">'</span>40.00<span class="pl-pds">'</span></span>;</pre>
+<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> ROTAS <span class="pl-k">where</span> HORA_SAIDA <span class="pl-k">></span> <span class="pl-s"><span class="pl-pds">'</span>'12:00'<span class="pl-pds">'</span></span>;</pre>
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
@@ -279,30 +279,31 @@ Não utilizamos códigos previamente pronto. Desenvolvemos projeto a partir de s
      a) Criar no mínimo 2 com operadores lógicos
      b) Criar no mínimo 2 com operadores aritméticos
      c) Criar no mínimo 2 com operação de renomear campo
+     
 
 
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 4) <br>
 
-<pre><span class="pl-k">select</span> <span class="pl-k">*</span> <span class="pl-k">from</span> PESSOA <span class="pl-k">where</span> NOME <span class="pl-k">like</span> <span class="pl-s"><span class="pl-pds">'</span>J%<span class="pl-pds">'</span></span>;</pre>
+<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> PESSOA <span class="pl-k">where</span> NOME <span class="pl-k">like</span> <span class="pl-s"><span class="pl-pds">'</span>J%<span class="pl-pds">'</span></span>;</pre>
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 
-<pre><span class="pl-k">select</span> <span class="pl-k">ID_PESSOA,NOME,CPF</span> <span class="pl-k">from</span> PESSOA <span class="pl-k">where</span> NOME <span class="pl-k">like</span> <span class="pl-s"><span class="pl-pds">'</span>_o%<span class="pl-pds">'</span></span>;</pre>
+<pre><span class="pl-k">SELECT</span> <span class="pl-k">ID_PESSOA,NOME,CPF</span> <span class="pl-k">from</span> PESSOA <span class="pl-k">where</span> NOME <span class="pl-k">like</span> <span class="pl-s"><span class="pl-pds">'</span>_o%<span class="pl-pds">'</span></span>;</pre>
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 
-<pre><span class="pl-k">select</span> <span class="pl-k">*</span> <span class="pl-k">from</span> EMPRESA <span class="pl-k">where</span> NOME <span class="pl-k">like</span> <span class="pl-s"><span class="pl-pds">'</span>%a<span class="pl-pds">'</span></span>;</pre>
+<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> EMPRESA <span class="pl-k">where</span> NOME <span class="pl-k">like</span> <span class="pl-s"><span class="pl-pds">'</span>%a<span class="pl-pds">'</span></span>;</pre>
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 
-<pre><span class="pl-k">select</span> <span class="pl-k">*</span> <span class="pl-k">from</span> EMPRESA <span class="pl-k">where</span> NOME <span class="pl-k">like</span> <span class="pl-s"><span class="pl-pds">'</span>Viação_%<span class="pl-pds">'</span></span>;</pre>
+<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> EMPRESA <span class="pl-k">where</span> NOME <span class="pl-k">like</span> <span class="pl-s"><span class="pl-pds">'</span>Viação_%<span class="pl-pds">'</span></span>;</pre>
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
