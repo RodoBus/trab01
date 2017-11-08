@@ -276,11 +276,47 @@ Não utilizamos códigos previamente pronto. Desenvolvemos projeto a partir de s
 
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 6)
-     a) Criar no mínimo 2 com operadores lógicos
-     b) Criar no mínimo 2 com operadores aritméticos
-     c) Criar no mínimo 2 com operação de renomear campo
-     
 
+<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> PASSAGEM <span class="pl-k">where</span> DATA_COMPRA <span class="pl-k">=></span> <span class="pl-s"><span class="pl-pds">'</span>'01/11/2017'<span class="pl-pds">'</span></span>;</pre>
+
+<a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
+
+
+
+<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> PESSOA <span class="pl-k">where</span> EMAIL <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>'%_@hotmail.com'<span class="pl-pds">'</span></span>;</pre> AND ...
+
+<a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
+
+
+
+<pre><span class="pl-k">select</span> NOME_PESSOA <span class="pl-k">as</span> Cliente, COD_MODALIDADE <span class="pl-k">as</span> <span class="pl-s"><span class="pl-pds">"</span>Atual modalidade<span class="pl-pds">"</span></span>, CPF <span class="pl-k">from</span> PESSOA;</pre>
+
+<a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
+
+
+
+
+<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> ROTAS <span class="pl-k">where</span> HORA_SAIDA <span class="pl-k">></span> <span class="pl-s"><span class="pl-pds">'</span>'12:00'<span class="pl-pds">'</span></span>;</pre>
+
+<a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
+
+
+
+<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> ROTAS <span class="pl-k">where</span> HORA_SAIDA <span class="pl-k">></span> <span class="pl-s"><span class="pl-pds">'</span>'12:00'<span class="pl-pds">'</span></span>;</pre>
+
+<a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
+
+
+
+<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> ROTAS <span class="pl-k">where</span> HORA_SAIDA <span class="pl-k">></span> <span class="pl-s"><span class="pl-pds">'</span>'12:00'<span class="pl-pds">'</span></span>;</pre>
+
+<a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
+
+<!--
+a) Criar no mínimo 2 com operadores lógicos
+b) Criar no mínimo 2 com operadores aritméticos
+c) Criar no mínimo 2 com operação de renomear campo
+ -->    
 
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 4) <br>
