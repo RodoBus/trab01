@@ -21,15 +21,15 @@ INSERT INTO PESSOA (ID_PESSOA,NOME,IDENTIDADE,CPF,NACIONALIDADE,TELEFONE,EMAIL,D
 (19,'Maria Aparecida do Carmo',3459759,14897160658,'Brasileiro',2732412700,'maria.carminha@hotmail.com','1969/05/29'),
 (20,'Pablo Roberto Garcia',3850472,01735760653,'Mexicano',2730648494,'pablito.violao@live.com','1988/09/22'),
 (21,'Cecila Caraveo',3122478,01725760754,'Belga',2732448394,'cece@gmail.com','1995/01/27'),
-(22,'Maryann Kissee',3712488,11722730755,1992/07/26
-(23,'Susanne Holiman',3225499,1974/07/11
-(24,'Olene Stengel',3312477,1979/08/28
-(25,'Clayton Mcdonalds',3512567,1984/08/19
-(26,'Rudolf Bohner',3444562,1964/06/29
-(27,'Florinda Holen',3612566,1968/06/12
-(28,'Grace Alessi',3332561,1992/07/26
-(29,'Danilo Keeth',3117562,1997/10/02
-(30,'Pansy Montoro',3837569,1989/10/02);
+(22,'Maryann Kissee',3712488,11722730755,'Canadense',2784529693,'mary@hotmail.com','1992/07/26'),
+(23,'Susanne Holiman',3225499,63423753134,'Brasileira,2773301507,'susaninha@gmail.com','1974/07/11'),
+(24,'Olene Stengel',3312477,19835012431,'Alemã',,'olenest@hotmail.com','1979/08/28'),
+(25,'Clayton Mcdonalds',3512567,13205438801,'Inglês',2782484288,'clay@live.com','1984/08/19'),
+(26,'Rudolf Bohner',3444562,12255438800,'Brasileiro',2728536304,'bohner@hotmail.com','1964/06/29'),
+(27,'Florinda Holen',3612566,01555426215,'Brasileira',2755545607,'donaflorinda@hotmail.com','1968/06/12'),
+(28,'Grace Alessi',3332561,11253347755,'Argentina',2759511865,'alessi_grace@hotmail.com','1992/07/26'),
+(29,'Danilo Keeth',3117562,55888715692,'Brasileiro',2733580572,'danike@hotmail.com','1997/10/02'),
+(30,'Pansy Montoro',3837569,1482798653,'Brasileira',2746261091,'pansy@gmail.com','1989/10/02');
 
 
 
