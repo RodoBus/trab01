@@ -307,16 +307,16 @@ SELECT * FROM PASSAGEM;
 
 
 -- 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)
-SELECT * from PESSOA where NACIONALIDADE != ''Brasil'';
-SELECT * from PASSAGEM where PRECO > '40.00';
-SELECT * from ROTAS where ID_RODOVIARIA_SAIDA = ''Terminal Rodoviário de Vila Velha'';
-SELECT * from ROTAS where HORA_SAIDA > ''12:00'';
+SELECT * from PESSOA where NACIONALIDADE != 'Brasil';
+SELECT * from PASSAGEM where PRECO > 40.00;
+SELECT * from ROTAS where ID_RODOVIARIA_SAIDA = 'Terminal Rodoviário de Vila Velha';
+SELECT * from ROTAS where HORA_SAIDA > 12:00;
 
 
 -- 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 6)
-SELECT * from PASSAGEM where DATA_COMPRA => ''01/11/2017'';
-SELECT ID_EMPRESA,NOME as 'Viação from EMPRESA where NOME like 'Viação_%';
-SELECT ID_PESSOA,NOME as 'Cliente',CPF from PESSOA;
+SELECT * from PASSAGEM where DATA_COMPRA => '01/11/2017';
+SELECT ID_EMPRESA,NOME as "Viação" from EMPRESA where NOME like 'Viação_%';
+SELECT ID_PESSOA,NOME as "Cliente",CPF from PESSOA;
 SELECT * from PASSAGEM where PRECO < 45.00;
 SELECT ID_PESSOA,NOME,EMAIL where NOME like 'T_%' and EMAIL like '%_hotmail.com';
 SELECT * from PASSAGEM where PRECO > 40.00 and DATA_VIAGEM < '01/11/2017';
@@ -327,3 +327,4 @@ SELECT * from PESSOA where NOME like 'J%';
 SELECT ID_PESSOA,NOME,CPF from PESSOA where NOME like '_o%';
 SELECT * from EMPRESA where NOME like '%a';
 SELECT * from EMPRESA where NOME like 'Viação_%';
+
