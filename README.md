@@ -283,34 +283,34 @@ Não utilizamos códigos previamente pronto. Desenvolvemos projeto a partir de s
 
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> PESSOA <span class="pl-k">where</span> EMAIL <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>'%_@hotmail.com'<span class="pl-pds">'</span></span>;</pre> AND ...
+SELECT ID_EMPRESA,NOME as 'Viação from EMPRESA where NOME like 'Viação_%';
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 
-<pre><span class="pl-k">select</span> NOME_PESSOA <span class="pl-k">as</span> Cliente, COD_MODALIDADE <span class="pl-k">as</span> <span class="pl-s"><span class="pl-pds">"</span>Atual modalidade<span class="pl-pds">"</span></span>, CPF <span class="pl-k">from</span> PESSOA;</pre>
+SELECT ID_PESSOA,NOME as 'Cliente',CPF from PESSOA;
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 
-
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> ROTAS <span class="pl-k">where</span> HORA_SAIDA <span class="pl-k">></span> <span class="pl-s"><span class="pl-pds">'</span>'12:00'<span class="pl-pds">'</span></span>;</pre>
-
-<a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
-
-
-
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> ROTAS <span class="pl-k">where</span> HORA_SAIDA <span class="pl-k">></span> <span class="pl-s"><span class="pl-pds">'</span>'12:00'<span class="pl-pds">'</span></span>;</pre>
+SELECT * from PASSAGEM where PRECO < 45.00;
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> ROTAS <span class="pl-k">where</span> HORA_SAIDA <span class="pl-k">></span> <span class="pl-s"><span class="pl-pds">'</span>'12:00'<span class="pl-pds">'</span></span>;</pre>
+SELECT ID_PESSOA,NOME,EMAIL where NOME like 'T_%' and EMAIL like '%_hotmail.com';
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
+
+
+
+SELECT * from PASSAGEM where PRECO > 40.00 and DATA_VIAGEM < '01/11/2017';
+
+<a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
+
 
 <!--
 a) Criar no mínimo 2 com operadores lógicos
