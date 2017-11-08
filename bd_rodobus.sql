@@ -89,7 +89,6 @@ CREATE TABLE PESSOA_FUNCIONARIO
  
  
 /* Cria a chave estrangeira ID_pessoa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA PESSOA */
-
 ALTER TABLE PESSOA_PASSAGEIRO
     ADD FOREIGN KEY (ID_pessoa) 
     REFERENCES PESSOA (ID_pessoa);
@@ -97,56 +96,57 @@ ALTER TABLE PESSOA_PASSAGEIRO
  
 /* Cria a chave estrangeira ID_passagem A PARTIR DO AUTO-RELACIONAMENTO DA TABELA PASSAGEM */
 ALTER TABLE PESSOA_PASSAGEIRO 
-    FOREIGN KEY (ID_passagem)
+    ADD FOREIGN KEY (ID_passagem)
     REFERENCES PASSAGEM (ID_passagem); 
     
  
  /* Cria a chave estrangeira ID_pessoa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA PESSOA */
 ALTER TABLE PESSOA_FUNCIONARIO 
-    FOREIGN KEY (ID_pessoa)
+    ADD FOREIGN KEY (ID_pessoa)
     REFERENCES PESSOA (ID_pessoa);
 
 
  /* Cria a chave estrangeira ID_empresa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA EMPRESA */
 ALTER TABLE PESSOA_FUNCIONARIO
-    FOREIGN KEY (ID_empresa)
+    ADD FOREIGN KEY (ID_empresa)
     REFERENCES EMPRESA (ID_empresa);
 
 
 /* Cria a chave estrangeira ID_rodoviaria_chegada A PARTIR DO AUTO-RELACIONAMENTO DA TABELA RODOVIARIA */
 ALTER TABLE ROTAS 
-    FOREIGN KEY (ID_rodoviaria_chegada)
+    ADD FOREIGN KEY (ID_rodoviaria_chegada)
     REFERENCES RODOVIARIA (ID_rodoviaria);
     
 
 /* Cria a chave estrangeira ID_rodoviaria_saida A PARTIR DO AUTO-RELACIONAMENTO DA TABELA RODOVIARIA */
 ALTER TABLE ROTAS 
-    FOREIGN KEY (ID_rodoviaria_saida)
+    ADD FOREIGN KEY (ID_rodoviaria_saida)
     REFERENCES RODOVIARIA (ID_rodoviaria);
 
  
  /* Cria a chave estrangeira ID_rota A PARTIR DO AUTO-RELACIONAMENTO DA TABELA ROTAS */
 ALTER TABLE PASSAGEM 
-    FOREIGN KEY (ID_rota)
+    ADD FOREIGN KEY (ID_rota)
     REFERENCES ROTAS (ID_rota);
     
 
 /* Cria a chave estrangeira ID_companhia A PARTIR DO AUTO-RELACIONAMENTO DA TABELA COMPANHIA */
 ALTER TABLE PASSAGEM 
-    FOREIGN KEY (ID_companhia)
+    ADD FOREIGN KEY (ID_companhia)
     REFERENCES COMPANHIA (ID_companhia);
     
     
 /* Cria a chave estrangeira ID_empresa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA EMPRESA */
 ALTER TABLE COMPANHIA 
-    FOREIGN KEY (ID_empresa)
+    ADD FOREIGN KEY (ID_empresa)
     REFERENCES EMPRESA (ID_empresa);
     
     
 /* Cria a chave estrangeira ID_empresa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA EMPRESA */
 ALTER TABLE RODOVIARIA
-    FOREIGN KEY (ID_empresa)
+    ADD FOREIGN KEY (ID_empresa)
     REFERENCES EMPRESA (ID_empresa);
+    
     
     
 
