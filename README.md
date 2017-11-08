@@ -203,6 +203,10 @@ Não utilizamos códigos previamente pronto. Desenvolvemos projeto a partir de s
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 
+<a href="https://github.com/RodoBus/trab01/blob/master/bd_rodobus.sql">Todo o código SQL, com inserts, e selects.</a>
+
+https://github.com/RodoBus/trab01/blob/master/bd_rodobus.sql
+
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
 
