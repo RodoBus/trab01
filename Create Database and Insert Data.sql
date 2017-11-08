@@ -165,36 +165,36 @@ SELECT * from PASSAGEM;
 
 /* Insere valores na tabela PESSOA */
 INSERT INTO PESSOA (ID_PESSOA,NOME,IDENTIDADE,CPF,NACIONALIDADE,TELEFONE,EMAIL,DATA_DE_NASCIMENTO) VALUES
-(1,'Jorge Teixeira Coelho',3950847,1758095381,'Brasileiro',27981376440,'jcoelho@live.com','14/01/1989'),
-(2,'Moisés Fernandes Silva',216671,4768964313,'Brasileiro',2733246506,'moises43@live.com','11/06/1990'),
-(3,'Rodrigo Ferreira da Silva',2766111,12589964525,'Brasileiro',2733450988,'rod.fv@yahoo.com','07/09/1978'),
-(4,'Ciro Ferreira',3950847,12356698745,'Brasileiro',2733246879,'cirox@hotmail.com','05/09/88'),
-(5,'José Antônio da Silva',156554,15857798654,'Brasileiro',2754547806,'jos99@live.com','01/03/1991'),
-(6,'Alberto Gomes Ferreira',133397,45688715698,'Brasileiro',2787921004,'albert6@gmail.com','22/05/1990'),
-(7,'José Pereira da Silva',3216549,13257743751,'Brasileiro',27998887761,'jose_per4@gmail.com','1968/05/15'),
-(8,'Carlos Alberto Senzi',4562783,15897664201,'Brasileiro',2733254879,'carlos_senzi@ifes.br','1973/05/23'),
-(9,'Antônio Giestas Pinheiro',3968754,13258846759,'Argentino',27981657899,'antonio_gs@gmail.com','1992/01/07'),
-(10,'Terezinha Venâncio Flores',3652879,45398764210,'Brasileiro',2733214566,'tete@live.com','1957/12/20'),
-(11,'Thais Oliveira Negris',1659335,89764464531,'Brasileiro',2732334567,'thais_linda@gmail.com','1974/07/11'),
-(12,'Paulo José de Almeida',3639853,15689945756,'Português',27998786166,'paulo_jos1@gmail.com','1987/03/18'),
-(13,'Ricardo Ramalho Ramos',3698641,489643154,'Brasileiro',2733645521,'ricard_r@gmail.com','1957/10/01'),
-(14,'Josefa Borges Zucarato',3590253,01475426215,'Brasileiro',2733385426,'jojo_zuca10@hotmail.com','1995/10/15'),
-(15,'William Matheus de Jesus Rekel',3482600,70758296920,'Brasileiro',2730658484,'will.i.am@hotmail.com','1999/10/10'),
-(16,'Felipe Bastos de Sá',3591266,14851523365,'Brasileiro',2733154767,'felipe_do_volei@live.com','1990/01/15'),
-(17,'Julia Menezes de Assis',3598203,70787563653,'Brasileiro',2731352007,'juliassis@hotmail.com','1996/04/12'),
-(18,'Jordão Soares Araújo',3554798,01754726285,'Brasileiro',2730417187,'jordaraujo@gontijo.com.br','1975/03/01'),
-(19,'Maria Aparecida do Carmo',3459759,14897160658,'Brasileiro',2732412700,'maria.carminha@hotmail.com','1969/05/29'),
-(20,'Pablo Roberto Garcia',3850472,01735760653,'Mexicano',2730648494,'pablito.violao@live.com','1988/09/22'),
-(21,'Cecila Caraveo',3122478,01725760754,'Belga',2732448394,'cece@gmail.com','1995/01/27'),
-(22,'Maryann Kissee',3712488,11722730755,'Canadense',2784529693,'mary@hotmail.com','1992/07/26'),
-(23,'Susanne Holiman',3225499,63423753134,'Brasileira,2773301507,'susaninha@gmail.com','1974/07/11'),
-(24,'Olene Stengel',3312477,19835012431,'Alemã',,'olenest@hotmail.com','1979/08/28'),
-(25,'Clayton Mcdonalds',3512567,13205438801,'Inglês',2782484288,'clay@live.com','1984/08/19'),
-(26,'Rudolf Bohner',3444562,12255438800,'Brasileiro',2728536304,'bohner@hotmail.com','1964/06/29'),
-(27,'Florinda Holen',3612566,01555426215,'Brasileira',2755545607,'donaflorinda@hotmail.com','1968/06/12'),
+(1,'Jorge Teixeira Coelho',3950847,1758095381,'Brasil',27981376440,'jcoelho@live.com','14/01/1989'),
+(2,'Moisés Fernandes Silva',216671,4768964313,'Chile',2733246506,'moises43@live.com','11/06/1990'),
+(3,'Rodrigo Ferreira da Silva',2766111,12589964525,'Brasil',2733450988,'rod.fv@yahoo.com','07/09/1978'),
+(4,'Ciro Ferreira',3950847,12356698745,'Brasil',2733246879,'cirox@hotmail.com','05/09/88'),
+(5,'José Antônio da Silva',156554,15857798654,'Brasil',2754547806,'jos99@live.com','01/03/1991'),
+(6,'Alberto Gomes Ferreira',133397,45688715698,'França',2787921004,'albert6@gmail.com','22/05/1990'),
+(7,'José Pereira da Silva',3216549,13257743751,'Brasil',27998887761,'jose_per4@gmail.com','1968/05/15'),
+(8,'Carlos Alberto Senzi',4562783,15897664201,'Brasil',2733254879,'carlos_senzi@ifes.br','1973/05/23'),
+(9,'Antônio Giestas Pinheiro',3968754,13258846759,'Argentina',27981657899,'antonio_gs@gmail.com','1992/01/07'),
+(10,'Terezinha Venâncio Flores',3652879,45398764210,'Brasil',2733214566,'tete@live.com','1957/12/20'),
+(11,'Thais Oliveira Negris',1659335,89764464531,'Brasil',2732334567,'thais_linda@gmail.com','1974/07/11'),
+(12,'Paulo José de Almeida',3639853,15689945756,'Portugal',27998786166,'paulo_jos1@gmail.com','1987/03/18'),
+(13,'Ricardo Ramalho Ramos',3698641,489643154,'Brasil',2733645521,'ricard_r@gmail.com','1957/10/01'),
+(14,'Josefa Borges Zucarato',3590253,01475426215,'Brasil',2733385426,'jojo_zuca10@hotmail.com','1995/10/15'),
+(15,'William Matheus de Jesus Rekel',3482600,70758296920,'Brasil',2730658484,'will.i.am@hotmail.com','1999/10/10'),
+(16,'Felipe Bastos de Sá',3591266,14851523365,'Brasil',2733154767,'felipe_do_volei@live.com','1990/01/15'),
+(17,'Julia Menezes de Assis',3598203,70787563653,'Brasil',2731352007,'juliassis@hotmail.com','1996/04/12'),
+(18,'Jordão Soares Araújo',3554798,01754726285,'Africa',2730417187,'jordaraujo@gontijo.com.br','1975/03/01'),
+(19,'Maria Aparecida do Carmo',3459759,14897160658,'Brasil',2732412700,'maria.carminha@hotmail.com','1969/05/29'),
+(20,'Pablo Roberto Garcia',3850472,01735760653,'Mexico',2730648494,'pablito.violao@live.com','1988/09/22'),
+(21,'Cecila Caraveo',3122478,01725760754,'Rússia',2732448394,'cece@gmail.com','1995/01/27'),
+(22,'Maryann Kissee',3712488,11722730755,'Canadá',2784529693,'mary@hotmail.com','1992/07/26'),
+(23,'Susanne Holiman',3225499,63423753134,'Brasil',2773301507,'susaninha@gmail.com','1974/07/11'),
+(24,'Olene Stengel',3312477,19835012431,'Alemanha',,'olenest@hotmail.com','1979/08/28'),
+(25,'Clayton Mcdonalds',3512567,13205438801,'Inglaterra',2782484288,'clay@live.com','1984/08/19'),
+(26,'Rudolf Bohner',3444562,12255438800,'Brasil',2728536304,'bohner@hotmail.com','1964/06/29'),
+(27,'Florinda Holen',3612566,01555426215,'Brasil',2755545607,'donaflorinda@hotmail.com','1968/06/12'),
 (28,'Grace Alessi',3332561,11253347755,'Argentina',2759511865,'alessi_grace@hotmail.com','1992/07/26'),
-(29,'Danilo Keeth',3117562,55888715692,'Brasileiro',2733580572,'danike@hotmail.com','1997/10/02'),
-(30,'Pansy Montoro',3837569,1482798653,'Brasileira',2746261091,'pansy@gmail.com','1989/10/02');
+(29,'Danilo Keeth',3117562,55888715692,'Brasil',2733580572,'danike@hotmail.com','1997/10/02'),
+(30,'Pansy Montoro',3837569,1482798653,'Brasil',2746261091,'pansy@gmail.com','1989/10/02');
 
 
 
@@ -232,7 +232,7 @@ INSERT INTO RODOVIARIA (ID_RODVIARIA,ID_EMPRESA,HORARIO_DE_FUNCIONAMENTO) VALUES
 
 
 /* Insere valores na tabela ROTAS */
-INSERT INTO ROTAS (ID_ROTA,HORA_SAIDA,HORA_CHEGADA,ID_RODOVIARIA_SAIDA,ID_RODOVIARIA_CHEGADA) VALUES
+INSERT INTO ROTAS (ID_ROTA,HORA_CHEGADA,HORA_SAIDA,ID_RODOVIARIA_SAIDA,ID_RODOVIARIA_CHEGADA) VALUES
 (1,'22:15','18:05',(SELECT ID_RODOVIARIA FROM RODOVIARIA ORDER BY random() LIMIT 1),(SELECT ID_RODOVIARIA FROM RODOVIARIA ORDER BY random() LIMIT 1)),
 (2,'07:00','22:00',(SELECT ID_RODOVIARIA FROM RODOVIARIA ORDER BY random() LIMIT 1),(SELECT ID_RODOVIARIA FROM RODOVIARIA ORDER BY random() LIMIT 1)),
 (3,'12:00','08:00',(SELECT ID_RODOVIARIA FROM RODOVIARIA ORDER BY random() LIMIT 1),(SELECT ID_RODOVIARIA FROM RODOVIARIA ORDER BY random() LIMIT 1)),
