@@ -179,14 +179,13 @@ INSERT INTO PESSOA (ID_PESSOA,NOME,IDENTIDADE,CPF,NACIONALIDADE,TELEFONE,EMAIL,D
 (21,'Cecila Caraveo',3122478,01725760754,'Rússia',2732448394,'cece@gmail.com','1995/01/27'),
 (22,'Maryann Kissee',3712488,11722730755,'Canadá',2784529693,'mary@hotmail.com','1992/07/26'),
 (23,'Susanne Holiman',3225499,63423753134,'Brasil',2773301507,'susaninha@gmail.com','1974/07/11'),
-(24,'Olene Stengel',3312477,19835012431,'Alemanha',,'olenest@hotmail.com','1979/08/28'),
+(24,'Olene Stengel',3312477,19835012431,'Alemanha',2792484748,'olenest@hotmail.com','1979/08/28'),
 (25,'Clayton Mcdonalds',3512567,13205438801,'Inglaterra',2782484288,'clay@live.com','1984/08/19'),
 (26,'Rudolf Bohner',3444562,12255438800,'Brasil',2728536304,'bohner@hotmail.com','1964/06/29'),
 (27,'Florinda Holen',3612566,01555426215,'Brasil',2755545607,'donaflorinda@hotmail.com','1968/06/12'),
 (28,'Grace Alessi',3332561,11253347755,'Argentina',2759511865,'alessi_grace@hotmail.com','1992/07/26'),
 (29,'Danilo Keeth',3117562,55888715692,'Brasil',2733580572,'danike@hotmail.com','1997/10/02'),
 (30,'Pansy Montoro',3837569,1482798653,'Brasil',2746261091,'pansy@gmail.com','1989/10/02');
-
 
 
 
