@@ -311,7 +311,12 @@ SELECT * from ROTAS where ID_RODOVIARIA_SAIDA = 'Terminal Rodoviário de Vila Ve
 
 
 /* 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 6) */
-
+SELECT * from PASSAGEM where DATA_COMPRA => '01/11/2017';
+SELECT ID_PESSOA,NOME as 'Cliente',CPF from PESSOA;
+SELECT ID_EMPRESA,NOME as 'Viação from EMPRESA where NOME like 'Viação_%';
+SELECT * from PASSAGEM where PRECO < 45.00;
+SELECT ID_PESSOA,NOME,EMAIL where NOME like 'T_%' and EMAIL like '%_hotmail.com';
+SELECT * from PASSAGEM where PRECO > 40.00 and DATA_VIAGEM < '01/11/2017';
 
 
 /* 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 4)  */
