@@ -210,42 +210,42 @@ https://github.com/RodoBus/trab01/blob/master/bd_rodobus.sql
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">FROM</span> PESSOA;</pre>  <br>
+SELECT * FROM PESSOA
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">FROM</span> PESSOA_PASSAGEIRO;</pre>  <br>
+SELECT * FROM PESSOA_PASSAGEIRO;
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">FROM</span> PESSOA_FUNCIONARIO;</pre>  <br>
+SELECT * FROM PESSOA_FUNCIONARIO;
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">FROM</span> EMPRESA;</pre>  <br>
+SELECT * FROM EMPRESA;
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">FROM</span> COMPANHIA;</pre>  <br>
+SELECT * FROM COMPANHIA;
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">FROM</span> RODOVIARIA;</pre>  <br>
+SELECT * FROM RODOVIARIA;
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">FROM</span> ROTAS;</pre>  <br>
+SELECT * FROM ROTAS;
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">FROM</span> PASSAGEM;</pre>  <br>
+SELECT * FROM PASSAGEM;
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
@@ -254,25 +254,25 @@ https://github.com/RodoBus/trab01/blob/master/bd_rodobus.sql
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> PESSOA <span class="pl-k">where</span> NACIONALIDADE <span class="pl-k">!=</span> <span class="pl-s"><span class="pl-pds">'</span>'Brasil'<span class="pl-pds">'</span></span>;</pre>
+SELECT * from PESSOA where NACIONALIDADE != 'Brasil';
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> PASSAGEM <span class="pl-k">where</span> PRECO <span class="pl-k">></span> <span class="pl-s"><span class="pl-pds">'</span>40.00<span class="pl-pds">'</span></span>;</pre>
+SELECT * from PASSAGEM where PRECO > 40.00;
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> ROTAS <span class="pl-k">where</span> ID_RODOVIARIA_SAIDA <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>'Terminal Rodoviário de Vila Velha'<span class="pl-pds">'</span></span>;</pre>
+SELECT * from ROTAS where ID_RODOVIARIA_SAIDA = 'Terminal Rodoviário de Vila Velha';
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> ROTAS <span class="pl-k">where</span> HORA_SAIDA <span class="pl-k">></span> <span class="pl-s"><span class="pl-pds">'</span>'12:00'<span class="pl-pds">'</span></span>;</pre>
+SELECT * from ROTAS where HORA_SAIDA > 12:00;
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
@@ -280,19 +280,19 @@ https://github.com/RodoBus/trab01/blob/master/bd_rodobus.sql
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 6)
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> PASSAGEM <span class="pl-k">where</span> DATA_COMPRA <span class="pl-k">=></span> <span class="pl-s"><span class="pl-pds">'</span>'01/11/2017'<span class="pl-pds">'</span></span>;</pre>
+SELECT * from PASSAGEM where DATA_COMPRA => '01/11/2017';
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 
-SELECT ID_EMPRESA,NOME as 'Viação from EMPRESA where NOME like 'Viação_%';
+SELECT ID_EMPRESA,NOME as "Viação" from EMPRESA where NOME like 'Viação_%';
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 
-SELECT ID_PESSOA,NOME as 'Cliente',CPF from PESSOA;
+SELECT ID_PESSOA,NOME as "Cliente",CPF from PESSOA;
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
@@ -324,25 +324,25 @@ c) Criar no mínimo 2 com operação de renomear campo
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 4) <br>
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> PESSOA <span class="pl-k">where</span> NOME <span class="pl-k">like</span> <span class="pl-s"><span class="pl-pds">'</span>J%<span class="pl-pds">'</span></span>;</pre>
+SELECT * from PESSOA where NOME like 'J%';
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">ID_PESSOA,NOME,CPF</span> <span class="pl-k">from</span> PESSOA <span class="pl-k">where</span> NOME <span class="pl-k">like</span> <span class="pl-s"><span class="pl-pds">'</span>_o%<span class="pl-pds">'</span></span>;</pre>
+SELECT ID_PESSOA,NOME,CPF from PESSOA where NOME like '_o%';
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> EMPRESA <span class="pl-k">where</span> NOME <span class="pl-k">like</span> <span class="pl-s"><span class="pl-pds">'</span>%a<span class="pl-pds">'</span></span>;</pre>
+SELECT * from EMPRESA where NOME like '%a';
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 
-<pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">from</span> EMPRESA <span class="pl-k">where</span> NOME <span class="pl-k">like</span> <span class="pl-s"><span class="pl-pds">'</span>Viação_%<span class="pl-pds">'</span></span>;</pre>
+SELECT * from EMPRESA where NOME like 'Viação_%';
 
 <a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 
