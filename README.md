@@ -205,7 +205,6 @@ Não utilizamos códigos previamente pronto. Desenvolvemos projeto a partir de s
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
-<div class="highlight highlight-source-sql"><pre><span class="pl-k">select</span> NOME_PESSOA <span class="pl-k">as</span> Cliente, COD_MODALIDADE <span class="pl-k">as</span> <span class="pl-s"><span class="pl-pds">"</span>Atual modalidade<span class="pl-pds">"</span></span>, CPF <span class="pl-k">from</span> PESSOA;</pre></div>
 
 <pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">FROM</span> PESSOA;</pre>  <br>
 
