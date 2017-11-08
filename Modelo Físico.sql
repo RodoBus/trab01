@@ -46,8 +46,8 @@ CREATE TABLE RODOVIARIA
 CREATE TABLE ROTAS 
 (
     ID_rota INTEGER PRIMARY KEY,
-    Hora_chegada INTEGER,
-    Hora_saida VARCHAR[30],
+    Hora_saida TIME,
+    Hora_chegada TIME,
     ID_rodoviaria_saida INTEGER,
     ID_rodoviaria_chegada INTEGER
 );
