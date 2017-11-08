@@ -170,8 +170,6 @@ diferenciar a identificação dos funcionários presentes na Tabela de FUNCIONAR
 
 Geramos os dados de forma aleatória pelos links: <br>
 http://listofrandomnames.com/index.cfm <br>
-http://www.geomidpoint.com/random/ <br>
-http://pt.fakenamegenerator.com/ <br>
 http://random-date-generator.com/ <br>
 http://www.calcprofi.com/pt/gerador-de-numeros-de-telefone-aleatorio.html <br>
 
