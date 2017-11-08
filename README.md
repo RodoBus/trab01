@@ -212,42 +212,43 @@ https://github.com/RodoBus/trab01/blob/master/bd_rodobus.sql
 
 SELECT * FROM PESSOA
 
-<a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/INSERT_PESSOA_9.1.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/INSERT_PESSOA_9.1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/INSERT_PESSOA_9.1_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/INSERT_PESSOA_9.1_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 SELECT * FROM PESSOA_PASSAGEIRO;
 
-<a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/PESSOA_PASSAGEIRO_9.1.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/PESSOA_PASSAGEIRO_9.1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 SELECT * FROM PESSOA_FUNCIONARIO;
 
-<a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/PESSOA_FUNCIONARIO_9.1.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/PESSOA_FUNCIONARIO_9.1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 SELECT * FROM EMPRESA;
 
-<a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/EMPRESA_9.2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/EMPRESA_9.2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 SELECT * FROM COMPANHIA;
 
-<a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/COMPANHIA_9.2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/COMPANHIA_9.2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 SELECT * FROM RODOVIARIA;
 
-<a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/COMPANHIA_9.2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/COMPANHIA_9.2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 SELECT * FROM ROTAS;
 
-<a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/ROTAS_9.2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/ROTAS_9.2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 SELECT * FROM PASSAGEM;
 
-<a href="LINK LINK LINK LINK LINK"><img src="LINK LINK LINK LINK LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/PASSAGEM_9.2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/PASSAGEM_9.2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 
 
 
