@@ -302,7 +302,7 @@ SELECT * from ROTAS where HORA_SAIDA > 12:00;
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 6)
 
-SELECT * from PASSAGEM where DATA_COMPRA => '01/11/2017';
+SELECT * from PASSAGEM where DATA_COMPRA >= '01/11/2017';
 
 <a href="LINK"><img src="LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
