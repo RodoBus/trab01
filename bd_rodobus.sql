@@ -296,6 +296,6 @@ SELECT * from PASSAGEM where PRECO > 40.00 and DATA_COMPRA > '01/11/2017';
 
 -- 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 4) 
 SELECT * from PESSOA where NOME like 'J%';
-SELECT ID_PESSOA,NOME,CPF from PESSOA where NOME like '_o%';
+SELECT ID_PESSOA,NOME,CPF from PESSOA where NOME like '%_o';
 SELECT * from EMPRESA where NOME like '%a';
 SELECT * from EMPRESA where NOME like 'Viação_%';
