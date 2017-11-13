@@ -205,7 +205,6 @@ Não utilizamos códigos previamente pronto. Desenvolvemos projeto a partir de s
 
 <a href="https://github.com/RodoBus/trab01/blob/master/bd_rodobus.sql">Todo o código SQL, com inserts, e selects.</a>
 
-https://github.com/RodoBus/trab01/blob/master/bd_rodobus.sql
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
@@ -286,7 +285,8 @@ SELECT * from PASSAGEM where PRECO > 40.00;
 <br>
 
 
-SELECT * from ROTAS where ID_RODOVIARIA_SAIDA = 'Terminal Rodoviário de Vila Velha';
+SELECT * from ROTAS where ID_RODOVIARIA_SAIDA = 3; 
+(3 é a ID_EMPRESA do 'Terminal Rodoviário de Vila Velha' presente em EMPRESA)
 
 <a href="https://github.com/RodoBus/trab01/blob/master/WHERE_3.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/WHERE_3.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
