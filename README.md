@@ -138,13 +138,13 @@ diferenciar a identificação dos funcionários presentes na Tabela de FUNCIONAR
 <li>NOME: Campo que armazena o nome de cada empresa. </li>
 <li>TELEFONE: Campo que armazena o telefone de contato de cada empresa. </li>
 <br>        
-<b>Tabela EMPRESA_COMPANHIA</b>:Tabela que armazena informações sobre empresas identificadas como companhias.
+<b>Tabela COMPANHIA</b>:Tabela que armazena informações sobre empresas identificadas como companhias.
 <br>
 <li>ID_EMPRESA: (CHAVE PRIMARIA) Campo que armazena a identidade de cada empresa vinculada à companhia. </li>
 <li>ID_COMPANHIA: (CHAVE PRIMARIA) Campo que armazena o código da companhia. </li>
 <li>EMAIL: Campo que armazena o endereço de email  para contato com cada companhia. </li>
 <br>        
-<b>Tabela EMPRESA_RODOVIARIA</b>: Tabela que armazena informações sobre empresas identificadas como rodoviárias.
+<b>Tabela RODOVIARIA</b>: Tabela que armazena informações sobre empresas identificadas como rodoviárias.
 <br>
 <li>ID_EMPRESA: (CHAVE PRIMARIA) Campo que armazena a identidade de cada empresa vinculada à rodoviária. </li>
 <li>ID_RODOVIARIA: Campo que armazena o código de cada rodoviária. </li>
