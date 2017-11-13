@@ -304,7 +304,7 @@ SELECT * from ROTAS where HORA_SAIDA > 12:00;
 
 SELECT * from PASSAGEM where DATA_COMPRA >= '01/11/2017';
 
-<a href="LINK"><img src="LINK" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/9.3_1.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/9.3_1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
 
@@ -325,29 +325,23 @@ SELECT ID_PESSOA,NOME as "Cliente",CPF from PESSOA;
 
 SELECT * from PASSAGEM where PRECO < 45.00;
 
-ERRADO
-<a href="https://github.com/RodoBus/trab01/blob/master/WHERE_7.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/WHERE_7.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/9.3_4.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/9.3_4.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
 
 
 SELECT ID_PESSOA,NOME,EMAIL where NOME like 'T_%' and EMAIL like '%_hotmail.com' from PESSOA;
 
-FALTA FAZER
-<!--
-<a href="https://github.com/RodoBus/trab01/blob/master/PASSAGEM_9.2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/PASSAGEM_9.2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/9.3_5.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/9.3_5.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
-<br>
--->
+
 
 SELECT * from PASSAGEM where PRECO > 40.00 and DATA_VIAGEM < '01/11/2017';
 
-FALTA FAZER
-<!--
-<a href="https://github.com/RodoBus/trab01/blob/master/PASSAGEM_9.2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/PASSAGEM_9.2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/9.3_6.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/9.3_6.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
--->
+
 
 <!--
 a) Criar no mínimo 2 com operadores lógicos
@@ -367,8 +361,7 @@ SELECT * from PESSOA where NOME like 'J%';
 
 SELECT ID_PESSOA,NOME,CPF from PESSOA where NOME like '_o%';
 
-ERRADO
-<a href="https://github.com/RodoBus/trab01/blob/master/WHERE_9.4_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/WHERE_9.4_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/9.4_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/9.4_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
 
