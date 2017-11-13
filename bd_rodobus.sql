@@ -30,7 +30,11 @@ CREATE TABLE COMPANHIA
 (
     ID_companhia INTEGER PRIMARY KEY,
     ID_empresa INTEGER,
-    email VARCHAR[30]
+    email VARCHAR[30],
+	
+	FOREIGN KEY (ID_empresa)
+    REFERENCES EMPRESA (ID_empresa)
+    
 );
 
 
@@ -39,7 +43,11 @@ CREATE TABLE RODOVIARIA
 (
     ID_rodoviaria INTEGER PRIMARY KEY,
     ID_empresa INTEGER,
-    Horario_de_funcionamento TIME
+    Horario_de_funcionamento TIME,
+	
+	FOREIGN KEY (ID_empresa)
+    REFERENCES EMPRESA (ID_empresa)
+    
 );
 
 
@@ -50,7 +58,13 @@ CREATE TABLE ROTAS
     Hora_saida TIME,
     Hora_chegada TIME,
     ID_rodoviaria_saida INTEGER,
-    ID_rodoviaria_chegada INTEGER
+    ID_rodoviaria_chegada INTEGER,
+	
+	FOREIGN KEY (ID_rodoviaria_chegada)
+    REFERENCES RODOVIARIA (ID_rodoviaria)
+	
+	FOREIGN KEY (ID_rodoviaria_saida)
+    REFERENCES RODOVIARIA (ID_rodoviaria)
 );
 
 
@@ -62,7 +76,14 @@ CREATE TABLE PASSAGEM
     ID_companhia INTEGER,
     Data_compra DATE,
     Data_viagem DATE,
-    preco FLOAT
+    preco FLOAT,
+	
+	FOREIGN KEY (ID_rota)
+    REFERENCES ROTAS (ID_rota)
+
+    FOREIGN KEY (ID_companhia)
+    REFERENCES COMPANHIA (ID_companhia)
+    
 );
 
 
@@ -71,7 +92,13 @@ CREATE TABLE PESSOA_PASSAGEIRO
 (
     ID_passageiro INTEGER PRIMARY KEY,
     ID_pessoa INTEGER,
-    ID_passagem INTEGER
+    ID_passagem INTEGER,
+	
+	FOREIGN KEY (ID_pessoa) 
+    REFERENCES PESSOA (ID_pessoa)
+	
+	FOREIGN KEY (ID_passagem)
+    REFERENCES PASSAGEM (ID_passagem)
 );
 
 
@@ -80,75 +107,20 @@ CREATE TABLE PESSOA_FUNCIONARIO
 (
     ID_funcionario INTEGER PRIMARY KEY,
     ID_pessoa INTEGER,
-    ID_empresa INTEGER
+    ID_empresa INTEGER,
+	
+	FOREIGN KEY (ID_empresa)
+    REFERENCES EMPRESA (ID_empresa)
+	
+	FOREIGN KEY (ID_pessoa)
+    REFERENCES PESSOA (ID_pessoa)
 );
 
  
- 
-
- 
- 
-/* Cria a chave estrangeira ID_pessoa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA PESSOA */
-ALTER TABLE PESSOA_PASSAGEIRO
-    ADD FOREIGN KEY (ID_pessoa) 
-    REFERENCES PESSOA (ID_pessoa);
-
- 
-/* Cria a chave estrangeira ID_passagem A PARTIR DO AUTO-RELACIONAMENTO DA TABELA PASSAGEM */
-ALTER TABLE PESSOA_PASSAGEIRO 
-    ADD FOREIGN KEY (ID_passagem)
-    REFERENCES PASSAGEM (ID_passagem); 
-    
- 
- /* Cria a chave estrangeira ID_pessoa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA PESSOA */
-ALTER TABLE PESSOA_FUNCIONARIO 
-    ADD FOREIGN KEY (ID_pessoa)
-    REFERENCES PESSOA (ID_pessoa);
 
 
- /* Cria a chave estrangeira ID_empresa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA EMPRESA */
-ALTER TABLE PESSOA_FUNCIONARIO
-    ADD FOREIGN KEY (ID_empresa)
-    REFERENCES EMPRESA (ID_empresa);
 
 
-/* Cria a chave estrangeira ID_rodoviaria_chegada A PARTIR DO AUTO-RELACIONAMENTO DA TABELA RODOVIARIA */
-ALTER TABLE ROTAS 
-    ADD FOREIGN KEY (ID_rodoviaria_chegada)
-    REFERENCES RODOVIARIA (ID_rodoviaria);
-    
-
-/* Cria a chave estrangeira ID_rodoviaria_saida A PARTIR DO AUTO-RELACIONAMENTO DA TABELA RODOVIARIA */
-ALTER TABLE ROTAS 
-    ADD FOREIGN KEY (ID_rodoviaria_saida)
-    REFERENCES RODOVIARIA (ID_rodoviaria);
-
- 
- /* Cria a chave estrangeira ID_rota A PARTIR DO AUTO-RELACIONAMENTO DA TABELA ROTAS */
-ALTER TABLE PASSAGEM 
-    ADD FOREIGN KEY (ID_rota)
-    REFERENCES ROTAS (ID_rota);
-    
-
-/* Cria a chave estrangeira ID_companhia A PARTIR DO AUTO-RELACIONAMENTO DA TABELA COMPANHIA */
-ALTER TABLE PASSAGEM 
-    ADD FOREIGN KEY (ID_companhia)
-    REFERENCES COMPANHIA (ID_companhia);
-    
-    
-/* Cria a chave estrangeira ID_empresa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA EMPRESA */
-ALTER TABLE COMPANHIA 
-    ADD FOREIGN KEY (ID_empresa)
-    REFERENCES EMPRESA (ID_empresa);
-    
-    
-/* Cria a chave estrangeira ID_empresa A PARTIR DO AUTO-RELACIONAMENTO DA TABELA EMPRESA */
-ALTER TABLE RODOVIARIA
-    ADD FOREIGN KEY (ID_empresa)
-    REFERENCES EMPRESA (ID_empresa);
-    
-    
-    
 
 
 
@@ -214,7 +186,7 @@ INSERT INTO COMPANHIA (ID_COMPANHIA,ID_EMPRESA,EMAIL) VALUES
 
 
 /* Insere valores na tabela RODOVIARIA */
-INSERT INTO RODOVIARIA (ID_RODVIARIA,ID_EMPRESA,HORARIO_DE_FUNCIONAMENTO) VALUES
+INSERT INTO RODOVIARIA (ID_RODOVIARIA,ID_EMPRESA,HORARIO_DE_FUNCIONAMENTO) VALUES
 (1,1,'24 horas'),
 (2,2,'24 horas'),
 (3,3,'8 as 22 horas'),
@@ -296,7 +268,7 @@ INSERT INTO PESSOA_FUNCIONARIO(ID_FUNCIONARIO,ID_PESSOA,ID_EMPRESA) VALUES
 
 
 -- 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) 
-SELECT * FROM PESSOA
+SELECT * FROM PESSOA;
 SELECT * FROM PESSOA_PASSAGEIRO;
 SELECT * FROM PESSOA_FUNCIONARIO;
 SELECT * FROM EMPRESA;
@@ -310,16 +282,16 @@ SELECT * FROM PASSAGEM;
 SELECT * from PESSOA where NACIONALIDADE != 'Brasil';
 SELECT * from PASSAGEM where PRECO > 40.00;
 SELECT * from ROTAS where ID_RODOVIARIA_SAIDA = 'Terminal Rodoviário de Vila Velha';
-SELECT * from ROTAS where HORA_SAIDA > 12:00;
+SELECT * from ROTAS where HORA_SAIDA > '12:00';
 
 
 -- 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 6)
-SELECT * from PASSAGEM where DATA_COMPRA => '01/11/2017';
+SELECT * from PASSAGEM where DATA_COMPRA >= '01/11/2017';
 SELECT ID_EMPRESA,NOME as "Viação" from EMPRESA where NOME like 'Viação_%';
 SELECT ID_PESSOA,NOME as "Cliente",CPF from PESSOA;
 SELECT * from PASSAGEM where PRECO < 45.00;
-SELECT ID_PESSOA,NOME,EMAIL where NOME like 'T_%' and EMAIL like '%_hotmail.com';
-SELECT * from PASSAGEM where PRECO > 40.00 and DATA_VIAGEM < '01/11/2017';
+SELECT ID_PESSOA,NOME,EMAIL  from PESSOA where NOME like 'T_%' and EMAIL like '%_gmail.com';
+SELECT * from PASSAGEM where PRECO > 40.00 and DATA_COMPRA > '01/11/2017';
 
 
 -- 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 4) 
@@ -327,4 +299,3 @@ SELECT * from PESSOA where NOME like 'J%';
 SELECT ID_PESSOA,NOME,CPF from PESSOA where NOME like '_o%';
 SELECT * from EMPRESA where NOME like '%a';
 SELECT * from EMPRESA where NOME like 'Viação_%';
-
