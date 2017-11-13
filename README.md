@@ -248,7 +248,7 @@ SELECT * FROM COMPANHIA;
 
 SELECT * FROM RODOVIARIA;
 
-<a href="https://github.com/RodoBus/trab01/blob/master/COMPANHIA_9.2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/COMPANHIA_9.2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/rodoviaria_9.1.PNGG"><img src="https://github.com/RodoBus/trab01/blob/master/rodoviaria_9.1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
 
