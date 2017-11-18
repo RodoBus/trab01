@@ -56,7 +56,7 @@ O sistema gera relatórios com as informações: <br>
 
 ### 5.MODELO CONCEITUAL<br>
 
-<a href="https://github.com/RodoBus/trab01/blob/master/Modelo%20Conceitual.png"><img src="https://github.com/RodoBus/trab01/blob/master/Modelo%20Conceitual.png" alt="Alt text" title="Modelo Conceitual" style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20MODELOS/Modelo%20Conceitual.png"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20MODELOS/Modelo%20Conceitual.png" alt="Alt text" title="Modelo Conceitual" style="max-width:100%;"></a>
 
 
     A) NOTACAO ENTIDADE RELACIONAMENTO 
@@ -155,13 +155,13 @@ diferenciar a identificação dos funcionários presentes na Tabela de FUNCIONAR
 
 ### 6	MODELO LÓGICO<br>
 
-<a href="https://github.com/RodoBus/trab01/blob/master/Modelo%20L%C3%B3gico.png"><img src="https://github.com/RodoBus/trab01/blob/master/Modelo%20L%C3%B3gico.png" alt="Alt text" title="Modelo Lógico" style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20MODELOS/Modelo%20L%C3%B3gico.png"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20MODELOS/Modelo%20L%C3%B3gico.png" alt="Alt text" title="Modelo Lógico" style="max-width:100%;"></a>
 
 >## Marco de Entrega 02 em: (Data definida no cronograma)<br>
 
 ### 7	MODELO FÍSICO<br>
 
-<a href="https://github.com/RodoBus/trab01/blob/master/Modelo%20F%C3%ADsico.sql">Modelo Físico</a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Arquivos%20SQL/Modelo%20F%C3%ADsico.sql">Modelo Físico</a>
           
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
@@ -178,7 +178,7 @@ Não utilizamos códigos previamente pronto. Desenvolvemos projeto a partir de s
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         
-<a href="https://github.com/RodoBus/trab01/blob/master/Inserts%20data">Script de insert de dados ao banco.</a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Arquivos%20SQL/Inserts%20data.sql">Script de insert de dados ao banco.</a>
 
 <!--        
         a) Junção dos scripts anteriores em um único script 
@@ -190,7 +190,7 @@ Não utilizamos códigos previamente pronto. Desenvolvemos projeto a partir de s
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
         
-<a href="https://github.com/RodoBus/trab01/blob/master/Create%20Database%20and%20Insert%20Data.sql">Script de criação do banco, inserção dos dados e backup das tabelas. </a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Arquivos%20SQL/Create%20Database%20and%20Insert%20Data.sql">Script de criação do banco, inserção dos dados e backup das tabelas. </a>
 
 <!--
         a) Junção dos scripts anteriores em um único script 
@@ -203,7 +203,7 @@ Não utilizamos códigos previamente pronto. Desenvolvemos projeto a partir de s
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 
-<a href="https://github.com/RodoBus/trab01/blob/master/bd_rodobus.sql">Todo o código SQL, com inserts, e selects.</a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Arquivos%20SQL/bd_rodobus.sql">Todo o código SQL, com inserts, e selects.</a>
 
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
