@@ -233,7 +233,7 @@ SELECT * FROM PESSOA_FUNCIONARIO;
 
 SELECT * FROM EMPRESA;
 
-<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_EMPRESA.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_EMPRESA" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_EMPRESA.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_EMPRESA.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
 
@@ -278,7 +278,7 @@ SELECT * from PESSOA where NACIONALIDADE != 'Brasil';
 <br>
 
 
-SELECT * from PASSAGEM where PRECO > 40.00; 
+SELECT * from PASSAGEM where PRECO > 40.00;
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.2_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.2_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
@@ -294,7 +294,7 @@ SELECT * from ROTAS where ID_RODOVIARIA_SAIDA = 3;
 <br>
 
 
-SELECT * from ROTAS where HORA_SAIDA > 12:00;
+SELECT * from ROTAS where HORA_SAIDA > '12:00';
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.2_4.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.2_4.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
@@ -331,13 +331,13 @@ SELECT * from PASSAGEM where PRECO < 45.00;
 <br>
 
 
-SELECT ID_PESSOA,NOME,EMAIL where NOME like 'T_%' and EMAIL like '%_hotmail.com' from PESSOA;
+SELECT ID_PESSOA,NOME,EMAIL from PESSOA where NOME like 'T_%' and EMAIL like '%_gmail.com';
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.3_5.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.3_5.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 
 
-SELECT * from PASSAGEM where PRECO > 40.00 and DATA_VIAGEM < '01/11/2017';
+SELECT * from PASSAGEM where PRECO > 40.00 and DATA_COMPRA > '01/11/2017';
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.3_6.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.3_6.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
@@ -360,7 +360,7 @@ SELECT * from PESSOA where NOME like 'J%';
 <br>
 
 
-SELECT ID_PESSOA,NOME,CPF from PESSOA where NOME like '_o%';
+SELECT ID_PESSOA,NOME,CPF from PESSOA where NOME like '%_o';
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.4_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.4_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
