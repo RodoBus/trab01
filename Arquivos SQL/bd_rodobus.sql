@@ -291,7 +291,7 @@ SELECT ID_EMPRESA,NOME as "Viação" from EMPRESA where NOME like 'Viação_%';
 SELECT ID_PESSOA,NOME as "Cliente",CPF from PESSOA;
 SELECT * from PASSAGEM where PRECO < 45.00;
 SELECT ID_PESSOA,NOME,EMAIL  from PESSOA where NOME like 'T_%' and EMAIL like '%_gmail.com';
-SELECT * from PASSAGEM where PRECO > 40.00 and DATA_COMPRA > '01/11/2017';
+SELECT * from PASSAGEM where PRECO > 40.00 and DATA_COMPRA >= '01/11/2017';
 
 
 -- 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 4) 
