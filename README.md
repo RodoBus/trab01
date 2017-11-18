@@ -337,7 +337,7 @@ SELECT ID_PESSOA,NOME,EMAIL from PESSOA where NOME like 'T_%' and EMAIL like '%_
 <br>
 
 
-SELECT * from PASSAGEM where PRECO > 40.00 and DATA_COMPRA > '01/11/2017';
+SELECT * from PASSAGEM where PRECO > 40.00 and DATA_COMPRA >= '01/11/2017';
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.3_6.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.3_6.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
