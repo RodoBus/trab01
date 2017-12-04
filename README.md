@@ -78,10 +78,9 @@ O sistema gera relatórios com as informações: <br>
 
 
 #### 5.2 DECISÕES DE PROJETO
-<b>Tabelas EMPRESA, EMPRESA_COMPANHIA , EMPRESA_FUNCIONARIO:</b> A escolha de utilizar 3 tabelas para as empresas foi feita com o intuito de separar os 2 tipos de empresas envolvidas no sistemas RodoBus (Companhias de Ônibus e Rodoviárias). Para facilitar e 
-diferenciar a identificação dos funcionários presentes na Tabela de FUNCIONARIO. <br>
+<b>Tabelas CONTATO, TIPO_CONTATO:</b> A escolha de utilizar 2 tabelas para contatos foi feita com o intuito de normalizar os 2 tipos de contato existentes, englobando TELEFONE, TELEFONE CELULAR, EMAIL, CEP das tabelas PESSOA e EMPRESA envolvidas no sistemas RodoBus.<br>
 
-<b>Tabelas PESSOA, PESSOA_PASSAGEIRO, PESSOA_FUNCIONARIO:</b> A escolha de utilizar 3 tabelas para organizar pessoas foi feita com o intuito de separar funcionários de passageiros envolvidos no sistema RodoBus. Isto pois os dois possuem alguns atributos semelhantes, porém funcionalidades distintas. </b>
+<b>Tabelas PESSOA, PESSOA_FUNCIONARIO:</b> A escolha de utilizar 2 tabelas para organizar pessoas foi feita com o intuito de separar funcionários envolvidos no sistema RodoBus. Isto pois os funcionários possuem informações referentes a empresas, que não cabem a passageiros comuns. </b>
 
 <br>
     
