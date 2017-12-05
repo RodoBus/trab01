@@ -78,7 +78,7 @@ O sistema gera relatórios com as informações: <br>
 
 
 #### 5.2 DECISÕES DE PROJETO
-<b>Tabelas CONTATO, TIPO_CONTATO:</b> A escolha de utilizar 2 tabelas para contatos foi feita com o intuito de normalizar os 2 tipos de contato existentes, englobando TELEFONE, TELEFONE CELULAR, EMAIL, CEP das tabelas PESSOA e EMPRESA envolvidas no sistemas RodoBus.<br>
+<b>Tabelas CONTATO_PESSOA, CONTATO_EMPRESA, TIPO_CONTATO:</b> A escolha de utilizar 3 tabelas para contatos foi feita com o intuito de normalizar os 2 tipos de contato existentes, englobando TELEFONE, TELEFONE CELULAR e EMAIL das tabelas PESSOA e EMPRESA envolvidas no sistemas RodoBus.<br>
 
 <b>Tabelas PESSOA, PESSOA_FUNCIONARIO:</b> A escolha de utilizar 2 tabelas para organizar pessoas foi feita com o intuito de separar funcionários envolvidos no sistema RodoBus. Isto pois os funcionários possuem informações referentes a empresas, que não cabem a passageiros comuns. </b>
 
@@ -101,20 +101,22 @@ O sistema gera relatórios com as informações: <br>
 <li>NOME: Campo que armazena os nomes das pessoas cadastradas. </li>
 <li>IDENTIDADE: Campo que armazena o Registro Geral de cada pessoa cadastrada. </li>
 <li>CPF: Campo que armazena o número de Cadastro de Pessoa Física para cada indivíduo cadastrado. </li>
-<li>TELEFONE: Campo que armazena o número de telefone para contato com cada pessoa. </li>
-<li>EMAIL: Campo que armazena o email de contato com cada indivíduo cadastrado. </li>
 <li>DATA_DE_NASCIMENTO: Campo que armazena a data de nascimento de cada pessoa cadastrada. </li>
 <li>NACIONALIDADE: Campo que armazena a nacionalidade de cada pessoa cadastrada. </li>
-<b>
+<br>
 <b>Tabela PESSOA_FUNCIONARIO</b>: Tabela que armazena informações pertinentes a cada funcionário de cada companhia e rodoviária. <br>
 <li>ID_PESSOA:  (CHAVE PRIMARIA) Campo que armazena a ID da pessoa que está ligada à tabela funcionário. </li>     
 <li>ID_EMPRESA: Campo que armazena o código que identifica a empresa na qual o funcionário está vinculado. </li>
 <br>
-<b>Tabela CONTATO</b>: Tabela que armazena contatos de pessoas e empresas.<br>
+<b>Tabela CONTATO_PESSOA</b>: Tabela que armazena contatos de pessoas e empresas.<br>
 <li>ID_PESSOA: Campo que armazena a ID da pessoa ligada aos contatos da tabela.</li>    
-<li>ID_EMPRESA: Campo que armazena a ID da empresa ligada aos contatos da tabela.</li>    
 <li>CONTATO_REGISTRO: Campo que armazena o contato da pessoa ou empresa identificado por ID.</li>
 <li>TIPO_CONTATO: Campo que armazena o tipo de contato contido na tabela.</li>
+<br>
+<b>Tabela CONTATO_EMPRESA</b>: Tabela que armazena contatos de pessoas e empresas.<br>    
+<li>ID_EMPRESA: Campo que armazena a ID da empresa ligada aos contatos da tabela.</li>    
+<li>CONTATO_REGISTRO: Campo que armazena o contato da pessoa ou empresa identificado por ID.</li>
+<li>ID_TIPO_CONTATO: Campo que armazena o ID do tipo de contato contido na tabela.</li>
 <br>
 <b>Tabela TIPO_CONTATO</b>: Tabela que armazena o tipo de contato ligado à tabela CONTATO.<br>
 <li>ID_TIPO_CONTATO: Campo que armazena a ID do tipo de contato registrado.</li>     
