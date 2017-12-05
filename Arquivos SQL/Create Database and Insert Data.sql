@@ -36,6 +36,7 @@ CREATE TABLE TIPO_CONTATO
 /* Cria tabela CONTATO_PESSOA*/
 CREATE TABLE CONTATO_PESSOA
 (
+	ID_CONTATO INTEGER PRIMARY KEY,
 	ID_pessoa INTEGER,
 	contato_registro VARCHAR[50],
 	ID_tipo_de_contato INTEGER,
@@ -43,9 +44,10 @@ CREATE TABLE CONTATO_PESSOA
 	FOREIGN KEY (ID_pessoa)
 	REFERENCES PESSOA (ID_pessoa)
 	
-	FOREIGN KEY (ID_tipo_de_pessoa)
-	REFERENCES TIPO_CONTATO (ID_tipo_pessoa)
+	FOREIGN KEY (ID_tipo_de_contato)
+	REFERENCES TIPO_CONTATO (ID_tipo_contato)
 );
+
 
 /*Cria tabela CONTATO_EMPRESA */
 CREATE TABLE CONTATO_EMPRESA
@@ -120,11 +122,6 @@ CREATE TABLE PESSOA_FUNCIONARIO
 
 
 
-
-
-
-
-
 /* Insere valores na tabela PESSOA */
 INSERT INTO PESSOA (ID_PESSOA,NOME,IDENTIDADE,CPF,NACIONALIDADE,DATA_DE_NASCIMENTO) VALUES
 (1,'Jorge Teixeira Coelho',3950847,1758095381,'Brasil','14/01/1989'),
@@ -146,7 +143,7 @@ INSERT INTO PESSOA (ID_PESSOA,NOME,IDENTIDADE,CPF,NACIONALIDADE,DATA_DE_NASCIMEN
 (17,'Julia Menezes de Assis',3598203,70787563653,'Brasil','1996/04/12'),
 (18,'Jordão Soares Araújo',3554798,01754726285,'Africa','1975/03/01'),
 (19,'Maria Aparecida do Carmo',3459759,14897160658,'Brasil','1969/05/29'),
-(20,'Pablo Roberto Garcia',3850472,01735760653,'Mexico'','1988/09/22'),
+(20,'Pablo Roberto Garcia',3850472,01735760653,'Mexico','1988/09/22'),
 (21,'Cecila Caraveo',3122478,01725760754,'Rússia','1995/01/27'),
 (22,'Maryann Kissee',3712488,11722730755,'Canadá','1992/07/26'),
 (23,'Susanne Holiman',3225499,63423753134,'Brasil','1974/07/11'),
@@ -157,37 +154,41 @@ INSERT INTO PESSOA (ID_PESSOA,NOME,IDENTIDADE,CPF,NACIONALIDADE,DATA_DE_NASCIMEN
 (28,'Grace Alessi',3332561,11253347755,'Argentina','1992/07/26'),
 (29,'Danilo Keeth',3117562,55888715692,'Brasil','1997/10/02'),
 (30,'Pansy Montoro',3837569,1482798653,'Brasil','1989/10/02');
-/* Insere valores na tabela CONTATO_PESSOA*/
- 
-INSERT INTO CONTATO_PESSOA(ID_PESSOA,CONTATO_REGISTRO,ID_TIPO_DE_CONTATO) VALUES
-(1,'(27)981376439',3),
-(1,'jcoelho@live.com',2),
-(2,'(27)33246505',1),
-(2,'moises43@live.com',2),
-(3,'(27)33450987',1),
-(3,'rod.fv@yahoo.com',2),
-(4,'(27)33246878',1),
-(4,'cirox@hotmail.com',2),
-(5,'(27)34547806',1),
-(5,'jos99@live.com',2),
-(6,'(27)87921004',3),
-(6,'albert6@gmail.com',2),
-(7,'(27)998887761',3),
-(7,'jose_per4@gmail.com',2),
-(8,'(27)33254879',1),
-(8,'carlos_senzi@ifes.br',2),
-(9,'(27)981657899',3),
-(9,'antonio_gs@gmail.com',2),
-(10,'(27)33214566',1),
-(10,'tete@live.com',2),
-(11,'(27)32334567',1),
-(11,'thais_linda@gmail.com',2),
-(12,'(27)998786166',3),
-(12,'paulo_jos1@gmail.com',2),
-(13,'(27)33645521',1),
-(13,'ricard_r@gmail.com',2);
-/* Insere valores na tabela CONTATO_EMPRESA */
- 
+
+
+SELECT * FROM CONTATO_PESSOA
+
+/* Insere valores na tabela CONTATO_PESSOA */ 
+INSERT INTO CONTATO_PESSOA(ID_CONTATO,ID_PESSOA,CONTATO_REGISTRO,ID_TIPO_DE_CONTATO) VALUES
+(1,1,'(27)981376439',3),
+(2,1,'jcoelho@live.com',2),
+(3,2,'(27)33246505',1),
+(4,2,'moises43@live.com',2),
+(5,3,'(27)33450987',1),
+(6,3,'rod.fv@yahoo.com',2),
+(7,4,'(27)33246878',1),
+(8,4,'cirox@hotmail.com',2),
+(9,5,'(27)34547806',1),
+(10,5,'jos99@live.com',2),
+(11,6,'(27)87921004',3),
+(12,6,'albert6@gmail.com',2),
+(13,7,'(27)998887761',3),
+(14,7,'jose_per4@gmail.com',2),
+(15,8,'(27)33254879',1),
+(16,8,'carlos_senzi@ifes.br',2),
+(17,9,'(27)981657899',3),
+(18,9,'antonio_gs@gmail.com',2),
+(19,10,'(27)33214566',1),
+(20,10,'tete@live.com',2),
+(21,11,'(27)32334567',1),
+(22,11,'thais_linda@gmail.com',2),
+(23,12,'(27)998786166',3),
+(24,12,'paulo_jos1@gmail.com',2),
+(25,13,'(27)33645521',1),
+(26,13,'ricard_r@gmail.com',2);
+
+
+/* Insere valores na tabela CONTATO_EMPRESA */ 
 INSERT INTO CONTATO_EMPRESA(ID_EMPRESA,CONTATO_REGISTRO,ID_TIPO_DE_CONTATO) VALUES
 (1,'(27)40041010',1),
 (2,'(27)30550279',2),
@@ -203,13 +204,13 @@ INSERT INTO CONTATO_EMPRESA(ID_EMPRESA,CONTATO_REGISTRO,ID_TIPO_DE_CONTATO) VALU
 (8,'99998888',2),
 (8,'sac@planeta.com.br',2),
 (9,'sac@kaissara.com.br',2),
-(10,'sac@alvorada.com.br',2;
- /* Insere valores na tabela TIPO_CONTATO */
- 
+(10,'sac@alvorada.com.br',2);
+
+ /* Insere valores na tabela TIPO_CONTATO */ 
 INSERT INTO TIPO_CONTATO(ID_TIPO_CONTATO,TIPO) VALUES
 (1,'Telefone'),
 (2,'Email'),
-(3,'Telefone Celular);
+(3,'Telefone Celular');
 
 /* Insere valores na tabela EMPRESA */
 INSERT INTO EMPRESA (ID_EMPRESA,NOME,HORARIO_DE_FUNCIONAMENTO,CEP) VALUES
@@ -268,8 +269,6 @@ INSERT INTO PASSAGEM (ID_PASSAGEM,ID_PESSOA,ID_ROTA,ID_COMPANHIA,DATA_COMPRA,DAT
 
 
 
-
-
 /* Insere valores na tabela PESSOA_FUNCIONARIO */
 INSERT INTO PESSOA_FUNCIONARIO(ID_PESSOA,ID_EMPRESA) VALUES
 (1,(SELECT ID_EMPRESA FROM EMPRESA ORDER BY random() LIMIT 1)),
@@ -278,3 +277,18 @@ INSERT INTO PESSOA_FUNCIONARIO(ID_PESSOA,ID_EMPRESA) VALUES
 (4,(SELECT ID_EMPRESA FROM EMPRESA ORDER BY random() LIMIT 1)),
 (5,(SELECT ID_EMPRESA FROM EMPRESA ORDER BY random() LIMIT 1)),
 (6,(SELECT ID_EMPRESA FROM EMPRESA ORDER BY random() LIMIT 1));
+
+
+
+
+SELECT * FROM PESSOA;
+SELECT * FROM PESSOA_PASSAGEIRO;
+SELECT * FROM PESSOA_FUNCIONARIO;
+SELECT * FROM EMPRESA;
+SELECT * FROM COMPANHIA;
+SELECT * FROM RODOVIARIA;
+SELECT * FROM ROTAS;
+SELECT * FROM PASSAGEM;
+SELECT * FROM CONTATO_EMPRESA;
+SELECT * FROM CONTATO_PESSOA;
+SELECT * FROM TIPO_CONTATO;
