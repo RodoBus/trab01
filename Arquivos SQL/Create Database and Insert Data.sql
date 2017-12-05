@@ -1,7 +1,20 @@
--- Modelo Físico e Inserts
-
 -- Todo código sql
--- Incluindo create table, inserts, selects dos tópicos 9
+-- Incluindo drop table, create table, inserts, selects dos tópicos 9
+
+
+/* Deleta todas as tabelas */
+DROP TABLE PESSOA;
+DROP TABLE PESSOA_PASSAGEIRO;
+DROP TABLE PESSOA_FUNCIONARIO;
+DROP TABLE EMPRESA;
+DROP TABLE COMPANHIA;
+DROP TABLE RODOVIARIA;
+DROP TABLE ROTAS;
+DROP TABLE PASSAGEM;
+DROP TABLE CONTATO_EMPRESA;
+DROP TABLE CONTATO_PESSOA;
+DROP TABLE TIPO_CONTATO;
+
 
 
 /* Cria tabela PESSOA */
@@ -280,7 +293,7 @@ INSERT INTO PESSOA_FUNCIONARIO(ID_PESSOA,ID_EMPRESA) VALUES
 
 
 
-
+/* Visualiza todas as informações das tabelas */
 SELECT * FROM PESSOA;
 SELECT * FROM PESSOA_PASSAGEIRO;
 SELECT * FROM PESSOA_FUNCIONARIO;
