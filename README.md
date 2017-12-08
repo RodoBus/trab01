@@ -150,7 +150,7 @@ O sistema gera relatórios com as informações: <br>
 
 ### 6	MODELO LÓGICO<br>
 
-<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20MODELOS/Modelo%20L%C3%B3gico.png"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20MODELOS/Modelo%20L%C3%B3gico.png" alt="Alt text" title="Modelo Lógico" style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20MODELOS/Modelo%20Logico.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20MODELOS/Modelo%20Logico.PNG" alt="Alt text" title="Modelo Lógico" style="max-width:100%;"></a>
 
 >## Marco de Entrega 02 em: (Data definida no cronograma)<br>
 
