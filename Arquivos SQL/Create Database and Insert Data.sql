@@ -25,7 +25,14 @@ CREATE TABLE PESSOA
 	Nacionalidade VARCHAR[30]
 );
 
-
+/* Cria tabela EMPRESA */
+CREATE TABLE EMPRESA 
+(
+	ID_empresa INTEGER PRIMARY KEY,	
+	Nome VARCHAR[30],
+	Horario_de_funcionamento VARCHAR[30],
+	CEP INTEGER
+);
 
 /* Cria tabela PESSOA_FUNCIONARIO */
 CREATE TABLE PESSOA_FUNCIONARIO
@@ -40,41 +47,12 @@ CREATE TABLE PESSOA_FUNCIONARIO
 	REFERENCES EMPRESA (ID_empresa)
 );
 
-
-
-/* Cria tabela EMPRESA */
-CREATE TABLE EMPRESA 
+/* Cria tabela HORAS */
+CREATE TABLE HORAS 
 (
-	ID_empresa INTEGER PRIMARY KEY,	
-	Nome VARCHAR[30],
-	Horario_de_funcionamento VARCHAR[30],
-	CEP INTEGER
-);
-
-
-
-/* Cria tabela PASSAGEM */
-CREATE TABLE PASSAGEM 
-(
-	ID_passagem INTEGER PRIMARY KEY,
-	ID_rota INTEGER,
-	ID_empresa INTEGER,
-	Data_compra VARCHAR[30],
-	Data_viagem VARCHAR[30],
-	preco DOUBLE,
-	ID_pessoa INTEGER,
-	
-
-	FOREIGN KEY (ID_rota)
-	REFERENCES ROTAS (ID_rota),
-
-	FOREIGN KEY (ID_empresa)
-	REFERENCES EMPRESA (ID_empresa),
-
-	FOREIGN KEY (ID_pessoa)
-	REFERENCES PESSOA (ID_pessoa)
-);
-
+	ID_hora INTEGER PRIMARY KEY,
+	hora VARCHAR[30]
+); 
 
 
 /* Cria tabela ROTAS */
@@ -100,7 +78,29 @@ CREATE TABLE ROTAS
 	REFERENCES EMPRESA (ID_empresa)
 );
 
+/* Cria tabela PASSAGEM */
+CREATE TABLE PASSAGEM 
+(
+	ID_passagem INTEGER PRIMARY KEY,
+	ID_rota INTEGER,
+	ID_empresa INTEGER,
+	Data_compra VARCHAR[30],
+	Data_viagem VARCHAR[30],
+	preco DOUBLE,
+	ID_pessoa INTEGER,
+	
 
+	FOREIGN KEY (ID_rota)
+	REFERENCES ROTAS (ID_rota),
+
+	FOREIGN KEY (ID_empresa)
+	REFERENCES EMPRESA (ID_empresa),
+
+	FOREIGN KEY (ID_pessoa)
+	REFERENCES PESSOA (ID_pessoa)
+);
+
+	
 
 /* Cria tabela TIPO_CONTATO */
 CREATE TABLE TIPO_CONTATO 
@@ -132,12 +132,7 @@ CREATE TABLE CONTATO
 
 
 
-/* Cria tabela HORAS */
-CREATE TABLE HORAS 
-(
-	ID_hora INTEGER PRIMARY KEY,
-	hora VARCHAR[30]
-); 
+
 
  
 
