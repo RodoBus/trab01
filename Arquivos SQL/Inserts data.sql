@@ -1,11 +1,11 @@
 /* Insere valores na tabela PESSOA */
 INSERT INTO PESSOA (ID_PESSOA,NOME,IDENTIDADE,CPF,NACIONALIDADE,DATA_DE_NASCIMENTO) VALUES
-(1,'Jorge Teixeira Coelho',3950847,1758095381,'Brasil','14/01/1989'),
-(2,'Moisés Fernandes Silva',216671,4768964313,'Chile','11/06/1990'),
-(3,'Rodrigo Ferreira da Silva',2766111,12589964525,'Brasil','07/09/1978'),
-(4,'Ciro Ferreira',3950847,12356698745,'Brasil','05/09/88'),
-(5,'José Antônio da Silva',156554,15857798654,'Brasil','01/03/1991'),
-(6,'Alberto Gomes Ferreira',133397,45688715698,'França','22/05/1990'),
+(1,'Jorge Teixeira Coelho',3950847,1758095381,'Brasil','1989/01/14'),
+(2,'Moisés Fernandes Silva',216671,4768964313,'Chile','1990/06/11'),
+(3,'Rodrigo Ferreira da Silva',2766111,12589964525,'Brasil','1978/09/07'),
+(4,'Ciro Ferreira',3950847,12356698745,'Brasil','1988/09/05'),
+(5,'José Antônio da Silva',156554,15857798654,'Brasil','1991/03/01'),
+(6,'Alberto Gomes Ferreira',133397,45688715698,'França','1990/05/22'),
 (7,'José Pereira da Silva',3216549,13257743751,'Brasil','1968/05/15'),
 (8,'Carlos Alberto Senzi',4562783,15897664201,'Brasil','1973/05/23'),
 (9,'Antônio Giestas Pinheiro',3968754,13258846759,'Argentina','1992/01/07'),
