@@ -212,13 +212,6 @@ SELECT * FROM PESSOA
 <br>
 
 
-SELECT * FROM PESSOA_PASSAGEIRO;
-
-<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_PESSOA_PASSAGEIRO.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_PESSOA_PASSAGEIRO.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
-<br>
-<br>
-
-
 SELECT * FROM PESSOA_FUNCIONARIO;
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_PESSOA_FUNCIONARIO.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_PESSOA_FUNCIONARIO.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
@@ -229,21 +222,6 @@ SELECT * FROM PESSOA_FUNCIONARIO;
 SELECT * FROM EMPRESA;
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_EMPRESA.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_EMPRESA.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
-<br>
-<br>
-
-
-
-SELECT * FROM COMPANHIA;
-
-<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_COMPANHIA.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_COMPANHIA.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
-<br>
-<br>
-
-
-SELECT * FROM RODOVIARIA;
-
-<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_RODOVIARIA.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_RODOVIARIA.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
 
@@ -261,6 +239,26 @@ SELECT * FROM PASSAGEM;
 <br>
 <br>
 
+
+SELECT * from CONTATO;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_CONTATO.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_CONTATO.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+SELECT * from TIPO_CONTATO;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_TIPO_CONTATO.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_TIPO_CONTATO.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+SELECT * from HORAS;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
 
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
@@ -289,7 +287,7 @@ SELECT * from ROTAS where ID_RODOVIARIA_SAIDA = 3;
 <br>
 
 
-SELECT * from ROTAS where HORA_SAIDA > '12:00';
+SELECT * from PASSAGEM where DATA_COMPRA >= '01/11/2017';
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.2_4.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.2_4.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
@@ -298,41 +296,41 @@ SELECT * from ROTAS where HORA_SAIDA > '12:00';
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 6)
 
-SELECT * from PASSAGEM where DATA_COMPRA >= '01/11/2017';
+SELECT ID_EMPRESA,NOME as "Viação" from EMPRESA where NOME like 'Viação_%';
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.3_1.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.3_1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
 
 
-SELECT ID_EMPRESA,NOME as "Viação" from EMPRESA where NOME like 'Viação_%';
+SELECT * from PASSAGEM where PRECO < 45.00;
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.3_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.3_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
 
 
-SELECT ID_PESSOA,NOME as "Cliente",CPF from PESSOA;
+SELECT ID_PESSOA,NOME from PESSOA where NOME like 'T_%';
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.3_3.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.3_3.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
 
 
-SELECT * from PASSAGEM where PRECO < 45.00;
+SELECT * from PASSAGEM where PRECO > 40.00 and DATA_COMPRA >= '01/11/2017';
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.3_4.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.3_4.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
 
 
-SELECT ID_PESSOA,NOME,EMAIL from PESSOA where NOME like 'T_%' and EMAIL like '%_gmail.com';
+SELECT ID_EMPRESA, NOME as "Rodoviaria" from EMPRESA where NOME like 'Terminal_%';
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.3_5.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.3_5.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 
 
-SELECT * from PASSAGEM where PRECO > 40.00 and DATA_COMPRA >= '01/11/2017';
+SELECT * from PASSAGEM where PRECO > 20.0 and PRECO < 80.00;
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.3_6.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.3_6.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
@@ -367,7 +365,6 @@ SELECT * from EMPRESA where NOME like '%a';
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.4_3.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.4_3.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
-
 
 
 SELECT * from EMPRESA where NOME like 'Viação_%';
