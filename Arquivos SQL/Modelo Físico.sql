@@ -6,8 +6,8 @@ CREATE TABLE PESSOA
 (
 	ID_pessoa INTEGER PRIMARY KEY,
 	Nome VARCHAR[30],
-	Identidade VARCHAR[30],
-	CPF VARCHAR[30],
+	Identidade INTEGER,
+	CPF INTEGER,
 	Data_de_nascimento DATE,
 	Nacionalidade VARCHAR[30]
 );
