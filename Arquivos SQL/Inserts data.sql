@@ -167,12 +167,12 @@ INSERT INTO CONTATO(ID_CONTATO,CONTATO_REGISTRO,ID_TIPO_DE_CONTATO,ID_TIPO_USUAR
 -- INSERIR VALORES EM TABELA HORAS
 /* Insere valores na tabela HORAS */
 INSERT INTO HORAS(ID_hora,hora) VALUES
-(1,'07:00'),
-(2,'07:30'),
-(3,'08:00'),
-(4,'08:30'),
-(5,'09:00'),
-(6,'09:30'), 
+(1,'04:00'),
+(2,'04:30'),
+(3,'05:00'),
+(4,'05:30'),
+(5,'06:00'),
+(6,'06:30'), 
 (7,'07:00'),
 (8,'07:30'),
 (9,'08:00'),
