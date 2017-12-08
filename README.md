@@ -78,7 +78,7 @@ O sistema gera relatórios com as informações: <br>
 
 
 #### 5.2 DECISÕES DE PROJETO
-<b>Tabelas CONTATO_PESSOA, CONTATO_EMPRESA, TIPO_CONTATO:</b> A escolha de utilizar 3 tabelas para contatos foi feita com o intuito de normalizar os 2 tipos de contato existentes, englobando TELEFONE, TELEFONE CELULAR e EMAIL das tabelas PESSOA e EMPRESA envolvidas no sistemas RodoBus.<br>
+<b>Foi observado na etapa final do projeto, a possibilidade de organizar as classes como pessoa fisica e jurídica, com o intuito de unir as ID's na tabela CONTATO, evitando assim classes pessoa e empresa. Porém, como o tempo estava escasso, optamos por incluir na classe "contato" o campo "tipo_usuario" para identificar contatos do tipo pessoa e empresa.</b><br>
 
 <b>Tabelas PESSOA, PESSOA_FUNCIONARIO:</b> A escolha de utilizar 2 tabelas para organizar pessoas foi feita com o intuito de separar funcionários envolvidos no sistema RodoBus. Isto pois os funcionários possuem informações referentes a empresas, que não cabem a passageiros comuns. </b>
 
