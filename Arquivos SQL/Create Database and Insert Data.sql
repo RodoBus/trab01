@@ -251,7 +251,6 @@ INSERT INTO TIPO_CONTATO(ID_TIPO_CONTATO,TIPO) VALUES
 
 
 /* Insere valores na tabela CONTATO */
-
 INSERT INTO CONTATO(ID_CONTATO,CONTATO_REGISTRO,ID_TIPO_DE_CONTATO,ID_TIPO_USUARIO) VALUES
 (1,'(27)981376439',3,1),
 (1,'jcoelho@live.com',2,1),
@@ -279,21 +278,20 @@ INSERT INTO CONTATO(ID_CONTATO,CONTATO_REGISTRO,ID_TIPO_DE_CONTATO,ID_TIPO_USUAR
 (12,'paulo_jos1@gmail.com',2,1),
 (13,'(27)33645521',1,1),
 (13,'ricard_r@gmail.com',2,1);
-(14,'(27)40041010',1,2),
-(15,'(27)30550279',2,2),
-(16,'80072321',3,2),
-(17,'33334444',1,2),
-(18,'55557777',1,2),
-(19,'sac@aguiabranca.com.br',2,2),
-(20,'sac@gontijo.com.br',2,2),
-(21,'33338888',2,2),
-(22,'sac@gontijo.com.br',2,2),
-(23,'99999999',3,2),
-(24,'sac@itapemirim.com.br',2,2),
-(25,'99998888',3,2),
-(26,'sac@planeta.com.br',2,2),
-(27,'sac@kaissara.com.br',2,2),
-(28,'sac@alvorada.com.br',2,2);
+(1,'(27)40041010',1,2),
+(2,'(27)30550279',2,2),
+(3,'80072321',3,2),
+(4,'33334444',1,2),
+(5,'55557777',1,2),
+(5,'sac@aguiabranca.com.br',2,2),
+(6,'33338888',2,2),
+(6,'sac@gontijo.com.br',2,2),
+(7,'99999999',3,2),
+(7,'sac@itapemirim.com.br',2,2),
+(8,'99998888',3,2),
+(8,'sac@planeta.com.br',2,2),
+(9,'sac@kaissara.com.br',2,2),
+(10,'sac@alvorada.com.br',2,2);
 
 
 
