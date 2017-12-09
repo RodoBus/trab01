@@ -78,9 +78,13 @@ O sistema gera relatórios com as informações: <br>
 
 
 #### 5.2 DECISÕES DE PROJETO
-<b>Foi observado na etapa final do projeto, a possibilidade de organizar as classes como pessoa fisica e jurídica, com o intuito de unir as ID's na tabela CONTATO, evitando assim classes pessoa e empresa. Porém, como o tempo estava escasso, optamos por incluir na classe "contato" o campo "tipo_usuario" para identificar contatos do tipo pessoa e empresa.</b><br>
+Foi observado na etapa final do projeto, a possibilidade de organizar as classes como pessoa fisica e jurídica, com o intuito<br>
+de unir as ID's na tabela CONTATO, evitando assim classes pessoa e empresa. Porém, como o tempo estava escasso, optamos por <br>
+incluir na classe "contato" o campo "tipo_usuario" para identificar contatos do tipo pessoa e empresa.<br>
 
-<b>Tabelas PESSOA, PESSOA_FUNCIONARIO:</b> A escolha de utilizar 2 tabelas para organizar pessoas foi feita com o intuito de separar funcionários envolvidos no sistema RodoBus. Isto pois os funcionários possuem informações referentes a empresas, que não cabem a passageiros comuns. </b>
+<b>Tabelas PESSOA, PESSOA_FUNCIONARIO:</b> A escolha de utilizar 2 tabelas para organizar pessoas foi feita com o intuito de <br>
+separar funcionários envolvidos no sistema RodoBus. Isto pois os funcionários possuem informações referentes a empresas, que não <br>
+cabem a passageiros comuns. 
 
 <br>
     
