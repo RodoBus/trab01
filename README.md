@@ -194,7 +194,7 @@ Não utilizamos códigos previamente pronto. Desenvolvemos projeto a partir de s
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
 -->
-
+            
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 
