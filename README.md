@@ -552,7 +552,7 @@ SELECT ROTAS.ID_ROTA, HORAS.HORA AS "Hora_saida" FROM ROTAS LEFT JOIN HORAS ON (
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.8_4.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.8_4.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
-<br>
+<br>            
 
 
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
