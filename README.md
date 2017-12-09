@@ -87,7 +87,7 @@ separar funcionários envolvidos no sistema RodoBus. Isto pois os funcionários 
 cabem a passageiros comuns. 
 
 <br>
-    
+        
 <!--
     [atributo]: [descrição da decisão]
     
