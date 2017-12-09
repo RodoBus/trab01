@@ -100,13 +100,13 @@ cabem a passageiros comuns.
 #### 5.3 DESCRIÇÃO DOS DADOS          
                
 
-<b>Tabela PESSOA</b>: Tabela que armazena as informações relativas a cada indivíduo cadastrado no sistema. <br>
-<li>ID PESSOA: Campo que armazena o código de cada indivíduo cadastrado. </li>
-<li>NOME: Campo que armazena os nomes das pessoas cadastradas. </li>
-<li>IDENTIDADE: Campo que armazena o Registro Geral de cada pessoa cadastrada. </li>
-<li>CPF: Campo que armazena o número de Cadastro de Pessoa Física para cada indivíduo cadastrado. </li>
-<li>DATA_DE_NASCIMENTO: Campo que armazena a data de nascimento de cada pessoa cadastrada. </li>
-<li>NACIONALIDADE: Campo que armazena a nacionalidade de cada pessoa cadastrada. </li>
+<b>Tabela PESSOA</b>: Tabela que armazena as informações relativas a cada indivíduo cadastrado no sistema. <br>          
+<li>ID PESSOA: Campo que armazena o código de cada indivíduo cadastrado. </li>        
+<li>NOME: Campo que armazena os nomes das pessoas cadastradas. </li>          
+<li>IDENTIDADE: Campo que armazena o Registro Geral de cada pessoa cadastrada. </li>        
+<li>CPF: Campo que armazena o número de Cadastro de Pessoa Física para cada indivíduo cadastrado. </li>           
+<li>DATA_DE_NASCIMENTO: Campo que armazena a data de nascimento de cada pessoa cadastrada. </li>            
+<li>NACIONALIDADE: Campo que armazena a nacionalidade de cada pessoa cadastrada. </li>                 
 <br>            
 <b>Tabela PESSOA_FUNCIONARIO</b>: Tabela que armazena informações pertinentes a cada funcionário de cada companhia e rodoviária. <br>
 <li>ID_PESSOA:  (CHAVE PRIMARIA) Campo que armazena a ID da pessoa que está ligada à tabela funcionário. </li>     
