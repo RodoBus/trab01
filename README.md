@@ -195,7 +195,7 @@ Não utilizamos códigos previamente pronto. Desenvolvemos projeto a partir de s
         c) formato .SQL
 -->
             
-
+            
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Arquivos%20SQL/bd_rodobus.sql">Todo o código SQL, com inserts, e selects.</a>
