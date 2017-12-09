@@ -3,11 +3,11 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário       
 
-### 1. COMPONENTES<br>  
-Integrantes do grupo<br>          
-Hugo Ramalho: ramalho.hg@gmail.com<br>
-Maria Luiza de Freitas: malufrt@hotmail.com<br>
-Vitor Salzman: vitor-salzman96@hotmail.com<br>
+### 1. COMPONENTES<br>        
+Integrantes do grupo<br>           
+Hugo Ramalho: ramalho.hg@gmail.com<br>      
+Maria Luiza de Freitas: malufrt@hotmail.com<br>      
+Vitor Salzman: vitor-salzman96@hotmail.com<br>         
    
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>           
 Entre os meios de transporte existentes no estado do Espírito Santo, o transporte rodoviário por ônibus é o mais comum. <br>
@@ -46,15 +46,15 @@ O sistema gera relatórios com as informações: <br>
 - Companhias vinculadas. <br>
 - Rotas de viagens. <br>
 - Funcionários das rodoviárias. <br>
-- Funcionários das companhias. <br>
+- Funcionários das companhias. <br>        
 - Rodoviárias do estado. <br>
 - Passagens mais compradas por ano. <br>
 - Histórico de passagens feitas pelo passageiro. <br>
 - Escala dos funcionários. <br>
     
->## Marco de Entrega 01 em: (Data definida no cronograma)<br>
+>## Marco de Entrega 01 em: (Data definida no cronograma)<br>        
 
-### 5.MODELO CONCEITUAL<br>
+### 5.MODELO CONCEITUAL<br>        
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20MODELOS/Modelo%20Conceitual.png"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20MODELOS/Modelo%20Conceitual.png" alt="Alt text" title="Modelo Conceitual" style="max-width:100%;"></a>
 
