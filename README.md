@@ -74,7 +74,7 @@ O sistema gera relatórios com as informações: <br>
     [Grupo01]: Harã Henrique, Guilherme Bodart, Edmilton da Silva Junior.
     [Grupo02]: Tarcísio Bruni, Lucas Erlacher, Caio Kinupp.   
  
-
+                
                 
 
 #### 5.2 DECISÕES DE PROJETO
@@ -85,7 +85,7 @@ incluir na classe "contato" o campo "tipo_usuario" para identificar contatos do 
 <b>Tabelas PESSOA, PESSOA_FUNCIONARIO:</b> A escolha de utilizar 2 tabelas para organizar pessoas foi feita com o intuito de <br>
 separar funcionários envolvidos no sistema RodoBus. Isto pois os funcionários possuem informações referentes a empresas, que não <br>
 cabem a passageiros comuns. 
-
+              
 <br>
         
 <!--
