@@ -299,8 +299,10 @@ SELECT * from ROTAS where ID_RODOVIARIA_SAIDA = 3;
 SELECT * from PASSAGEM where DATA_COMPRA >= '01/11/2017';
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.2_4.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.2_4.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.2_4(2).PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.2_4(2).PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
+
 
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 6)
