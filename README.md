@@ -9,13 +9,13 @@ Hugo Ramalho: ramalho.hg@gmail.com<br>
 Maria Luiza de Freitas: malufrt@hotmail.com<br>      
 Vitor Salzman: vitor-salzman96@hotmail.com<br>         
    
-### 2.INTRODUÇÃO E MOTIVAÇAO<br>           
+### 2.INTRODUÇÃO E MOTIVAÇAO<br>               
 Entre os meios de transporte existentes no estado do Espírito Santo, o transporte rodoviário por ônibus é o mais comum. <br>
 Porém, diferente dos aeroportos, rodoviárias capixabas não contam com uma organização devidamente implementada. O projeto <br>
 rodobus busca uma solução para esse problema, dispondo de um banco de dados que envolve toda logística do sistema de <br>
 transporte rodoviário capixaba. Este projeto contém a especificação do banco de dados do projeto RodoBus. <br>
           
-### 3.MINI-MUNDO<br>     
+### 3.MINI-MUNDO<br>             
 A ideia do projeto é criar um sistema robusto, intuitivo para a gestão dos sistemas de transportes rodoviários para <br>
 passageiros, empregando neste setor o mesmo nível de robustez aplicado nos aeroportos. <br>
 O projeto RodoBus oferecerá uso conveniente a clientes, funcionários de rodoviárias e viações vinculadas. <br>
@@ -54,7 +54,7 @@ O sistema gera relatórios com as informações: <br>
     
 >## Marco de Entrega 01 em: (Data definida no cronograma)<br>        
 
-### 5.MODELO CONCEITUAL<br>        
+### 5.MODELO CONCEITUAL<br>              
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20MODELOS/Modelo%20Conceitual.png"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20MODELOS/Modelo%20Conceitual.png" alt="Alt text" title="Modelo Conceitual" style="max-width:100%;"></a>
 
