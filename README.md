@@ -130,7 +130,7 @@ cabem a passageiros comuns.
 <li>DATA_COMPRA: Campo que armazena a data e horário de compra da passagem. </li>
 <li>DATA_VIAGEM: Campo que armazena a data da viagem vinculada à passagem. </li>
 <li>PRECO: Campo que armazena o preço de cada passagem. </li>
-<br>
+<br>            
 <b>Tabela ROTAS</b>: Tabela que armazena as informações de cada viagem. <br>
 <li>ID_ROTA: (CHAVE PRIMARIA) Campo que armazena a identificação da rota. Este campo é ligado à tabela PASSAGEM. </li>
 <li>ID_HORA_SAIDA: Campo que armazena a ID do horário de saída de cada rota. </li>
@@ -225,7 +225,7 @@ SELECT * FROM EMPRESA;
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_EMPRESA_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_EMPRESA_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
-
+            
 
 SELECT * FROM ROTAS;
 
