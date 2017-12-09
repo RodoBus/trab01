@@ -391,11 +391,11 @@ SELECT * from EMPRESA where NOME like 'Viação_%';
 <br>
 
 
-
+           
 >## Marco de Entrega 03 em: (Data definida no cronograma)<br>
-    
+                    
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
-
+                         
 UPDATE PASSAGEM SET PRECO = 90.0 where PRECO = 87.0;
 SELECT PASSAGEM;
 
