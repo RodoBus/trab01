@@ -14,7 +14,7 @@ Entre os meios de transporte existentes no estado do Espírito Santo, o transpor
 Porém, diferente dos aeroportos, rodoviárias capixabas não contam com uma organização devidamente implementada. O projeto <br>
 rodobus busca uma solução para esse problema, dispondo de um banco de dados que envolve toda logística do sistema de <br>
 transporte rodoviário capixaba. Este projeto contém a especificação do banco de dados do projeto RodoBus. <br>
-
+          
 ### 3.MINI-MUNDO<br>     
 A ideia do projeto é criar um sistema robusto, intuitivo para a gestão dos sistemas de transportes rodoviários para <br>
 passageiros, empregando neste setor o mesmo nível de robustez aplicado nos aeroportos. <br>
@@ -68,14 +68,14 @@ O sistema gera relatórios com as informações: <br>
         Garantir que a semântica dos atributos seja clara no esquema
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
         e tuplas falsas
-    
+              
         
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: Harã Henrique, Guilherme Bodart, Edmilton da Silva Junior.
     [Grupo02]: Tarcísio Bruni, Lucas Erlacher, Caio Kinupp.   
  
 
-
+                
 
 #### 5.2 DECISÕES DE PROJETO
 Foi observado na etapa final do projeto, a possibilidade de organizar as classes como pessoa fisica e jurídica, com o intuito<br>
@@ -98,7 +98,7 @@ cabem a passageiros comuns.
 -->         
       
 #### 5.3 DESCRIÇÃO DOS DADOS          
-
+               
 
 <b>Tabela PESSOA</b>: Tabela que armazena as informações relativas a cada indivíduo cadastrado no sistema. <br>
 <li>ID PESSOA: Campo que armazena o código de cada indivíduo cadastrado. </li>
@@ -107,17 +107,17 @@ cabem a passageiros comuns.
 <li>CPF: Campo que armazena o número de Cadastro de Pessoa Física para cada indivíduo cadastrado. </li>
 <li>DATA_DE_NASCIMENTO: Campo que armazena a data de nascimento de cada pessoa cadastrada. </li>
 <li>NACIONALIDADE: Campo que armazena a nacionalidade de cada pessoa cadastrada. </li>
-<br>
+<br>            
 <b>Tabela PESSOA_FUNCIONARIO</b>: Tabela que armazena informações pertinentes a cada funcionário de cada companhia e rodoviária. <br>
 <li>ID_PESSOA:  (CHAVE PRIMARIA) Campo que armazena a ID da pessoa que está ligada à tabela funcionário. </li>     
 <li>ID_EMPRESA: Campo que armazena o código que identifica a empresa na qual o funcionário está vinculado. </li>
-<br>      
+<br>               
 <b>Tabela CONTATO</b>: Tabela que armazena contatos de pessoas e empresas.<br>
 <li>ID_CONTA: Campo que armazena a ID da pessoa ou empresa ligada aos contatos da tabela.</li>    
 <li>CONTATO_REGISTRO: Campo que armazena o contato da pessoa ou empresa identificado por ID.</li>
 <li>TIPO_CONTATO: Campo que armazena o tipo de contato contido na tabela TIPO_CONTATO.</li>
 <li>TIPO_USUARIO: Campo que armazena o tipo de usuario, identificado como 1 para pessoa e 2 para empresa.</li>
-<br>        
+<br>                  
 <b>Tabela TIPO_CONTATO</b>: Tabela que armazena o tipo de contato ligado à tabela CONTATO.<br>
 <li>ID_TIPO_CONTATO: Campo que armazena a ID do tipo de contato registrado.</li>     
 <li>TIPO: Campo que armazena o tipo do contato presente no registro.</li>
@@ -153,8 +153,8 @@ cabem a passageiros comuns.
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20MODELOS/Modelo%20Logico.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20MODELOS/Modelo%20Logico.PNG" alt="Alt text" title="Modelo Lógico" style="max-width:100%;"></a>
 
 >## Marco de Entrega 02 em: (Data definida no cronograma)<br>
-
-### 7	MODELO FÍSICO<br>
+               
+### 7	MODELO FÍSICO<br>                
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Arquivos%20SQL/Modelo%20F%C3%ADsico.sql">Modelo Físico</a>
           
