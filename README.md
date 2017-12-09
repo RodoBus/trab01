@@ -99,7 +99,7 @@ cabem a passageiros comuns.
       
 #### 5.3 DESCRIÇÃO DOS DADOS          
                
-
+                      
 <b>Tabela PESSOA</b>: Tabela que armazena as informações relativas a cada indivíduo cadastrado no sistema. <br>          
 <li>ID PESSOA: Campo que armazena o código de cada indivíduo cadastrado. </li>        
 <li>NOME: Campo que armazena os nomes das pessoas cadastradas. </li>          
@@ -153,8 +153,8 @@ cabem a passageiros comuns.
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20MODELOS/Modelo%20Logico.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20MODELOS/Modelo%20Logico.PNG" alt="Alt text" title="Modelo Lógico" style="max-width:100%;"></a>
 
 >## Marco de Entrega 02 em: (Data definida no cronograma)<br>
-               
-### 7	MODELO FÍSICO<br>                
+                  
+### 7	MODELO FÍSICO<br>                      
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Arquivos%20SQL/Modelo%20F%C3%ADsico.sql">Modelo Físico</a>
           
