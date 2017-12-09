@@ -263,8 +263,14 @@ SELECT * from TIPO_CONTATO;
 SELECT * from HORAS;
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS_1.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS_1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS_3.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS_3.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS_4.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS_4.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
