@@ -1,7 +1,7 @@
 # TRABALHO 01:  RodoBus
-Trabalho desenvolvido durante a disciplina de BD1
+Trabalho desenvolvido durante a disciplina de BD1          
 
-# Sumário
+# Sumário       
 
 ### 1. COMPONENTES<br>  
 Integrantes do grupo<br>          
@@ -97,7 +97,7 @@ cabem a passageiros comuns.
     b) justifique!
 -->         
       
-#### 5.3 DESCRIÇÃO DOS DADOS 
+#### 5.3 DESCRIÇÃO DOS DADOS          
 
 
 <b>Tabela PESSOA</b>: Tabela que armazena as informações relativas a cada indivíduo cadastrado no sistema. <br>
