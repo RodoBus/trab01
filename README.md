@@ -111,17 +111,17 @@ cabem a passageiros comuns.
 <b>Tabela PESSOA_FUNCIONARIO</b>: Tabela que armazena informações pertinentes a cada funcionário de cada companhia e rodoviária. <br>
 <li>ID_PESSOA:  (CHAVE PRIMARIA) Campo que armazena a ID da pessoa que está ligada à tabela funcionário. </li>     
 <li>ID_EMPRESA: Campo que armazena o código que identifica a empresa na qual o funcionário está vinculado. </li>
-<br>     
+<br>      
 <b>Tabela CONTATO</b>: Tabela que armazena contatos de pessoas e empresas.<br>
 <li>ID_CONTA: Campo que armazena a ID da pessoa ou empresa ligada aos contatos da tabela.</li>    
 <li>CONTATO_REGISTRO: Campo que armazena o contato da pessoa ou empresa identificado por ID.</li>
 <li>TIPO_CONTATO: Campo que armazena o tipo de contato contido na tabela TIPO_CONTATO.</li>
 <li>TIPO_USUARIO: Campo que armazena o tipo de usuario, identificado como 1 para pessoa e 2 para empresa.</li>
-<br>
+<br>        
 <b>Tabela TIPO_CONTATO</b>: Tabela que armazena o tipo de contato ligado à tabela CONTATO.<br>
 <li>ID_TIPO_CONTATO: Campo que armazena a ID do tipo de contato registrado.</li>     
 <li>TIPO: Campo que armazena o tipo do contato presente no registro.</li>
-<br>
+<br>      
 <b>Tabela PASSAGEM</b>: Tabela que armazena as informações relativas à passagens ligadas a passageiros cadastrados. <br>
 <li>ID_PASSAGEM: (CHAVE PRIMARIA) Campo que armazena o ID da passagem, que está ligado a PESSOA_PASSAGEIRO - ID_PASSAGEM. </li>
 <li>ID_PESSOA: Campo que armazena o ID da pessoa que comprou a passagem. </li>
@@ -137,7 +137,7 @@ cabem a passageiros comuns.
 <li>ID_HORA_CHEGADA: Campo que armazena a ID do horário estimado para chegada de cada rota. </li>
 <li>ID_RODOVIARIA_SAIDA: Campo que armazena a rodoviária origem de cada rota. </li>
 <li>ID_RODOVIARIA_CHEGADA: Campo que armazena a rodoviária destino de cada rota. </li>
-<br>   
+<br>           
 <b>Tabela EMPRESA</b>: Tabela que armazena informações sobre cada empresa. <br>
 <li>ID_EMPRESA: (CHAVE PRIMARIA) Campo que armazena a identidade de cada empresa vinculada. 
     Este campo está vinculado à ROTAS- ID ROTA; FUNCIONARIOS - ID EMPRESA. </li>
