@@ -111,7 +111,7 @@ cabem a passageiros comuns.
 <b>Tabela PESSOA_FUNCIONARIO</b>: Tabela que armazena informações pertinentes a cada funcionário de cada companhia e rodoviária. <br>
 <li>ID_PESSOA:  (CHAVE PRIMARIA) Campo que armazena a ID da pessoa que está ligada à tabela funcionário. </li>     
 <li>ID_EMPRESA: Campo que armazena o código que identifica a empresa na qual o funcionário está vinculado. </li>
-<br>
+<br>     
 <b>Tabela CONTATO</b>: Tabela que armazena contatos de pessoas e empresas.<br>
 <li>ID_CONTA: Campo que armazena a ID da pessoa ou empresa ligada aos contatos da tabela.</li>    
 <li>CONTATO_REGISTRO: Campo que armazena o contato da pessoa ou empresa identificado por ID.</li>
