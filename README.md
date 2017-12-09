@@ -108,15 +108,11 @@ O sistema gera relatórios com as informações: <br>
 <li>ID_PESSOA:  (CHAVE PRIMARIA) Campo que armazena a ID da pessoa que está ligada à tabela funcionário. </li>     
 <li>ID_EMPRESA: Campo que armazena o código que identifica a empresa na qual o funcionário está vinculado. </li>
 <br>
-<b>Tabela CONTATO_PESSOA</b>: Tabela que armazena contatos de pessoas e empresas.<br>
-<li>ID_PESSOA: Campo que armazena a ID da pessoa ligada aos contatos da tabela.</li>    
+<b>Tabela CONTATO</b>: Tabela que armazena contatos de pessoas e empresas.<br>
+<li>ID_CONTA: Campo que armazena a ID da pessoa ou empresa ligada aos contatos da tabela.</li>    
 <li>CONTATO_REGISTRO: Campo que armazena o contato da pessoa ou empresa identificado por ID.</li>
-<li>TIPO_CONTATO: Campo que armazena o tipo de contato contido na tabela.</li>
-<br>
-<b>Tabela CONTATO_EMPRESA</b>: Tabela que armazena contatos de pessoas e empresas.<br>    
-<li>ID_EMPRESA: Campo que armazena a ID da empresa ligada aos contatos da tabela.</li>    
-<li>CONTATO_REGISTRO: Campo que armazena o contato da pessoa ou empresa identificado por ID.</li>
-<li>ID_TIPO_CONTATO: Campo que armazena o ID do tipo de contato contido na tabela.</li>
+<li>TIPO_CONTATO: Campo que armazena o tipo de contato contido na tabela TIPO_CONTATO.</li>
+<li>TIPO_USUARIO: Campo que armazena o tipo de usuario, identificado como 1 para pessoa e 2 para empresa.</li>
 <br>
 <b>Tabela TIPO_CONTATO</b>: Tabela que armazena o tipo de contato ligado à tabela CONTATO.<br>
 <li>ID_TIPO_CONTATO: Campo que armazena a ID do tipo de contato registrado.</li>     
@@ -126,15 +122,15 @@ O sistema gera relatórios com as informações: <br>
 <li>ID_PASSAGEM: (CHAVE PRIMARIA) Campo que armazena o ID da passagem, que está ligado a PESSOA_PASSAGEIRO - ID_PASSAGEM. </li>
 <li>ID_PESSOA: Campo que armazena o ID da pessoa que comprou a passagem. </li>
 <li>ID_ROTA: Campo que armazena a identificação da rota da passagem. Este campo é ligado à tabela ROTAS. </li>
-<li>ID_COMPANHIA: Campo que armazena a ID da companhia vinculada à passagem. </li>
+<li>ID_COMPANHIA: Campo que armazena a ID da companhia vinculada à passagem, ligado por ID_EMPRESA. </li>
 <li>DATA_COMPRA: Campo que armazena a data e horário de compra da passagem. </li>
 <li>DATA_VIAGEM: Campo que armazena a data da viagem vinculada à passagem. </li>
 <li>PRECO: Campo que armazena o preço de cada passagem. </li>
 <br>
 <b>Tabela ROTAS</b>: Tabela que armazena as informações de cada viagem. <br>
 <li>ID_ROTA: (CHAVE PRIMARIA) Campo que armazena a identificação da rota. Este campo é ligado à tabela PASSAGEM. </li>
-<li>HORA_SAIDA: Campo que armazena o horário de saída de cada rota. </li>
-<li>HORA_CHEGADA: Campo que armazena o tempo estimado para chegada de cada rota. </li>
+<li>ID_HORA_SAIDA: Campo que armazena a ID do horário de saída de cada rota. </li>
+<li>ID_HORA_CHEGADA: Campo que armazena a ID do horário estimado para chegada de cada rota. </li>
 <li>ID_RODOVIARIA_SAIDA: Campo que armazena a rodoviária origem de cada rota. </li>
 <li>ID_RODOVIARIA_CHEGADA: Campo que armazena a rodoviária destino de cada rota. </li>
 <br>   
