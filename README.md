@@ -15,7 +15,7 @@ Porém, diferente dos aeroportos, rodoviárias capixabas não contam com uma org
 rodobus busca uma solução para esse problema, dispondo de um banco de dados que envolve toda logística do sistema de <br>
 transporte rodoviário capixaba. Este projeto contém a especificação do banco de dados do projeto RodoBus. <br>
 
-### 3.MINI-MUNDO<br>
+### 3.MINI-MUNDO<br>     
 A ideia do projeto é criar um sistema robusto, intuitivo para a gestão dos sistemas de transportes rodoviários para <br>
 passageiros, empregando neste setor o mesmo nível de robustez aplicado nos aeroportos. <br>
 O projeto RodoBus oferecerá uso conveniente a clientes, funcionários de rodoviárias e viações vinculadas. <br>
