@@ -272,10 +272,10 @@ SELECT * from HORAS;
 <br>
 <br>
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS_4.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS_4.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
-<br>
-<br>
-
-
+<br>             
+<br>                 
+               
+                         
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
 
