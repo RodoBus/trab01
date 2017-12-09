@@ -3,7 +3,7 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
 
-### 1. COMPONENTES<br>
+### 1. COMPONENTES<br>  
 Integrantes do grupo<br>
 Hugo Ramalho: ramalho.hg@gmail.com<br>
 Maria Luiza de Freitas: malufrt@hotmail.com<br>
