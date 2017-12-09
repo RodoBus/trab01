@@ -31,11 +31,11 @@ apenas aos usuários responsáveis para tal operação. <br>
 Neste ponto a codificação não é necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas.<a href="https://github.com/RodoBus/trab01/blob/master/balsamiq.pdf"> Mockup </a> <br>
 
 <!--
-Sugestão: https://balsamiq.com/products/mockups/<br>
+Sugestão: https://balsamiq.com/products/mockups/<br>       
 
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 -->
-
+         
 #### 4.1 TABELA DE DADOS DO SISTEMA:
 <img src="https://github.com/RodoBus/trab01/blob/master/Tabelas%20mesclada%20e%20separadas.xlsx" title="Tabela do sistema" style="max-width:100%;">
 
@@ -58,7 +58,7 @@ O sistema gera relatórios com as informações: <br>
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20MODELOS/Modelo%20Conceitual.png"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20MODELOS/Modelo%20Conceitual.png" alt="Alt text" title="Modelo Conceitual" style="max-width:100%;"></a>
 
-
+         
     A) NOTACAO ENTIDADE RELACIONAMENTO 
         * Para nosso prótótipo limitaremos o modelo conceitual nas 6 principais entidades do escopo
         * O protótipo deve possui no mínimo duas relações N para N
@@ -121,7 +121,7 @@ cabem a passageiros comuns.
 <b>Tabela TIPO_CONTATO</b>: Tabela que armazena o tipo de contato ligado à tabela CONTATO.<br>
 <li>ID_TIPO_CONTATO: Campo que armazena a ID do tipo de contato registrado.</li>     
 <li>TIPO: Campo que armazena o tipo do contato presente no registro.</li>
-<br>      
+<br>        
 <b>Tabela PASSAGEM</b>: Tabela que armazena as informações relativas à passagens ligadas a passageiros cadastrados. <br>
 <li>ID_PASSAGEM: (CHAVE PRIMARIA) Campo que armazena o ID da passagem, que está ligado a PESSOA_PASSAGEIRO - ID_PASSAGEM. </li>
 <li>ID_PESSOA: Campo que armazena o ID da pessoa que comprou a passagem. </li>
@@ -208,8 +208,8 @@ SELECT * FROM PESSOA
 
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_PESSOA_1.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_PESSOA_1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_PESSOA_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_PESSOA_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
-<br>
-<br>
+<br>        
+<br>       
 
 
 SELECT * FROM PESSOA_FUNCIONARIO;
