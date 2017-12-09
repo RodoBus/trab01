@@ -221,28 +221,34 @@ SELECT * FROM PESSOA_FUNCIONARIO;
 
 SELECT * FROM EMPRESA;
 
-<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_EMPRESA.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_EMPRESA.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_EMPRESA_1.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_EMPRESA_1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_EMPRESA_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_EMPRESA_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
 
 
 SELECT * FROM ROTAS;
 
-<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_ROTAS.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_ROTAS.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_ROTAS_1.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_ROTAS_1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_ROTAS_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_ROTAS_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
 
 
 SELECT * FROM PASSAGEM;
 
-<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_PASSAGEM.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_PASSAGEM.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_PASSAGEM_1.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_PASSAGEM_1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_PASSAGEM_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_PASSAGEM_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
 
 
 SELECT * from CONTATO;
 
-<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_CONTATO.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_CONTATO.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_CONTATO_1.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_CONTATO_1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_CONTATO_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_CONTATO_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_CONTATO_3.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_CONTATO_3.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_CONTATO_4.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_CONTATO_4.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
 
@@ -256,7 +262,10 @@ SELECT * from TIPO_CONTATO;
 
 SELECT * from HORAS;
 
-<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS_1.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS_1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS_3.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS_3.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS_4.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.1_HORAS_4.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
 <br>
 <br>
 
@@ -378,15 +387,239 @@ SELECT * from EMPRESA where NOME like 'Viação_%';
 >## Marco de Entrega 03 em: (Data definida no cronograma)<br>
     
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+
+UPDATE PASSAGEM SET PRECO = 90.0 where PRECO = 87.0;
+SELECT PASSAGEM;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.5_1.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.5_1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+UPDATE CONTATO SET CONTATO_REGISTRO = '(27)981376499' where CONTATO_REGISTRO = '(27)981376439';
+SELECT CONTATO;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.5_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.5_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+UPDATE CONTATO SET CONTATO_REGISTRO = 'sac_123@alvorada.com.br' where CONTATO_REGISTRO = 'sac@alvorada.com.br';
+SELECT CONTATO;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.5_3.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.5_3.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+DELETE FROM CONTATO where ID_CONTATO = 1 and ID_TIPO_DE_CONTATO = 1;
+SELECT CONTATO;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.5_4.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.5_4.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+DELETE FROM PASSAGEM where ID_PESSOA = 5;
+SELECT PASSAGEM;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.5_5.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.5_5.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+DELETE FROM ROTA where ID_ROTAS = 3;
+SELECT ROTA;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.5_6.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.5_6.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
-        a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
-        b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
+
+SELECT CONTATO_REGISTRO, ID_CONTATO from CONTATO ORDER BY ID_CONTATO;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.6_1.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.6_1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+SELECT PESSOA.NOME, CONTATO.CONTATO_REGISTRO from CONTATO inner join PESSOA on(PESSOA.ID_PESSOA = CONTATO.ID_CONTATO);
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.6_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.6_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+SELECT ROTAS.ID_HORA_SAIDA, HORAS.HORA as HORARIO_DE_PARTIDA from ROTAS inner join HORAS on(ROTAS.ID_HORA_SAIDA = HORAS.ID_HORA) order by ID_HORA;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.6_3.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.6_3.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+SELECT PESSOA.NOME, PASSAGEM.DATA_COMPRA, PASSAGEM.DATA_VIAGEM from PASSAGEM inner join PESSOA on(PESSOA.ID_PESSOA = PASSAGEM.ID_PESSOA);
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.6_4.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.6_4.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+SELECT PESSOA.NOME, EMPRESA.NOME as "TRABALHA_EM" from PESSOA_FUNCIONARIO inner join PESSOA on(PESSOA.ID_PESSOA = PESSOA_FUNCIONARIO.ID_PESSOA) inner join EMPRESA on(EMPRESA.ID_EMPRESA = PESSOA_FUNCIONARIO.ID_EMPRESA);
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.6_5.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.6_5.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇES DE AGRUPAMENTO (Mínimo 6)<br>
+
+SELECT ID_PASSAGEM, PRECO FROM PASSAGEM GROUP BY PRECO;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.7_1.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.7_1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+SELECT PESSOA.ID_PESSOA, PESSOA.NOME, PESSOA.NACIONALIDADE, PRECO FROM PESSOA INNER JOIN PASSAGEM ON PASSAGEM.ID_PESSOA = PESSOA.ID_PESSOA GROUP BY PRECO;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.7_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.7_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+SELECT * FROM CONTATO GROUP BY ID_CONTATO ;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.7_3.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.7_3.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+SELECT count(ID_HORA) as "QUANTIDADE_DE_VIAGENS", HORAS.HORA from HORAS inner join ROTAS on(ROTAS.ID_HORA_SAIDA = HORAS.ID_HORA) group by ID_HORA
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.7_4.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.7_4.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+SELECT ID_CONTATO, PESSOA.NOME, count(*) AS "QTD_DE_FORMAS_DE_CONTATO" from CONTATO inner join PESSOA on(PESSOA.ID_PESSOA = CONTATO.ID_CONTATO) group by ID_CONTATO, NOME;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.7_5.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.7_5.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+SELECT PASSAGEM.ID_ROTA, PASSAGEM.DATA_VIAGEM, PASSAGEM.PRECO FROM PASSAGEM INNER JOIN ROTAS ON (ROTAS.ID_ROTA = PASSAGEM.ID_ROTA) GROUP BY DATA_VIAGEM;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.7_6.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.7_6.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
+
+SELECT PESSOA_FUNCIONARIO.ID_PESSOA AS "FUNCIONARIO", PESSOA.NOME, PESSOA_FUNCIONARIO.ID_EMPRESA FROM PESSOA_FUNCIONARIO LEFT JOIN PESSOA ON (PESSOA.ID_PESSOA = PESSOA_FUNCIONARIO.ID_PESSOA);
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.8_1.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.8_1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+SELECT PASSAGEM.ID_PASSAGEM, PESSOA.NOME, PASSAGEM.PRECO FROM PESSOA LEFT JOIN PASSAGEM ON (PESSOA.ID_PESSOA = PASSAGEM.ID_PESSOA);
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.8_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.8_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+SELECT CONTATO.ID_CONTATO, CONTATO.CONTATO_REGISTRO, TIPO_CONTATO.TIPO FROM CONTATO LEFT JOIN TIPO_CONTATO ON (CONTATO.ID_TIPO_DE_CONTATO = TIPO_CONTATO.ID_TIPO_DE_CONTATO);
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.8_3.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.8_3.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+SELECT ROTAS.ID_ROTA, HORAS.HORA AS "Hora_saida" FROM ROTAS LEFT JOIN HORAS ON (ROTAS.ID_HORA_SAIDA = HORAS.ID_hora);
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.8_4.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.8_4.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
-        a) Uma junção que envolva Self Join
-        b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
+
+CREATE VIEW informacoes_das_empresas as SELECT NOME,HORARIO_DE_FUNCIONAMENTO,CEP from EMPRESA;
+SELECT * from informacoes_das_empresas;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.9_1.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.9_1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+CREATE VIEW quadro_de_funcionarios as SELECT PESSOA.NOME,empresa.NOME as trabalha_em from PESSOA_FUNCIONARIO inner join PESSOA on (PESSOA.ID_PESSOA = PESSOA_FUNCIONARIO.ID_PESSOA) inner join EMPRESA on (EMPRESA.ID_EMPRESA = PESSOA_FUNCIONARIO.ID_EMPRESA);
+SELECT * from quadro_de_funcionarios;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.9_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.9_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+CREATE VIEW viagens_noturnas as SELECT ROTAS.ID_ROTA, HORAS.HORA from ROTAS inner join HORAS on (ROTAS.ID_HORA_SAIDA = HORAS.ID_HORA) and HORA >= '18:00';
+SELECT * from viagens_noturnas;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.9_3.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.9_3.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+SELECT HORAS1.*, HORAS2.* from HORAS as HORAS1 inner join HORAS as HORAS2 on(HORAS1.HORA > HORAS2.HORA) limit 10;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.9_4.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.9_4.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+CREATE VIEW preco_passagens as SELECT PRECO from PASSAGEM;
+SELECT * from preco_passagens;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.9_5.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.9_5.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>
+
+
+CREATE VIEW Passagem_José as SELECT PESSOA.NOME, PASSAGEM.DATA_COMPRA from PASSAGEM inner join PESSOA on (PESSOA.ID_PESSOA = PASSAGEM.ID_PESSOA) inner join EMPRESA on (EMPRESA.ID_EMPRESA = PASSAGEM.ID_EMPRESA) where PESSOA.NOME like "José%";
+SELECT * from Passagem_José;
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.9_6.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.9_6.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>      
+      
+      
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
+
+SELECT * FROM PESSOA WHERE PESSOA.ID_PESSOA IN (SELECT PESSOA_FUNCIONARIO.ID_PESSOA FROM PESSOA_FUNCIONARIO);
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.10_1.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.10_1.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>  
+
+
+SELECT * FROM ROTAS WHERE ROTAS.ID_ROTA IN (SELECT PASSAGEM.ID_ROTA FROM PASSAGEM);
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.10_2.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.10_2.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>  
+
+
+SELECT PESSOA.ID_PESSOA, PESSOA.NOME, PESSOA.CPF FROM PESSOA WHERE PESSOA.ID_PESSOA IN (SELECT PASSAGEM.ID_PESSOA FROM PASSAGEM);
+
+<a href="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.10_3.PNG"><img src="https://github.com/RodoBus/trab01/blob/master/Imagens%20SELECT/9.10_3.PNG" alt="Alt text" title="..." style="max-width:100%;"></a>
+<br>
+<br>  
+
+
+
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 ### 11	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
         a) Outros grupos deverão ser capazes de restaurar o banco 
