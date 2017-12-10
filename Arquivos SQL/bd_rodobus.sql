@@ -11,7 +11,6 @@ DROP TABLE EMPRESA;
 DROP TABLE PESSOA;
 
 
-
 /* Cria tabela PESSOA */
 CREATE TABLE PESSOA
 (
@@ -22,7 +21,6 @@ CREATE TABLE PESSOA
 	Data_de_nascimento DATE,
 	Nacionalidade VARCHAR[30]
 );
-
 
 
 /* Cria tabela EMPRESA */
