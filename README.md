@@ -46,8 +46,8 @@ O sistema gera relatórios com as informações: <br>
 - Companhias vinculadas. <br>
 - Rotas de viagens. <br>
 - Funcionários das rodoviárias. <br>
-- Funcionários das companhias. <br>                    
-- Rodoviárias do estado. <br>                 
+- Funcionários 
+- Rodoviárias do estado. <br> 
 - Passagens mais compradas por ano. <br>                    
 - Histórico de passagens feitas pelo passageiro. <br>                    
 - Escala dos funcionários. <br>
