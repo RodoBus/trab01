@@ -47,7 +47,7 @@ O sistema gera relatórios com as informações: <br>
 - Rotas de viagens. <br>
 - Funcionários das rodoviárias. <br>
 - Funcionários 
-- Rodoviárias do estado. <br> 
+- Rodoviárias do estado e próximas.<br> 
 - Passagens mais compradas por ano. <br>                    
 - Histórico de passagens feitas pelo passageiro. <br>                    
 - Escala dos funcionários. <br>
