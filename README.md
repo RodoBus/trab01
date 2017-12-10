@@ -144,7 +144,11 @@ cabem a passageiros comuns.
 <li>NOME: Campo que armazena o nome de cada empresa. </li>
 <li>CEP: Campo que armazena o endereço da empresa. </li>
 <li>HORARIO_DE_FUNCIONAMENTO: Campo que armazena a faixa horária de funcionamento de cada empresa. </li>
-<br>        
+<br>
+<b>Tabela HORAS</b>: Tabela que armazena todos horários possíveis para viagens.<br>
+<li>ID_hora: Campo que armazena o ID do horário.</li>
+<li>Hora: Campo que armazena o horário possível para viagem.</li>
+<br>
 
 
 
