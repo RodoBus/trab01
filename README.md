@@ -46,13 +46,11 @@ O sistema gera relatórios com as informações: <br>
 - Companhias vinculadas. <br>
 - Rotas de viagens. <br>
 - Funcionários das rodoviárias. <br>
-- Funcio
 - Rodoviárias do estado e próximas.<br> 
 - Passagens mais compradas por ano. <br>                    
-- Histórico de passagens feitas pelo passageiro. <br>                    
 - Escala dos funcionários. <br>
-    
->## Marco de Entrega 01 em: (Data definida no cronograma)<br>        
+-
+>## Marco de Entrega 01 em: (Data definida no cronograma)<br>         
 
 ### 5.MODELO CONCEITUAL<br>              
 
