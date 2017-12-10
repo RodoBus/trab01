@@ -49,7 +49,7 @@ O sistema gera relatórios com as informações: <br>
 - Rodoviárias do estado e próximas.<br> 
 - Passagens mais compradas por ano. <br>                    
 - Escala dos funcionários. <br>
--
+- Horários de viagens. <br>
 >## Marco de Entrega 01 em: (Data definida no cronograma)<br>         
 
 ### 5.MODELO CONCEITUAL<br>              
