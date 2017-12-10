@@ -1,4 +1,4 @@
--- Todo código sql
+-- Todo código sql - Creates, inserts;
 
 
 /* Deleta todas as tabelas */
